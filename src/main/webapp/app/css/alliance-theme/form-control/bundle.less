@@ -1,0 +1,21 @@
+@input-height-small: 37px;
+
+.form-group-sm {
+  .form-control {
+    height: @input-height-small;
+  }
+
+  select.form-control {
+    height: @input-height-small;
+    line-height: @input-height-small;
+  }
+
+  textarea.form-control,
+  select[multiple].form-control {
+    //height: auto;
+  }
+
+  .form-control-static {
+    height: @input-height-small;
+  }
+}

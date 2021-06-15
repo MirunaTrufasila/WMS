@@ -1,0 +1,24 @@
+// overwrite angular-material font-family styling
+button, html, input, select, textarea {
+  font-family: 'Read-Regular', sans-serif;
+}
+
+
+// TODO: remove these classes from the project
+.color-green,
+.color-red {
+  color: initial; // reset this class's effect; TODO: remove these classes entirely
+}
+
+
+// TODO: rewrite these quick overrides!!
+
+.md-checkbox-enabled.md-default-theme[selected] .md-icon,
+.md-checkbox-enabled[selected] .md-icon {
+  background-color: rgba(255, 87, 34, 0.87);
+}
+
+md-select-menu.md-default-theme md-content md-option[selected],
+md-select-menu md-content md-option[selected] {
+  color: rgba(255, 87, 34, 0.87);
+}

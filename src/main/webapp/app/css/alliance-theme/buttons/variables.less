@@ -1,0 +1,29 @@
+@import '../colors/alliance-colors';
+
+
+// color schemas for alliance buttons:
+// list: color, background, border
+@color-schema-button-primary: @pure-white, @orange-horizon, @orange-horizon;
+@color-schema-button-secondary: #1c1c1c, @pure-white, @pure-white;
+@color-schema-button-ternary: #1c1c1c, @pure-white, #e5e6e7;
+@color-schema-button-dark: @pure-white, @night-black, @night-black;
+
+// list of color schemas for button classes
+@button-color-schemas: @color-schema-button-primary, @color-schema-button-ternary, @color-schema-button-secondary, @color-schema-button-primary;
+
+// list of (bootstrap) button classes; do not use strings to define classes
+@button-classes: btn-primary, btn-default, btn-info, btn-night-black;
+
+
+// sizes used for button configurations
+@button-padding-vertical: 5px;
+@button-padding-horizontal: 20px;
+@button-font-size: 12px;
+@button-line-height: 23px;
+@button-border-radius: 0;
+// end of sizes used for button configurations
+
+
+@glyphicon-class: glyphicon; // .glyphicon class; do not use string
+@fas-class: fas; // .fas class
+@fa-class: fa; // .fa class

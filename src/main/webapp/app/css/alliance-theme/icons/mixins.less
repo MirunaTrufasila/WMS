@@ -1,0 +1,66 @@
+@import "variables";
+
+
+// reset and replace glyphicons (.glyph{{iconName}})
+.mixin-reset-icon-classes(@list) {
+
+  each(@list, {
+
+    @iconClass: extract(@value, 1);
+    @svgPath: extract(@value, 2);
+    @composedUrl: "@{iconPackBaseUrl}@{svgPath}";
+
+    .@{iconClass}:before { // reset the :before pseudo-element
+      content: "" !important;
+    }
+
+    .@{iconClass} { // add svg as background-image
+      background-image: url(@composedUrl);
+
+      background-size: contain;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 16px !important;
+      height: 16px !important;
+      top: -1px;
+    }
+
+    .mixin-customize-button-text(); // customize span.button-text
+
+  })
+}
+
+.mixin-reset-icon-classes_with_background_size(@list) {
+
+  each(@list, {
+
+    @iconClass: extract(@value, 1);
+    @svgPath: extract(@value, 2);
+    @composedUrl: "@{iconPackBaseUrl}@{svgPath}";
+
+    .@{iconClass}:before { // reset the :before pseudo-element
+      content: "" !important;
+    }
+
+    .@{iconClass} { // add svg as background-image
+      background-image: url(@composedUrl);
+
+      background-size: 140%; // fixed sized
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 16px !important;
+      height: 16px !important;
+      top: -1px;
+    }
+
+    .mixin-customize-button-text(); // customize span.button-text
+
+  })
+}
+
+.mixin-customize-button-text() {
+
+  span.button-text {
+    line-height: 16px;
+  }
+}

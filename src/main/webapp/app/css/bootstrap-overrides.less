@@ -1,0 +1,128 @@
+// General overrides for Bootstrap to adjust it to the app look-and-feel
+.dropdown-menu {
+  font-size: @default-font-size-px;
+}
+
+.dropdown-menu > li > a {
+  padding: 3px 10px;
+}
+
+// overrides for panels
+.panel {
+  border: 0 none;
+}
+
+// overrides for pagination {
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+
+  background-color: @dark-grey-0;
+  border-color: @dark-grey-0;
+}
+
+// overrides for modals
+
+.modal-content {
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: @dark-grey-3;
+
+  .modal-header, .modal-footer {
+    padding: 10px 15px;
+  }
+
+  .modal-header {
+    border: none;
+    font-size: 1.25em;
+    background-color: @default-black;
+    color: @default-white;
+  }
+}
+
+.modal-backdrop.in {
+  opacity: .2;
+}
+
+// overrides for buttons
+
+.form-control, select, .btn, .dropdown-menu {
+  border-radius: 2px;
+  //font-size: @default-font-size-px;
+
+  &.form-control-inline {
+    width: unset;
+    display: inline-block;
+  }
+}
+
+.btn {
+  &.btn-transparent,
+  &.btn-inverted,
+  &.btn-default,
+  &.btn-primary,
+  &.btn-warning,
+  &.btn-danger,
+  &.btn-info,
+  &.btn-success {
+    outline: none;
+
+    &.btn-xs,
+    &.btn-sm,
+    &.btn-lg {
+      font-size: @default-font-size-px;
+    }
+  }
+
+  &.btn-transparent {
+    color: @default-black;
+    background-color: transparent;
+    border-color: transparent;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+    box-shadow: none;
+
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+      opacity: 0.6;
+    }
+  }
+
+  &.btn-icon {
+    font-size: @font-size-14px;
+    color: @dark-grey-0;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    height: @input-field-height;
+
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+      color: @default-black;
+    }
+  }
+}
+
+label {
+  font-weight: normal;
+}
+
+.pagination > li > a, .pagination > li > span {
+  color: @default-black;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: @default-black;
+}
+
+.form-group-sm .form-control,
+.form-group .form-control {
+  box-shadow: none;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${loginLogin}"></title>
+
+    <link rel="icon" type="image/png" th:href="@{/favicon-16x16.ico}"/>
+    <script th:src="@{/node_modules/jquery/dist/jquery.min.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/node_modules/bootstrap/dist/css/bootstrap.min.css}"/>
+    <script th:src="@{/node_modules/bootstrap/dist/js/bootstrap.min.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/app/css/app.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/app/css/login.css}"/>
+
+    <!--Bootstrap select-->
+    <link rel="stylesheet" th:href="@{/node_modules/bootstrap-select/dist/css/bootstrap-select.min.css}"/>
+    <script th:src="@{/node_modules/bootstrap-select/dist/js/bootstrap-select.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/node_modules/flag-icon-css/css/flag-icon.min.css}"/>
+
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<input type="hidden" value="18c971a3-d7da-40a6-bfad-2601aaac40ab"/>
+<input type="hidden" id="currentLanguage" th:value="${currentLanguage}"/>
+<div class="row" style="margin: 0;">
+    <div class="col-md-6 col-md-offset-3 col-sm-11 col-sm-offset-2 col-xs-11 col-xs-offset-2 box-login">
+        <div class="col-md-4 row">
+            <img class="col-md-12" style="margin-top: 50%;" src="images/Logo.png">
+        </div>
+        <div class="col-md-8">
+            <div class="row" style=" margin-bottom: 20px;">
+                <div class="col-md-12"><h3 class="login-ttl color-white" th:text="${loginLogin}"></h3></div>
+            </div>
+            <div class="form-group pull-right sel-lang" style="margin-bottom: -5px !important;">
+                <select class="selectpicker" data-width="fit">
+                    <option value='ro' data-content='<span class="flag-icon flag-icon-ro"></span>'>
+                    </option>
+                    <option value='en' data-content='<span class="flag-icon flag-icon-us"></span>'>
+                    </option>
+                </select>
+            </div>
+            <form th:action="@{/login}" method="post" style="padding-top: 40px">
+                <div th:if="${param.error}">
+                    <div class="alert alert-danger">
+                        <label th:text="${loginError}"></label>
+                    </div>
+                </div>
+                <div th:if="${param.logout}">
+                    <div class="alert alert-info">
+                        <label th:text="${loginLogout}"></label>
+                    </div>
+                </div>
+                <div class="form-group form-input">
+                    <input type="text"
+                           id="username"
+                           name="username"
+                           class="form-control"
+                           autofocus="autofocus"
+                           th:placeholder="${loginUsername}">
+                </div>
+                <div class="form-group form-input">
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           class="form-control"
+                           th:placeholder="${loginPassword}">
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-12 col-sm-offset-0">
+                        <span class="bfr"><input type="submit"
+                                                 name="login-submit"
+                                                 id="login-submit"
+                                                 class="form-control btn btn-info-2"
+                                                 th:value="${loginLogin}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <label th:text="${buildName}"></label> <label th:text="${buildVersion}"></label> (<label
+                        th:text="${buildDate}"></label>)
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var selectPicker = $('.selectpicker');
+    $(function () {
+        selectPicker.selectpicker();
+        selectPicker.on('change', function () {
+            window.localStorage.setItem("NG_TRANSLATE_LANG_KEY", $(this).val());
+            window.location.href = "login?lang=" + $(this).val();
+        })
+    });
+
+    var lastUsedLanguage = window.localStorage.getItem("NG_TRANSLATE_LANG_KEY");
+    var currentLang = $('#currentLanguage').val();
+    if (lastUsedLanguage === currentLang) {
+        selectPicker.val(currentLang);
+    } else {
+        if (lastUsedLanguage) {
+            selectPicker.val(lastUsedLanguage);
+            if (window.location.href.indexOf("?error") !== -1) {
+                window.location.href = "login?error&lang=" + lastUsedLanguage;
+            } else {
+                window.location.href = "login?lang=" + lastUsedLanguage;
+            }
+        } else {
+            selectPicker.val(currentLang);
+            window.localStorage.setItem("NG_TRANSLATE_LANG_KEY", currentLang);
+        }
+    }
+</script>
+</body>
+</html>

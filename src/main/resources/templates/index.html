@@ -1,0 +1,73 @@
+<!--[if lt IE 7]>
+<html lang="en" ng-app="lite" ng-controller="mainController as MainControllerAlias"
+      class="no-js lt-ie9 lt-ie8 lt-ie7"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="lite" ng-controller="mainController as MainControllerAlias"
+      class="no-js lt-ie9 lt-ie8"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="lite" ng-controller="mainController as MainControllerAlias" class="no-js lt-ie9"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="lite" ng-controller="mainController as MainControllerAlias" class="no-js"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"> <!--<![endif]-->
+<head>
+    <title>Lite</title>
+
+    <!--Needed for tomcat deploy on context-path = lts.
+        https://docs.angularjs.org/error/$location/nobase
+        https://stackoverflow.com/questions/44460636/how-to-specify-relative-path-in-base-url-in-angularjs
+    -->
+    <base th:href="${currentContextPath}">
+
+    <link rel="icon" type="image/png" th:href="@{/favicon-16x16.ico}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/node_modules/bootstrap/dist/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/app/css/overrides.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/app/css/app.css}"/>
+    <link rel="stylesheet/less" type="text/css" th:href="@{/app/css/main-theme.less}"/>
+    <link rel="stylesheet" th:href="@{app/css/alliance-theme/angular-material/angular-material.min.css}">
+    <link rel="stylesheet/less" type="text/css" th:href="@{/app/css/alliance-theme/alliance-theme-v1.0.less}">
+
+    <th:block th:replace="fragments/angular :: angularLibraries"/>
+    <th:block th:replace="fragments/angular :: grids"/>
+    <th:block th:replace="fragments/angular :: application"/>
+
+    <style type="text/css">
+        [ng\:cloak], [ng-cloak], .ng-cloak {
+            display: none !important;
+        }
+    </style>
+
+    <script th:inline="javascript">
+        var contextPath = [[${currentContextPath}]];
+    </script>
+</head>
+
+<body ng-class="{'isMobileDevice': isMobileDevice}"
+      class="main-theme additional-styling alliance-theme">
+
+<div id="main-wrapper">
+
+    <div class="container-fluid">
+
+        <div ng-include="'app/components/app-header/header-component.html'"></div>
+
+        <section ng-cloak ng-view="mainView" id="mainView" class="row"><!-- content will be rendered here.. -->
+        </section>
+    </div>
+
+    <div class="sticky-footer-push"></div>
+</div>
+
+<footer class="sticky-footer">
+    <span class="footer-text margin-left-5">Lite v.</span>
+    <span class="footer-text" th:text="${buildVersion}"></span>
+    <span class="footer-text"> by LTSoftware | &copy; 2020</span>
+</footer>
+</body>
+</html>

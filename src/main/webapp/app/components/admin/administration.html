@@ -1,0 +1,113 @@
+<div ng-cloak ng-controller="adminController" class="panel panel-default">
+    <section class="panel-heading">
+        <div class="heading-title">
+            <i class="fas fa-briefcase"></i>
+            <span data-translate="general.ADMINISTRATION"></span>
+        </div>
+    </section>
+    <div class="padding-top-5 padding-left-5 margin-bottom-5">
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 1}"
+                ng-click="selectedItem = 1; goto('company-details')">
+            <span class="glyphicon glyphicon-equalizer"></span>
+            <span data-translate="firma.TITLE"></span>
+        </button>
+    </div>
+    <div class="padding-top-5 padding-left-5">
+        <section class="panel-heading">
+            <div class="font-size-14-px">
+                <i class="fas fa-briefcase"></i>
+                <span data-translate="users.TITLE"></span>
+            </div>
+        </section>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 2}"
+                check-permission="{{PRIVILEGES.USERS_READ}}"
+                ng-click="selectedItem = 2; goto('users')">
+            <span class="glyphicon glyphicon-user"></span>
+            <span data-translate="user.TITLE"></span>
+        </button>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 4}"
+                check-permission="{{PRIVILEGES.USER_PRIVILEGES_READ}}"
+                ng-click="selectedItem = 4; goto('user-privileges')">
+            <span class="glyphicon glyphicon-tag"></span>
+            <span data-translate="userPrivileges.list.TITLE"></span>
+        </button>
+
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 5}"
+                check-permission="{{PRIVILEGES.USER_GROUPS_READ}}"
+                ng-click="selectedItem = 5; goto('user-groups')">
+            <span class="glyphicon glyphicon-indent-right"></span>
+            <span data-translate="userGroups.list.TITLE"></span>
+        </button>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 6}"
+                check-permission="{{PRIVILEGES.USER_GROUP_PRIVILEGES_READ}}"
+                ng-click="selectedItem = 6; goto('user-group-privileges')">
+            <span class="glyphicon glyphicon-tags"></span>
+            <span data-translate="userGroupPrivileges.list.TITLE"></span>
+        </button>
+
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 8}"
+                check-permission="{{PRIVILEGES.USER_ACTIVITIES_READ}}"
+                ng-click="selectedItem = 8; goto('activities')">
+            <i class="fas fa-database"></i>
+            <span data-translate="activities.list.TITLE"></span>
+        </button>
+    </div>
+    <div class="padding-top-5 padding-left-5 margin-bottom-5">
+        <section class="panel-heading">
+            <div class="font-size-14-px">
+                <i class="fas fa-briefcase"></i>
+                <span data-translate="wms.SECTION_TITLE"></span>
+            </div>
+        </section>
+    </div>
+
+    <div class="padding-top-5 padding-left-5 margin-bottom-5">
+        <section class="panel-heading">
+            <div class="font-size-14-px">
+                <i class="fas fa-briefcase"></i>
+                <span data-translate="lists.SECTION_TITLE"></span>
+            </div>
+        </section>
+
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 10}"
+                ng-click="selectedItem = 10; goto('/countries')">
+            <span class="glyphicon glyphicon-calendar"></span>
+            <span data-translate="countries.list.TITLE"></span>
+        </button>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 11}"
+                ng-click="selectedItem = 11; goto('/counties')">
+            <span class="glyphicon glyphicon-calendar"></span>
+            <span data-translate="counties.list.TITLE"></span>
+        </button>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 12}"
+                ng-click="selectedItem = 12; goto('/towns')">
+            <span class="glyphicon glyphicon-calendar"></span>
+            <span data-translate="towns.list.TITLE"></span>
+        </button>
+    </div>
+
+    <div class="padding-top-5 padding-left-5 margin-bottom-5">
+        <section class="panel-heading">
+            <div class="font-size-14-px">
+                <i class="fas fa-briefcase"></i>
+                <span data-translate="other.SECTION_TITLE"></span>
+            </div>
+        </section>
+        <button type="button" class="btn btn-warning"
+                ng-class="{'active':selectedItem == 100}"
+                check-permission="{{PRIVILEGES.USER_PRIVILEGE_DETAILS}}"
+                ng-click="selectedItem = 100; goto('errors')">
+            <span class="glyphicon glyphicon-remove"></span>
+            <span data-translate="general.APPLICATION_ERRORS_TAB"></span>
+        </button>
+    </div>
+</div>

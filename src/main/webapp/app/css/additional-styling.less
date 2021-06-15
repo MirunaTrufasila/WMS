@@ -1,0 +1,125 @@
+
+.main-theme {
+
+  &.additional-styling {
+
+    .app-header {
+
+      .navigation-wrapper {
+        border-bottom: 1px solid #d2d2d2;
+
+        ul.navigation > li.nav-item {
+          border-bottom-style: none;
+          border-bottom-width: 0;
+
+          &:hover {
+            .secondary-menu-item {
+              background: transparent;
+            }
+          }
+
+          &.active {
+            border-bottom-color: transparent;
+            text-decoration: none;
+
+            .secondary-menu-item {
+              background: @dark-grey-9;
+            }
+          }
+
+          &.activatedByRoute {
+            .secondary-menu-item {
+              color: @default-black;
+              background: @intense-yellow;
+            }
+          }
+
+          &.branding:hover {
+            .secondary-menu-item {
+              display: inline-block;
+              background-size: 80%;
+              width: 50px;;
+              border-right: 0 none;
+              vertical-align: top;
+            }
+          }
+
+          .secondary-menu-item {
+            padding: 8px;
+            border-right: 1px solid @dark-grey-9;
+          }
+        }
+      }
+
+      .header-info {
+        border-bottom: 1px solid #fff;
+      }
+    }
+
+    .panel {
+      box-shadow: none;
+
+      &.panel-default {
+        .panel-heading {
+          background: none;
+          padding: 5px 0;
+          margin-bottom: 10px;
+          border-bottom-color: @dark-grey-3;
+          border-bottom-width: 3px;
+          border-bottom-style: solid;
+          font-size: 1.5em;
+
+          &.panel-heading-grey {
+            background: #f5f5f5;
+            border-color: transparent;
+          }
+
+          .heading-title {
+            // some styling for heading-title..
+          }
+        }
+
+        .panel-body {
+          padding: 10px 0;
+        }
+
+        .panel-footer {
+          padding: 10px 0;
+        }
+      }
+
+      &.panel-secondary {
+        .panel-heading {
+          background: @light-yellow;
+          border-radius: 0;
+          padding: 0;
+          color: @default-black;
+          border: 1px solid @intense-yellow-2;
+
+          .panel-title {
+            font-size: .85em;
+            padding: 0 15px;
+
+            label {
+              margin: 5px 0;
+            }
+
+          }
+
+          .panel-body {
+            .card {
+              padding: 10px;
+            }
+          }
+        }
+      }
+
+      .panel-footer {
+        &.panel-footer-transparent {
+          background: none;
+          border: none;
+        }
+      }
+    }
+  }
+}

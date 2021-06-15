@@ -1,0 +1,51 @@
+<div ng-if="MenuForMobileController.isMobileDevice" class="hamburger-menu-wrapper col-xs-12">
+
+    <div ng-show="MenuForMobileController.showMenuForMobile" class="navigation hamburger-navigation">
+        <div id="parent_accordion"
+             class="panel-group col-xs-12"
+             role="tablist">
+
+            <div ng-repeat="item in MenuForMobileController.navigationItems track by item.name"
+                 class="panel panel-default row">
+
+                <div class="panel-heading _hamburger-controls" role="tab">
+                    <a ng-click="MenuForMobileController.preventDefault($event)"
+                       data-toggle="collapse"
+                       data-parent="#parent_accordion"
+                       href="#accordion_{{item.name}}"
+                       aria-controls="accordion_{{item.name}}"
+                       aria-expanded="false"
+                       role="button"
+                       class="secondary-menu-item hamburger-item">
+
+                        {{item.label | translate}}
+                    </a>
+                </div>
+
+                <div class="panel-collapse collapse panel-body-wrapper"
+                     id="accordion_{{item.name}}"
+                     role="tabpanel">
+
+                    <div class="panel-body display-as-table">
+                        <ul ng-repeat="item in navigationItems track by item.name"
+                            ng-class="{'active' : tabToActivate[item.name], 'activatedByRoute': activeMenu[item.name]}">
+                            <ul class=" col-xs-12 padding-top-20">
+                                <div ng-repeat="section in item.sections">
+                                    <ul ng-repeat="submenu in section.submenus track by $index" class="same-line">
+
+                                        <a ng-href="{{submenu.url}}"
+                                           class="{{submenu.cssClass}}"
+                                           title="{{'general.NAVIGATE_TO_PAGE' | translate}}">
+
+                                            {{submenu.label | translate}}
+                                        </a>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

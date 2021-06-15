@@ -1,0 +1,16 @@
+.mixin-apply-input-style (@list) {
+
+  each(@list, {
+
+    .@{value} {
+
+      height: 37px;
+      padding: 5px 10px;
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+  });
+}

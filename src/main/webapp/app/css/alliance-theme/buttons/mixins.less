@@ -1,0 +1,162 @@
+.mixin-apply-font-size-to-class(@class; @font-size; @line-height;) { // apply button sizes (excerpt from bootstrap > buttons.less)
+  .@{class} {
+    font-size: @font-size;
+    line-height: @line-height;
+
+    vertical-align: middle;
+  }
+}
+
+
+.mixin-apply-styles-to-single-button (// applies color schemas and sizes for a single button identified by class name
+  @isPrimary, // primary button (.btn-primary) is identified by 1; see: "@button-classes: btn-primary, btn-default, btn-info;"
+  @button-class,
+  @button-color-schema,
+  @button-padding-vertical,
+  @button-padding-horizontal,
+  @button-font-size,
+  @button-line-height,
+  @button-border-radius
+) {
+
+  .@{button-class} {
+
+    @color: extract(@button-color-schema, 1);
+    @background: extract(@button-color-schema, 2);
+    @border: extract(@button-color-schema, 3);
+
+    // param > @index: identify the button class by index
+    .apply-button-variant(@color, @background, @border, @isPrimary);
+
+    .apply-button-size(
+            @button-padding-vertical,
+            @button-padding-horizontal,
+            @button-font-size,
+            @button-line-height,
+            @button-border-radius
+    )
+  }
+}
+
+
+.mixin-apply-styles-to-list-of-buttons (// applies color schemas and sizes for a list of buttons identified by class name
+  @button-classes,
+  @button-color-schemas,
+  @button-padding-vertical,
+  @button-padding-horizontal,
+  @button-font-size,
+  @button-line-height,
+  @button-border-radius
+) {
+  each(@button-classes, {
+
+    .@{value} {
+      @selected-colors: extract(@button-color-schemas, @index);
+
+      @color: extract(@selected-colors, 1);
+      @background: extract(@selected-colors, 2);
+      @border: extract(@selected-colors, 3);
+
+      // param > @index: identify the button class by index
+      .apply-button-variant(@color, @background, @border, @index);
+
+      .apply-button-size(
+              @button-padding-vertical,
+              @button-padding-horizontal,
+              @button-font-size,
+              @button-line-height,
+              @button-border-radius
+      )
+    }
+  })
+}
+
+
+.apply-button-size(// apply button sizes (excerpt from bootstrap > buttons.less)
+  @padding-vertical;
+  @padding-horizontal;
+  @font-size;
+  @line-height;
+  @border-radius
+) {
+  padding: @padding-vertical @padding-horizontal;
+  font-size: @font-size;
+  line-height: @line-height;
+  border-radius: @border-radius;
+}
+
+
+// apply button style; customized excerpt from bootstrap > buttons.less)
+//
+// params:
+//
+// @color: color of the button text
+// @background: background color
+// @border: border color
+// @btn-class-index: index of the button class in list; used to differentiate the primary button from all the other
+
+.apply-button-variant(@color; @background; @border; @btn-class-index) {
+  color: @color;
+  background-color: @background;
+  border-color: @border;
+
+  // additional-config
+  border-radius: 0;
+  box-shadow: initial;
+  text-shadow: initial;
+  .glyphicon {
+    filter: if(@btn-class-index = 1, invert(0%), none);
+  }
+  // end of additional-config
+
+  &:focus,
+  &.focus {
+    color: @color;
+    background-color: if(@btn-class-index = 1, darken(@background, 3%), lighten(@background, 3%));
+    border-color: darken(@border, 5%);
+  }
+  &:hover {
+    color: @color;
+    // on hover primary-btn background darkens, for the other buttons it lightens
+    background-color: if(@btn-class-index = 1, darken(@background, 3%), lighten(@background, 3%));
+    border-color: darken(@border, 3%);
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    outline: none;
+    color: @color;
+    background-color: if(@btn-class-index = 1, darken(@background, 5%), lighten(@background, 5%));
+    border-color: darken(@border, 12%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      outline: none;
+      color: @color;
+      background-color: if(@btn-class-index = 1, darken(@background, 5%), lighten(@background, 5%));
+      border-color: darken(@border, 25%);
+    }
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    outline: none;
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: @background;
+      border-color: @border;
+    }
+  }
+
+  .badge {
+    color: @background;
+    background-color: @color;
+  }
+}

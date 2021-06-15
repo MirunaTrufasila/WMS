@@ -1,0 +1,19 @@
+<div class="modal-header">
+    <span translate="general.notificationsPopup.POPUP_TITLE"></span>
+</div>
+<div class="modal-body overflow-auto-both-coords">
+    <div class="form-group row" ng-repeat="notification in userNotifications">
+        <div class="col-xs-12">
+            <label>{{notification.title}}</label>
+            <div ng-bind-html="notification.valoare"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="close()">
+        <i class="fa fa-times"></i>
+        &nbsp;
+        <span translate>general.CLOSE_BUTTON</span>
+    </button>
+</div>

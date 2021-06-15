@@ -1,0 +1,88 @@
+// fonts' basics
+@alliance-font-format: 'truetype';
+
+// fonts' families
+@font-family-1: 'Read-Bold-Italic';
+@font-family-2: 'Read-Medium-Italic';
+@font-family-3: 'Read-Italic';
+@font-family-4: 'Read-Bold';
+@font-family-5: 'Read-Medium';
+@font-family-6: 'Read-Regular';
+
+@alliance-font-families: @font-family-1, @font-family-2, @font-family-3, @font-family-4, @font-family-5, @font-family-6;
+
+// fonts' paths
+@font-path-1: 'fonts/Read-BoldItalic_V2000.ttf';
+@font-path-2: 'fonts/Read-MediumItalic_V2000.ttf';
+@font-path-3: 'fonts/Read-Italic_V2000.ttf';
+@font-path-4: 'fonts/Read-Bold_V2000.ttf';
+@font-path-5: 'fonts/Read-Medium_V2000.ttf';
+@font-path-6: 'fonts/Read-Regular_V2000.ttf';
+
+@list-of-font-paths: @font-path-1, @font-path-2, @font-path-3, @font-path-4, @font-path-5, @font-path-6;
+
+// fonts' weights
+@font-weight-1: 'bold';
+@font-weight-2: '500';
+@font-weight-3: 'normal';
+@font-weight-4: 'bold';
+@font-weight-5: '500';
+@font-weight-6: 'normal';
+
+@list-of-font-weights: @font-weight-1, @font-weight-2, @font-weight-3, @font-weight-4, @font-weight-5, @font-weight-6;
+
+// fonts' styles
+@font-style-1: 'italic';
+@font-style-2: 'italic';
+@font-style-3: 'italic';
+@font-style-4: 'normal';
+@font-style-5: 'normal';
+@font-style-6: 'normal';
+
+@list-of-font-styles: @font-style-1, @font-style-2, @font-style-3, @font-style-4, @font-style-5, @font-style-6;
+
+
+// apply font variants; use @index to set properties
+.mixin-apply-font-faces() {
+  each(@list-of-font-paths, {
+
+    @font-face {
+      .mixin-set-font-family(@index);
+      src: url('@{value}') format(@alliance-font-format);
+
+      .mixin-set-font-weight(@index);
+      .mixin-set-font-style(@index);
+    }
+  });
+}
+
+.mixin-set-font-family(@current-path-index) {
+  each(@alliance-font-families, {
+    .mixin-apply-font-weight(@value, @index, @current-path-index)
+  })
+
+  .mixin-apply-font-weight(@value, @current-font-family-index, @current-path-index) when (@current-font-family-index = @current-path-index) {
+    font-family: @value;
+  }
+}
+
+.mixin-set-font-weight(@current-path-index) {
+  each(@list-of-font-weights, {
+    .mixin-apply-font-weight(@value, @index, @current-path-index)
+  })
+
+  .mixin-apply-font-weight(@value, @current-font-weight-index, @current-path-index) when (@current-font-weight-index = @current-path-index) {
+    font-weight: @value;
+  }
+}
+
+.mixin-set-font-style(@current-path-index) {
+  each(@list-of-font-styles, {
+    .mixin-apply-font-weight(@value, @index, @current-path-index)
+  })
+
+  .mixin-apply-font-weight(@value, @current-font-style-index, @current-path-index) when (@current-font-style-index = @current-path-index) {
+    font-style: @value;
+  }
+}
+

@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'mixins';
+
+.mixin-apply-styles-to-list-of-buttons(
+        @button-classes,
+        @button-color-schemas,
+        @button-padding-vertical,
+        @button-padding-horizontal,
+        @button-font-size,
+        @button-line-height,
+        @button-border-radius
+);
+
+.mixin-apply-styles-to-single-button(
+        2, // button.btn-default-no-text will not be treated as a primary button (button.btn-primary) but as a default one
+        btn-default-no-text, // button class to be styled
+        @color-schema-button-ternary,
+        @button-padding-vertical,
+        10, // padding-horizontal
+        @button-font-size,
+        @button-line-height,
+        @button-border-radius
+);
+
+.mixin-apply-font-size-to-class(@glyphicon-class, 20px, 20px);
+.mixin-apply-font-size-to-class(@fas-class, 20px, 20px);
+.mixin-apply-font-size-to-class(@fa-class, 20px, 20px);
+
+
+
+
+

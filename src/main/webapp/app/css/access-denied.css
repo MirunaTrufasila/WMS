@@ -1,0 +1,24 @@
+.error-message {
+    color: #222;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 100;
+    text-shadow: -2px -2px 0 #c9c9c9;
+    line-height: 1;
+}
+
+.back-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.back-button:hover {
+    background-color: darkorange;
+}

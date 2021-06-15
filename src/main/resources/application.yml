@@ -1,0 +1,28 @@
+info:
+  build:
+    group: '@project.groupId@'
+    artifact: '@project.artifactId@'
+    version: '@project.version@'
+    name: '@project.name@'
+    description: '@project.description@'
+
+management:
+  info:
+    git:
+      mode: full
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /actuator
+  endpoint:
+    health:
+      enabled: true
+
+server:
+  port: 8082
+  servlet:
+    context-path: /lts
+
+redirect-after-login: /
+

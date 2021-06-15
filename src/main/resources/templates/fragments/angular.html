@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<!-- This block contains angular imports -->
+<th:block th:fragment="angularLibraries">
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+        your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- In production use minimized versions! ></script>-->
+    <script th:src="@{/node_modules/jquery/dist/jquery.min.js}"></script>
+
+    <!--Jquery-ui-->
+    <script th:src="@{/node_modules/jquery-ui-dist/jquery-ui.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/node_modules/jquery-ui-dist/jquery-ui.min.css}"/>
+
+    <script th:src="@{/node_modules/angular/angular.min.js}"></script>
+    <script th:src="@{/node_modules/angular-route/angular-route.min.js}"></script>
+    <script th:src="@{/node_modules/angular-animate/angular-animate.min.js}"></script>
+    <script th:src="@{/node_modules/angular-sanitize/angular-sanitize.min.js}"></script>
+    <script th:src="@{/node_modules/angular-animate/angular-animate.js}"></script>
+    <script th:src="@{/node_modules/angular-cookies/angular-cookies.min.js}"></script>
+    <script th:src="@{/node_modules/angular-aria/angular-aria.min.js}"></script>
+    <script th:src="@{/node_modules/angular-messages/angular-messages.min.js}"></script>
+    <script th:src="@{/node_modules/angular-material/angular-material.min.js}"></script>
+
+
+    <script th:src="@{/node_modules/angular-ui-validate/dist/validate.min.js}"></script>
+
+    <!-- https://www.npmjs.com/package/angular-breadcrumbs -->
+    <script th:src="@{/node_modules/angular-breadcrumbs/dist/ng-breadcrumbs.min.js}"></script>
+
+    <!-- Bootstrap (https://getbootstrap.com/docs/3.3/getting-started/) -->
+    <script th:src="@{/node_modules/bootstrap/dist/js/bootstrap.min.js}"></script>
+    <!--<link rel="stylesheet" th:href="@{/node_modules/bootstrap/dist/css/bootstrap.min.css}"/>-->
+
+    <!-- bootstrap-bower (https://github.com/angular-ui/bootstrap-bower) -->
+    <script th:src="@{/node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.min.js}"></script>
+
+    <script th:src="@{/node_modules/less/dist/less.min.js}"></script>
+
+    <!--http://eonasdan.github.io/bootstrap-datetimepicker/Installing/-->
+    <script type="text/javascript" th:src="@{/node_modules/moment/min/moment.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js}"></script>
+    <link rel="stylesheet"
+          th:href="@{/node_modules/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css}"/>
+
+    <!-- angular-ui-notification (https://github.com/alexcrack/angular-ui-notification) -->
+    <script th:src="@{/node_modules/angular-ui-notification/dist/angular-ui-notification.min.js}"></script>
+    <link rel="stylesheet"
+          th:href="@{/node_modules/angular-ui-notification/dist/angular-ui-notification.min.css}">
+
+    <!-- angular-loading (https://github.com/darthwade/angular-loading) -->
+    <script th:src="@{/node_modules/spin.js/dist/spin.js}"></script>
+    <script th:src="@{/node_modules/angular-loading/angular-loading.min.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/node_modules/angular-loading/angular-loading.css}"/>
+
+    <!-- angular-loading-bar (https://github.com/chieffancypants/angular-loading-bar) -->
+    <link rel='stylesheet' th:href="@{/node_modules/angular-loading-bar/build/loading-bar.min.css}"
+          type="text/css"
+          media='all'/>
+    <script type="text/javascript" th:src="@{/node_modules/angular-loading-bar/build/loading-bar.min.js}"></script>
+
+    <!--angular-ui-router-->
+    <script type="text/javascript" th:src="@{/node_modules/@uirouter/core/_bundles/ui-router-core.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/@uirouter/angularjs/release/ui-router-angularjs.min.js}"></script>
+
+    <!--Angular multi-select: http://isteven.github.io/angular-multi-select/#/getting-started-->
+    <link rel="stylesheet" th:href="@{/node_modules/isteven-angular-multiselect/isteven-multi-select.css}"/>
+    <script th:src="@{/node_modules/isteven-angular-multiselect/isteven-multi-select.js}"></script>
+
+    <!--Bootstrap treeview: https://github.com/jonmiles/bootstrap-treeview-->
+    <link rel="stylesheet" th:href="@{/node_modules/bootstrap-treeview/dist/bootstrap-treeview.min.css}"/>
+    <script th:src="@{/node_modules/bootstrap-treeview/dist/bootstrap-treeview.min.js}"></script>
+
+    <!-- angular-translate (https://github.com/angular-translate/angular-translate) -->
+    <script type="text/javascript"
+            th:src="@{/node_modules/angular-translate/dist/angular-translate.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/angular-translate/dist/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/angular-translate/dist/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/angular-translate/dist/angular-translate-storage-local/angular-translate-storage-local.min.js}"></script>
+    <script type="text/javascript"
+            th:src="@{/node_modules/angular-translate/dist/angular-translate-handler-log/angular-translate-handler-log.min.js}"></script>
+
+    <!--Bootstrap select-->
+    <link rel="stylesheet" th:href="@{/node_modules/bootstrap-select/dist/css/bootstrap-select.min.css}"/>
+    <script th:src="@{/node_modules/bootstrap-select/dist/js/bootstrap-select.min.js}"></script>
+
+    <link rel="stylesheet" th:href="@{/node_modules/flag-icon-css/css/flag-icon.min.css}"/>
+
+    <!-- Multiselect filter on ui-grid -->
+    <script th:src="@{/node_modules/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js}"></script>
+
+    <!--File saver http://alferov.github.io/angular-file-saver/ used to save files -->
+    <script th:src="@{/node_modules/angular-file-saver/dist/angular-file-saver.min.js}"></script>
+
+    <!-- bootstrap multiselect: https://github.com/davidstutz/bootstrap-multiselect -->
+    <script th:src="@{/node_modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js}"></script>
+    <link rel="stylesheet" th:href="@{/node_modules/bootstrap-multiselect/dist/css/bootstrap-multiselect.css}">
+
+
+    <!-- Angular tree. See:
+        https://github.com/AlexSuleap/angular-tree-widget
+        http://alexsuleap.github.io/
+    -->
+    <link rel="stylesheet" type="text/css"
+          th:href="@{/app/static/angular-tree-widget-master/dist/angular-tree-widget.css}"/>
+    <script th:src="@{/app/static/angular-tree-widget-master/dist/angular-tree-widget.js}"></script>
+    <!-- dependencies of Angular-tree: -->
+    <script th:src="@{/node_modules/angular-uuid4/angular-uuid4.js}"></script>
+    <script th:src="@{/node_modules/angular-recursion/angular-recursion.js}"></script>
+
+    <script th:src="@{/app/static/moment-timezone-with-data.js}"></script>
+
+    <!-- drag-n-drop controls  -->
+    <script th:src="@{/node_modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.min.js}"></script>
+
+    <!--Network graph-->
+    <script th:src="@{/node_modules/vis-network/dist/vis-network.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/node_modules/vis-network/dist/vis-network.css}"/>
+</th:block>
+
+<th:block th:fragment="grids">
+    <!-- Ui-grid (https://github.com/angular-ui/ui-grid) -->
+    <link rel="stylesheet" type="text/css" th:href="@{/node_modules/angular-ui-grid/ui-grid.css}"/>
+    <script th:src="@{/node_modules/angular-ui-grid/ui-grid.min.js}"></script>
+
+    <!-- Pdf export - make sure that popups are not blocked!-->
+    <script th:src="@{/node_modules/pdfmake/build/pdfmake.min.js}"></script>
+    <script th:src="@{/node_modules/pdfmake/build/vfs_fonts.js}"></script>
+    <script th:src="@{/node_modules/lodash/lodash.min.js}"></script>
+    <script th:src="@{/node_modules/jszip/dist/jszip.min.js}"></script>
+
+    <!--Export to excel-->
+    <script th:src="@{/node_modules/excel-builder/dist/excel-builder.dist.min.js}"></script>
+</th:block>
+
+<!-- This block contains application components -->
+<th:block th:fragment="application">
+
+    <script th:src="@{/app/static/constants.js}"></script>
+    <script th:src="@{/app/static/pleaseWait.js}"></script>
+
+    <script th:src="@{/app/ltsApp.js}"></script>
+
+    <!--This is where the app data will be loaded. Has no navigation attached and can be used as cache-->
+    <script th:src="@{/app/components/mainController.js}"></script>
+
+    <!-- application menus: hamburger and normal menus -->
+    <script th:src="@{/app/components/menu-for-mobile-component/app-menu-constant.js}"></script>
+    <script th:src="@{/app/components/menu-for-mobile-component/menu-for-mobile-component.js}"></script>
+
+    <!--Footer component-->
+    <script th:src="@{/app/components/app-footer/footer-component.js}"></script>
+
+    <!--Admin-->
+    <script th:src="@{/app/components/admin/adminController.js}"></script>
+    <script th:src="@{/app/components/admin/adminService.js}"></script>
+
+<!--    &lt;!&ndash; company details &ndash;&gt;-->
+<!--    <script th:src="@{/app/components/company_details/companyDetailsController.js}"></script>-->
+<!--    <script th:src="@{/app/components/company_details/companyDetailsService.js}"></script>-->
+
+<!--    &lt;!&ndash;users&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/users/userController.js}"></script>-->
+<!--    <script th:src="@{/app/components/users/usersController.js}"></script>-->
+<!--    <script th:src="@{/app/components/users/userService.js}"></script>-->
+<!--    <script th:src="@{/app/components/users/userPrivilegesController.js}"></script>-->
+<!--    <script th:src="@{/app/components/users/userPrivilegesService.js}"></script>-->
+
+<!--    &lt;!&ndash;angajati&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/angajati/angajatController.js}"></script>-->
+<!--    <script th:src="@{/app/components/angajati/angajatiController.js}"></script>-->
+<!--    <script th:src="@{/app/components/angajati/angajatiService.js}"></script>-->
+
+<!--    &lt;!&ndash;furnizori&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/furnizori/furnizoriController.js}"></script>-->
+<!--    <script th:src="@{/app/components/furnizori/furnizorController.js}"></script>-->
+<!--    <script th:src="@{/app/components/furnizori/furnizorService.js}"></script>-->
+
+<!--    &lt;!&ndash;facturi&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/facturi/facturiController.js}"></script>-->
+<!--    <script th:src="@{/app/components/facturi/facturaController.js}"></script>-->
+<!--    <script th:src="@{/app/components/facturi/facturiService.js}"></script>-->
+
+<!--    &lt;!&ndash;user activities&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/user_activity/activitiesController.js}"></script>-->
+<!--    <script th:src="@{/app/components/user_activity/activityService.js}"></script>-->
+<!--    <script th:src="@{/app/components/user_activity/activityDetailPopupController.js}"></script>-->
+
+<!--    &lt;!&ndash;application errors&ndash;&gt;-->
+<!--    <script th:src="@{/app/components/errors/errorController.js}"></script>-->
+<!--    <script th:src="@{/app/components/errors/errorsController.js}"></script>-->
+<!--    <script th:src="@{/app/components/errors/errorService.js}"></script>-->
+
+    <!--auth-->
+    <script th:src="@{/app/components/auth/authService.js}"></script>
+    <script th:src="@{/app/components/auth/httpInterceptor.js}"></script>
+    <script th:src="@{/app/components/auth/CheckPermission.js}"></script>
+
+    <!--notifications via websockets -->
+<!--    <script th:src="@{/app/components/notification/notificationController.js}"></script>-->
+
+    <!--shared components-->
+<!--    <script th:src="@{/app/components/shared/directives/ReadOnlyDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/AuditAreaDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/ComboDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/AutocompleteFieldDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/uiGridCell.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/modalDialog.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/filters/entityFilters.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/showDataPopupController.js}"></script>-->
+<!--    <script th:src="@{/app/static/uiErrorController.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/contentEditable.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/setChildToPositionFixed.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/onClickOutsideDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/datePickerDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/dateTimePickerDirective.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/directives/multiSelectDirective.js}"></script>-->
+
+<!--    <script th:src="@{/app/components/shared/generalSharedService.js}"></script>-->
+<!--    <script th:src="@{/app/components/shared/filters/uniqueFilter.js}"></script>-->
+
+</th:block>
+
+</body>
+</html>

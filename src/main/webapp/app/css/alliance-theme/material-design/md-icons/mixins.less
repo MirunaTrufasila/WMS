@@ -1,0 +1,37 @@
+@import 'variables';
+
+// reset and replace angularJs material design icons (.md-icon-{{iconName}})
+.mixin-reset-md-icon(@list) {
+
+  each(@list, {
+
+    @mdIconClass: extract(@value, 1);
+    @svgPath: extract(@value, 2);
+    @composedUrl: "@{iconPackBaseUrl}@{svgPath}";
+
+    .@{mdIconClass}:after { // reset the :before pseudo-element
+      content: "" !important;
+    }
+
+    .@{mdIconClass} { // add svg as background-image
+      background-image: url(@composedUrl);
+
+      background-size: 160%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 14px !important;
+      height: 14px !important;
+      top: 3px;
+    }
+
+    .mixin-customize-button-text(); // customize span.button-text
+
+  })
+}
+
+.mixin-customize-button-text() {
+
+  span.button-text {
+    line-height: 16px;
+  }
+}

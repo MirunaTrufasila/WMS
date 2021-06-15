@@ -1,0 +1,164 @@
+
+.no-border {
+  border: 0 none !important;
+}
+
+.display-as-table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.display-as-table-cell {
+  display: table-cell;
+}
+
+.display-as-link {
+  cursor: pointer;
+
+  &:visited,
+  &:link {
+    color: @default-black;
+  }
+
+  &:hover,
+  &:active {
+    color: @default-black;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  }
+}
+
+.display-block-el-as-link {
+  cursor: pointer;
+
+  &:visited,
+  &:link {
+    color: @default-black;
+  }
+
+  &:hover,
+  &:active {
+    color: @default-black;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  }
+
+  * {
+    &:visited,
+    &:link,
+    &:hover,
+    &:active {
+      cursor: inherit;
+      color: inherit;
+      text-decoration: inherit;
+      text-shadow: inherit;
+    }
+  ;
+  }
+
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.no-underline {
+
+  &:visited,
+  &:link,
+  &:hover,
+  &:active {
+    text-decoration: none !important;
+  }
+
+  * {
+    &:visited,
+    &:link,
+    &:hover,
+    &:active {
+      text-decoration: inherit !important;
+    }
+  }
+}
+
+// for spacing (margin and padding)..
+.no-margin {
+  margin: 0;
+}
+
+.mg-top-10 {
+  margin-top: 10px;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.mg-right-neg-15 {
+  margin-right: -15px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.icon-width {
+  width: @default-icon-width-px;
+}
+
+
+// text-alignment..
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+// apply colors
+.color-yellow {
+  color: @default-yellow;
+}
+
+.color-green {
+  color: @green;
+}
+
+.color-orange {
+  color: @orange;
+}
+
+.color-red {
+  color: @red;
+}
+
+.color-white {
+  color: @default-white;
+}
+
+.color-blue {
+  color: @blue;
+}
+
+.not-implemented-yet {
+  color: #8a8a8a !important;
+}
+
+.under-construction {
+  color: #c17f56 !important;
+}
+
+
+// overflow
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-auto-both-coords {
+  overflow: auto;
+}

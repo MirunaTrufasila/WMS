@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pagina de eroare (template root)</title>
+</head>
+<body>
+<h1 class="color-orange">Pagina de eroare (din /templates)</h1>
+<p>A intervenit o eroare</p>
+
+<p th:if="${url}">
+    <b>Page:</b> <span th:text="${url}">Page URL</span>
+</p>
+
+<p th:if="${timestamp}" id='created'>
+    <b>Server timestamp:</b> <span th:text="${timestamp}">Timestamp</span>
+</p>
+
+<p th:if="${status}">
+    <b>Status raspuns:</b> <span th:text="${status}">status-code</span> <span
+        th:if="${error}" th:text="'('+${error}+')'">error ...</span>
+</p>
+
+<div
+        th:if="${ex} or ${exception} or (${message} and ${message.length() != 0})">
+    <b>Cauza:</b> <span th:if="${ex}" th:text="${ex}">exception ...</span>
+    <span th:if="${exception}" th:text="${exception}">exception ...</span>
+    <span th:if="${message} and ${message.length() != 0}"
+          th:text="${message}">message ...</span>
+</div>
+
+<input name="action" type="submit" value="Pagina anterioara" onclick="window.history.go(-1);"/>
+</body>
+</html>

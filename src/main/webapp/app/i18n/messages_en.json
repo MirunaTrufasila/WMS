@@ -1,0 +1,791 @@
+{
+  "general": {
+    "SQL_CONSTRAINT_VIOLATION": "The item is used in the application and cannot be deleted.",
+    "LOGGED_USER": "User: ",
+    "ID": "ID",
+    "YES": "Yes",
+    "NO": "No",
+    "ALL": "All",
+    "ALL_MASC": "All",
+    "RESET": "Reset",
+    "SEARCH": "Search",
+    "NO_ITEM_SELECTED": "No item selected",
+    "HOME": "Home",
+    "CONTACT": "Contact",
+    "ADMINISTRATION": "Administration",
+    "REPORTS": "Reports",
+    "APPLICATION_ERRORS_TAB": "Application errors",
+    "LOGOUT": "Logout",
+    "CLOSE_BUTTON": "Close",
+    "CLOSE_SECTION": "Close this section",
+    "SAVE_BUTTON": "Save",
+    "FILTERS": "Filters",
+    "APPLIED_FILTERS": "Number of applied filters",
+    "APPLY": "Apply",
+    "NOT_IMPLEMENTED": "Not yet implemented",
+    "SECONDARY_NAV_TIP": "Select a page to navigate to it or click anywhere else to close this section.",
+    "NAVIGATE_TO_PAGE": "Navigate to page",
+    "CHOOSE_FILE_TO_UPLOAD": "Select file",
+    "TAB_AUDIT": "Audit",
+    "COMMENTS": "Comments",
+    "LINES": "lines",
+    "origin": {
+      "NONE": "None",
+    },
+    "profileDropDown": {
+      "MANAGE": "MANAGE",
+      "COMPANY": "Company",
+      "FURNIZORI": "Suppliers",
+      "USERS": "Users",
+      "GROUP_RIGHTS": "Groups rights"
+    },
+    "errorTypes": {
+      "Informative": "Info",
+      "Rejected": "Rejected",
+      "Recycled": "Recycled"
+    },
+    "delayTypes": {
+      "DAYS": "Days",
+      "HOURS": "Hours"
+    },
+    "scheduleWeeklyFrequency": {
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Wednesday": "Wednesday",
+      "Thursday": "Thursday",
+      "Friday": "Friday",
+      "Saturday": "Saturday",
+      "Sunday": "Sunday"
+    },
+    "tooltips": {
+      "ADD": "Add",
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "SEARCH": "Search",
+      "SAVE": "Save",
+      "BACK": "Back",
+      "CLOSE": "Close",
+      "REFRESH": "Refresh",
+      "PREVIOUS": "previous",
+      "NEXT": "next",
+      "CHECK_ALL": "Select all",
+      "UNCHECK_ALL": "Select none",
+      "REPLY": "Reply",
+      "SEND_EMAIL": "Send",
+      "CANCEL": "Cancel",
+      "DOWNLOAD": "Download",
+      "UPLOAD": "Upload",
+      "SEND_TO_EMAIL": "Send to email",
+      "RESET": "Reset",
+      "SELECT": "Select",
+      "BUTTON_SEARCH_CITY": "Select city",
+      "BUTTON_SEARCH_CONTACT": "Select contact",
+      "BUTTON_GROUPS_AND_PLATFORM": "Add platform & group"
+    },
+    "buttons": {
+      "ADD": "Add",
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "SEARCH": "Search",
+      "SAVE": "Save",
+      "BACK": "Back",
+      "CLOSE": "Close",
+      "REFRESH": "Refresh",
+      "PREVIOUS": "previous",
+      "NEXT": "next",
+      "CHECK_ALL": "Select all",
+      "UNCHECK_ALL": "Select none",
+      "REPLY": "Reply",
+      "SEND_EMAIL": "Send",
+      "CANCEL": "Cancel",
+      "DOWNLOAD": "Download",
+      "UPLOAD": "Upload",
+      "SEND_TO_EMAIL": "Send to email",
+      "RESET": "Reset",
+      "SELECT": "Select",
+      "BUTTON_SEARCH_CITY": "Select city",
+      "BUTTON_SEARCH_CONTACT": "Select contact",
+      "BUTTON_GROUPS_AND_PLATFORM": "Add platform & group"
+    },
+    "fields": {
+      "ID": "Id",
+      "CREATED_AT": "Created at",
+      "CREATED_BY": "Created by",
+      "UPDATED_AT": "Updated at",
+      "UPDATED_BY": "Updated by",
+      "PUBLISHED_AT": "Published at",
+      "PUBLISHED_BY": "Published by",
+      "START_DATE": "Start date",
+      "END_DATE": "End date",
+      "LAST_LOGIN": "Last login",
+      "NO_SELECT": "No selection",
+      "SELECT_ALL": "Select all",
+      "DESELECT_ALL": "Deselect all",
+      "SELECTED": "selected",
+      "ORIGIN": "Origin",
+      "APPLICATION": "Application",
+      "CODE": "Code"
+    },
+    "static": {
+      "TITLE": "Access denied",
+      "ERROR_TITLE": "Error page",
+      "CONTENT": "You are not authorised to view this page.",
+      "ERROR_CONTENT": "An error has occurred",
+      "PREVIOUS_PAGE": "Previous page"
+    },
+    "notificationsPopup": {
+      "POPUP_TITLE": "User notifications",
+      "TITLE": "Notification",
+      "CONTENT": "Content",
+      "CLOSE_BUTTON": "Close"
+    },
+    "mainMenu": {
+      "ADMIN": "Administration",
+      "MASTER_DATA": "Master data",
+      "ORDERS_MANAGEMENT": "Orders",
+      "EXECUTION": "Execution",
+      "REPORTS": "Reports",
+      "ALERTS": "Alerts",
+      "INVOICING": "Invoicing",
+      "CRM": "CRM",
+      "SRM": "SRM",
+      "NOMENCLATURES": "Nomenclatures",
+      "SETTINGS": "Settings"
+    },
+    "menu": {
+      "admin": {
+        "USERS": "Users",
+        "LISTS": "Lists",
+        "SYSTEM": "System",
+        "users": {
+          "USERS": "Users",
+          "USERS_PRIVILEGES": "Users privileges",
+          "USER_GROUPS": "User groups",
+          "USER_GROUPS_PRIVILEGES": "User group privileges"
+        },
+        "lists": {
+          "COUNTRIES": "Countries",
+          "COUNTIES": "Counties",
+          "TOWNS": "Towns",
+          "INCOTERM_CODES": "Incoterm codes",
+          "GALIA_TRANSPORT_CODES": "Galia transport codes",
+          "SUPPLYING_SPECIFIC": "Supplying specific",
+          "CURRENCIES": "Currencies",
+          "BRANDS": "Brands",
+          "UNITS_OF_MEASURE": "Units of measurement"
+        },
+        "system": {
+          "SECTION_TITLE": "System",
+          "ACTIVITIES_MANAGEMENT": "Activities management",
+          "TRANSPORT_TYPES": "Transport types",
+          "FLOW_TYPES": "Flow types"
+        }
+      },
+      "master": {
+        "PRODUCTS": "Products",
+        "PARTNERS": "Partners",
+        "PLATFORMDATA": "Platform data",
+        "products": {
+          "SECTION_TITLE": "Products",
+          "COLLECTIONS": "Collections (kits)",
+          "ASSEMBLIES": "Assemblies",
+          "DISASEMBLES": "Disasembles"
+        }
+      },
+      "execution": {
+        "mrp": {
+          "SECTION_TITLE": "MRP management",
+          "REQUIREMENTS_CONTROL": "Requirements control",
+          "CUSTOMER_PROGRAM": "Customer program",
+          "EXPEDITION_PROGRAM": "Expedition program",
+          "RECEPTION_PROGRAM": "Reception program",
+          "EXPEDITION_SUPPLIER_PROGRAM": "Expedition program of supplier"
+        },
+        "stockStatus": {
+          "SECTION_TITLE": "Stock",
+          "STOCK_STATUS": "Stock status"
+        },
+        "asn": {
+          "SECTION_TITLE": "ASN management",
+          "ASN_OVERVIEW": "ASN Overview",
+          "ASN_HISTORIC": "ASN Historic"
+        },
+        "followUp": {
+          "SECTION_TITLE": "Follow Up",
+          "FOLLOW_UP_FLOWS": "Follow up flows",
+          "SUMMARY_OF_DELIVERY_DELAYS": "Summary of delivery delays",
+          "FOLLOW_UP_BY_TRANSPORTS": "Follow up by transports",
+          "FOLLOW_UP_BY_ASN": "Follow up by ASN",
+          "FOLLOW_UP_BY_RAN_STATUS": "Follow up by RAN status"
+        }
+      },
+      "network-solutions": {
+        "SECTION_TITLE": "Network solutions",
+        "GLOBAL": "Global overview",
+        "DEFINE": "Define network solutions",
+        "DOWNSTREAM-UPSTREAM": "Downstream/Upstream solutions",
+        "INTERNAL": "Internal solutions"
+      },
+      "orders": {
+        "SECTION_TITLE": "Orders management",
+        "RECEIVING_ORDERS": "Receiving orders",
+        "MANUAL_ORDERS": "Manual orders",
+        "EMERGENCY_ORDERS": "Emergency orders",
+        "SENDING_ORDERS": "Sending orders"
+      }
+    },
+    "breadcrumbs": {
+      "HOME": "home",
+      "ADMINISTRATION": "administration",
+      "FURNIZORI": "furnizori",
+      "USERS": "users",
+      "ANGAJATI": "employees",
+      "CREATE_USER": "create-users",
+      "EDIT_USER": "edit-user",
+      "USERS_PRIVILEGES": "user-privileges",
+      "EDIT_USERS_PRIVILEGES": "edit-user-privileges",
+      "USER_GROUPS": "user-groups",
+      "CREATE_USER_GROUPS": "create-user-groups",
+      "EDIT_USER_GROUPS": "edit-user-groups",
+      "USER_GROUPS_PRIVILEGES": "user-group-privileges",
+      "EDIT_USER_GROUPS_PRIVILEGES": "edit-user-group-privileges",
+      "COMPANY_DETAILS": "company-details",
+      "COUNTRIES": "countries",
+      "CREATE_COUNTRIES": "create-countries",
+      "EDIT_COUNTRY": "edit-country",
+      "COUNTIES": "counties",
+      "CREATE_COUNTY": "create-county",
+      "EDIT_COUNTY": "edit-county",
+      "TOWNS": "towns",
+      "CREATE_TOWN": "create-town",
+      "EDIT_TOWN": "edit-town",
+      "TRANSPORT_CODES": "transport-codes",
+      "CREATE_TRANSPORT_CODES": "create-transport-codes",
+      "EDIT_TRANSPORT_CODES": "edit-transport-codes",
+      "INCOTERM_CODES": "incoterm-codes",
+      "CREATE_INCOTERM_CODES": "create-incoterm-codes",
+      "EDIT_INCOTERM_CODES": "edit-incoterm-codes",
+      "SUPPLY_SPECIFIC_CODES": "supply-specific-codes",
+      "CREATE_SPECIFIC_CODES": "create-specific-codes",
+      "EDIT_SPECIFIC_CODES": "edit-specific-codes",
+      "CUSTOMER_TYPES": "customer-types",
+      "CREATE_CUSTOMER-type": "create-customer-type",
+      "EDIT_CUSTOMER_TYPE": "edit-customer-type",
+      "INVOICING_TYPES": "invoicing-types",
+      "CREATE_INVOICING_TYPE": "create-invoicing-type",
+      "EDIT_INVOICING_TYPE": "edit-invoicing-type",
+      "CURRENCIES": "currencies",
+      "CREATE_CURRENCY": "create-currency",
+      "EDIT_CURRENCY": "edit-currency",
+      "BRANDS": "brands",
+      "CREATE_BRAND": "create-brands",
+      "EDIT_BRAND": "edit-brands",
+      "UNITS_OF_MEASURE": "units-of-measure",
+      "CREATE_UNITS_OF_MEASURE": "create-units-of-measure",
+      "EDIT_UNITS_OF_MEASURE": "edit-units-of-measure",
+      "CONTRACTOR_TYPES": "contractor-types",
+      "CREATE_CONTRACTOR_TYPE": "create-contractor-type",
+      "EDIT_CONTRACTOR_TYPE": "edit-contractor-type",
+      "COLORS": "colors",
+      "CREATE_COLOR": "create-color",
+      "EDIT_COLOR": "edit-color",
+      "PROJECTS": "projects",
+      "CREATE_PROJECT": "create-project",
+      "EDIT_PROJECT": "edit-project",
+      "TRANSPORT_TYPES": "transport-types",
+      "CREATE_TRANSPORT_TYPE": "create-transport-type",
+      "EDIT_TRANSPORT_TYPE": "edit-transport-type",
+      "DO_FORMATS": "do_formats",
+      "CREATE_DO_FORMAT": "create-do-formats",
+      "EDIT_DO_FORMAT": "edit-do-formats",
+      "ORDER_STATUSES": "order-statuses",
+      "CREATE_ORDER_STATUS": "create-order-status",
+      "EDIT_ORDER_STATUS": "edit-order-status",
+      "ANOMALY_MESSAGES": "anomaly-messages",
+      "CREATE_ANOMALY_MESSAGE": "create-anomaly-message",
+      "EDIT_ANOMALY_MESSAGE": "edit-anomaly-message",
+      "DO_CONTROLS": "do-controls",
+      "EDIT_DO_CONTROLS": "edit-do-controls",
+      "EMERGENCY_ORDER_REASONS": "emergency-order-reasons",
+      "CREATE_EMERGENCY_ORDER_REASON": "create-emergency-order-reason",
+      "EDIT_EMERGENCY_ORDER_REASON": "edit-emergency-order-reason",
+      "PLATFORM_ACTIVITY_CODES": "platform-activity-codes",
+      "CREATE_PLATFORM_ACTIVITY_CODE": "create-platform-activity-code",
+      "EDIT_PLATFORM_ACTIVITY_CODE": "edit-platform-activity-code",
+      "RAN_CODES": "ran-codes",
+      "CREATE_RAN_CODE": "create-ran-code",
+      "EDIT_RAN_CODE": "edit-ran-code",
+      "FLOW_TYPES": "flow-types",
+      "CREATE_FLOW_TYPE": "create-flow-type",
+      "EDIT_FLOW_TYPE": "edit-flow-type",
+      "PLATFORMS": "platforms",
+      "SUPPLIERS": "suppliers",
+      "CREATE_SUPPLIER": "create-supplier",
+      "EDIT_SUPPLIER": "edit-supplier",
+      "CUSTOMERS": "customers",
+      "CREATE_CUSTOMER": "create-customer",
+      "EDIT_CUSTOMER": "edit-customer",
+      "CONTRACTORS": "contractors",
+      "CREATE_CONTRACTOR": "create-contractor",
+      "EDIT_CONTRACTOR": "edit-contractor",
+      "CONTRACTS": "contracts",
+      "CREATE_CONTRACT": "create-contract",
+      "EDIT_CONTRACT": "edit-contract",
+      "CONTACTS": "contacts",
+      "CREATE_CONTACT": "create-contact",
+      "EDIT_CONTACT": "edit-contact",
+      "REPORTS": "reports",
+      "DEBUG": "debug",
+      "ACTIVITIES": "activities",
+      "CONFIG_USERS": "config-users",
+      "CONTACT": "contact",
+      "ERRORS": "errors",
+      "EDIT_ERROR": "edit-error",
+      "ARTICLES": "articles",
+      "CREATE_ARTICLE": "create-article",
+      "EDIT_ARTICLE": "edit-article",
+      "PACKAGING": "packaging",
+      "CREATE_PACKAGING": "create-packaging",
+      "EDIT_PACKAGING": "edit-packaging",
+      "MATERIALS": "materials",
+      "CREATE_MATERIAL": "create-material",
+      "EDIT_MATERIAL": "edit-material",
+      "CONDITIONINGS": "conditionings",
+      "CREATE_CONDITIONING": "create-conditioning",
+      "EDIT_CONDITIONING": "edit-conditioning",
+      "TRIPLETS": "triplets",
+      "CREATE_TRIPLET": "create-triplet",
+      "EDIT_TRIPLET": "edit-triplet",
+      "LOGISTIC_SOLUTIONS_DOWNSTREAM_UPSTREAM": "logistic-solutions-downstream-upstream",
+      "CREATE_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM": "create-logistic-solution-downstream-upstream",
+      "EDIT_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM": "edit-logistic-solution-downstream-upstream",
+      "EDIT_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM_TPS": "edit-transit-points-downstream-upstream",
+      "LOGISTIC_SOLUTIONS_INTERNAL": "logistic-solutions-internal",
+      "CREATE_LOGISTIC_SOLUTION_INTERNAL": "create-logistic-solution-internal",
+      "EDIT_LOGISTIC_SOLUTION_INTERNAL": "edit-logistic-solution-internal",
+      "LOGISTIC_SOLUTIONS": "logistic-solutions",
+      "RECEIVING_ORDERS": "receiving-orders",
+      "SENDING_ORDERS": "sending-orders",
+      "MANUAL_ORDERS": "manual-orders",
+      "EMERGENCY_ORDERS": "emergency-orders",
+      "EDIT_RECEIVING_ORDER": "edit-receiving-order",
+      "ACCESS_DENIED": "access-denied",
+      "LOGOUT": "Logout",
+      "ERROR_PAGE": "error_page",
+      "NOTIFICATION": "notification",
+      "PACKAGING_OWNERS": "packaging-owners",
+      "CREATE_PACKAGING_OWNER": "create-packaging-owner",
+      "EDIT_PACKAGING_OWNERS": "edit-packaging-owner",
+      "ASSEMBLIES": "assemblies",
+      "CREATE_ASSEMBLY": "create-assembly",
+      "EDIT_ASSEMBLY": "edit-assembly",
+      "REQUIREMENTS_CONTROL": "requirements-control",
+      "CUSTOMER_PROGRAM": "customer-program",
+      "EXPEDITION_PROGRAM": "expedition-program",
+      "RECEPTION_PROGRAM": "reception-program",
+      "EXPEDITION_SUPPLIER_PROGRAM": "expedition-program-of-supplier",
+      "EXECUTION_STOCK_STATUS": "stock-status",
+      "ASN_OVERVIEW": "asn-overview",
+      "ASN_HISTORIC": "asn-historic",
+      "FOLLOW_UP_FLOWS": "follow-up-flows",
+      "SUMMARY_OF_DELIVERY_DELAYS": "summary-of-delivery-delays",
+      "FOLLOW_UP_BY_TRANSPORTS": "follow-up_by-transports",
+      "FOLLOW_UP_BY_ASN": "follow-up-by-asn",
+      "FOLLOW_UP_BY_RAN_STATUS": "follow-up-by-ran-status",
+      "PROFILE": "View profile",
+      "HELP": "Help"
+    }
+  },
+  "users": {
+    "TITLE": "Users management",
+    "SEARCH_BY_NAME": "Search by name",
+    "view": {
+      "TITLE_EDIT": "Edit user",
+      "TITLE_NEW": "New user",
+      "TITLE_SING": "User",
+      "FIELD_USERNAME": "Username",
+      "FIELD_PASSWORD": "Password",
+      "FIELD_PASSWORD_CONFIRMATION": "Password confirmation",
+      "FIELD_NAME": "First name",
+      "FIELD_SURNAME": "Last name",
+      "FIELD_LANGUAGE": "Language",
+      "FIELD_EMAIL": "Email",
+      "FIELD_PHONE": "Phone number",
+      "FIELD_FUNCTION": "Function",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected user?",
+      "DELETE_CONFIRMATION": "User deleted successfully.",
+      "CREATE_CONFIRMATION": "User created successfully.",
+      "UPDATE_CONFIRMATION": "User updated successfully.",
+      "PASSWORD_WARNING": "Password doesn't match."
+    },
+    "buttons": {
+      "ADD": "Add user",
+      "REMOVE": "Delete user",
+      "BACK_TO_USERS": "Back to users management"
+    }
+  },
+  "angajati": {
+    "TITLE": "Employees management",
+    "SEARCH_BY_NAME": "Search by name",
+    "view": {
+      "TITLE_EDIT": "Edit employee",
+      "TITLE_NEW": "New employee",
+      "TITLE_SING": "Employee",
+      "FIELD_NAME": "First name",
+      "FIELD_SURNAME": "Last name",
+      "FIELD_EMAIL": "Email",
+      "FIELD_PHONE": "Phone number",
+      "FIELD_FUNCTION": "Function",
+      "FIELD_NET_SALARIU": "Net salary",
+      "FIELD_BRUT_SALARIU": "Gross salary",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected employee?",
+      "DELETE_CONFIRMATION": "Employee deleted successfully.",
+      "CREATE_CONFIRMATION": "Employee created successfully.",
+      "UPDATE_CONFIRMATION": "Employee updated successfully."
+    },
+    "buttons": {
+      "ADD": "Add employee",
+      "REMOVE": "Delete employee",
+      "BACK_TO_EMPLOYEES": "Back to employees management"
+    }
+  },
+  "furnizori": {
+    "TITLE": "Suppliers management",
+    "SEARCH_BY_NAME": "Search by name",
+    "view": {
+      "TITLE_EDIT": "Edit supplier",
+      "TITLE_NEW": "New supplier",
+      "TITLE_SING": "Supplier",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected supplier?",
+      "DELETE_CONFIRMATION": "Supplier deleted successfully.",
+      "CREATE_CONFIRMATION": "Supplier created successfully.",
+      "UPDATE_CONFIRMATION": "Supplier updated successfully."
+    },
+    "buttons": {
+      "ADD": "Add supplier",
+      "REMOVE": "Delete supplier",
+      "BACK_TO_EMPLOYEES": "Back to suppliers management"
+    }
+  },
+  "firma": {
+    "TITLE": "Company details",
+    "FIRMA": "Company",
+    "ADRESA": "Address",
+    "TEL": "Tel/fax/email",
+    "BANCI": "Banks",
+    "PERSOANA_AUTORIZATA": "Authorised person",
+    "DECLARANT": "Declarant",
+    "ALTELE": "Others",
+    "UPDATE_CONFIRMATION": "Company details updated successfully.",
+    "NUME_FIRMA": "Company name",
+    "COD_UI": "Unique Registration Code",
+    "COD_REGISTRU": "Registry Code",
+    "CAPITAL_SOCIAL": "Social capital",
+    "CAPITAL_SOCIAL_MONEDA": "lei",
+    "PUNCT_DE_LUCRU": "Workspace",
+    "JUDET": "County",
+    "LOCALITATE": "Location",
+    "STRADA": "Street",
+    "NUMAR": "Number",
+    "SECTOR": "Sector",
+    "COD_POSTAL": "Postcode",
+    "COD_RA": "Year",
+    "BLOC": "Block",
+    "SCARA": "Square",
+    "APARTAMENT": "Apartment",
+    "NR_TELEFON": "Phone number",
+    "NR_FAX": "Fax Number",
+    "EMAIL": "Email Address",
+    "WEB": "Web",
+    "NR_CRT": "No",
+    "NUME_BANCA": "Bank name",
+    "SITE_BANCA": "Branch",
+    "CONT_BANCA": "Account Number",
+    "NUME_PERSOANA": "Name",
+    "FUNCTIE_PERSOANA": "Function",
+    "CNP_PERSOANA": "CNP",
+    "ADRESA_PERSOANA": "Address",
+    "NUME_DECLARANT": "Name",
+    "PRENUME_DECLARANT": "Surname",
+    "CNP_DECLARANT": "CNP",
+    "FUNCTIE_DECLARANT": "Function",
+    "LICENTA_TRANSPORT": "International transport license",
+    "TIP_PLATITOR": "Payer type (decl. 394)",
+    "TIP_ACTIV_SPECIALA": "Special activity type",
+    "COD_CAEN": "CAEN code (decl. 300)",
+    "NR_CASE_MARCAT": "No. of marked houses (AMEF) (d394)"
+  },
+  "contacts": {
+    "SECTION_TITLE": "Contacts",
+    "list": {
+      "TITLE": "Contacts",
+      "SEARCH_TEXT_1": "Search by name"
+    },
+    "view": {
+      "TITLE_EDIT": "Edit contact",
+      "TITLE_NEW": "Add contact",
+      "FIELD_ID": "Id",
+      "FIELD_GIVEN_NAME": "Given name",
+      "FIELD_FAMILY_NAME": "Family name",
+      "FIELD_POSITION": "Position",
+      "FIELD_PHONE_1": "Phone number",
+      "FIELD_PHONE_2": "Additional phone number",
+      "FIELD_EMAIL": "Email address"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected contact?",
+      "DELETE_CONFIRMATION": "Contact deleted successfully.",
+      "CREATE_CONFIRMATION": "Contact created successfully.",
+      "UPDATE_CONFIRMATION": "Contact updated successfully.",
+      "NO_SELECTION": "Please select a contact first."
+    },
+    "grid": {
+      "COL_ID": "Id",
+      "COL_GIVEN_NAME": "Given name",
+      "COL_FAMILY_NAME": "Family name",
+      "COL_POSITION": "Position",
+      "COL_PHONE_1": "Phone number",
+      "COL_PHONE_2": "Phone number (other)",
+      "COL_EMAIL": "Email"
+    }
+  },
+  "countries": {
+    "SECTION_TITLE": "Countries",
+    "list": {
+      "TITLE": "Countries",
+      "SEARCH_TEXT_1": "Search by name"
+    },
+    "view": {
+      "TITLE_EDIT": "Edit country",
+      "TITLE_NEW": "Add country",
+      "FIELD_CODE": "Code",
+      "FIELD_NAME": "Name",
+      "FIELD_CODE_NUM": "Numeric code",
+      "FIELD_IS_EU": "Is in EU"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected country?",
+      "DELETE_CONFIRMATION": "Country deleted successfully.",
+      "CREATE_CONFIRMATION": "Country created successfully.",
+      "UPDATE_CONFIRMATION": "Country updated successfully."
+    },
+    "grid": {
+      "COL_CODE": "Code",
+      "COL_NAME": "Name",
+      "COL_CODE_NUM": "Numeric Code",
+      "COL_IS_EU": "Is in EU",
+      "COL_ID": "Id"
+    }
+  },
+  "nomenclatures": {
+    "sections": {
+      "LOCATION": "Location",
+      "TRANSPORT": "Transport",
+      "LABELS": "Labels",
+      "SPECIFICS": "Specifics",
+      "ORDERS": "Orders",
+      "PARTNERS": "Partners"
+    }
+  },
+  "counties": {
+    "SECTION_TITLE": "Counties",
+    "list": {
+      "TITLE": "Counties",
+      "SEARCH_TEXT_1": "Search by name",
+      "SEARCH_TEXT_2": "Country"
+    },
+    "view": {
+      "TITLE_EDIT": "Edit county",
+      "TITLE_NEW": "Add county",
+      "FIELD_COUNTRY": "Country",
+      "FIELD_CODE": "Code",
+      "FIELD_NAME": "Name",
+      "FIELD_CODE_NUM": "Numeric code"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected county?",
+      "DELETE_CONFIRMATION": "County deleted successfully.",
+      "CREATE_CONFIRMATION": "County created successfully.",
+      "UPDATE_CONFIRMATION": "County updated successfully."
+    },
+    "grid": {
+      "COL_CODE": "Code",
+      "COL_NAME": "Name",
+      "COL_CODE_NUM": "Numeric Code",
+      "COL_COUNTRY": "Country",
+      "COL_ID": "Id"
+    }
+  },
+  "towns": {
+    "SECTION_TITLE": "Towns",
+    "list": {
+      "TITLE": "Towns",
+      "SEARCH_TEXT_1": "Search by name",
+      "SEARCH_TEXT_2": "Country",
+      "SEARCH_TEXT_3": "County"
+    },
+    "view": {
+      "TITLE_EDIT": "Edit town",
+      "TITLE_NEW": "Add town",
+      "TITLE_SELECT": "Select town",
+      "FIELD_COUNTRY": "Country",
+      "FIELD_COUNTY": "County",
+      "FIELD_NAME": "Town name",
+      "FIELD_TZ_ON_ALL_CITIES": "Apply timezone on all country cities"
+    },
+    "messages": {
+      "VALIDATION_COUNTRY_REQUIRED": "Please select a country (required).",
+      "VALIDATION_COUNTY_REQUIRED": "Please select a county (required).",
+      "DELETE_QUESTION": "Are you sure you want to delete the selected town?",
+      "DELETE_CONFIRMATION": "Town deleted successfully.",
+      "CREATE_CONFIRMATION": "Town created successfully.",
+      "UPDATE_CONFIRMATION": "Town updated successfully."
+    },
+    "grid": {
+      "COL_NAME": "Name",
+      "COL_COUNTRY": "Country",
+      "COL_COUNTY": "County",
+      "COL_ID": "Id"
+    }
+  },
+  "activities": {
+    "list": {
+      "TITLE": "User activities"
+    },
+    "methods": {
+      "GET": "GET",
+      "POST": "POST",
+      "PUT": "PUT",
+      "DELETE": "DELETE"
+    },
+    "grid": {
+      "COL_USERNAME": "User",
+      "COL_METHOD": "Method",
+      "COL_CREATED_AT": "Date",
+      "COL_SERVLET_PATH": "Address",
+      "COL_REQUEST_PARAMS": "Parameters",
+      "COL_OPERATION_TYPE": "Operation",
+      "COL_ID": "Id"
+    },
+    "operationType": {
+      "ADD": "Create",
+      "MOD": "Update",
+      "DELETE": "Delete",
+      "READ": "Read",
+      "DOWNLOAD": "Download",
+      "SEND_EMAIL": "Email send",
+      "PARSE": "Parse",
+      "PROGRAMARE_CSCT": "CSCT programming"
+    },
+    "popup": {
+      "TITLE": "User activity",
+      "FIELD_CONTEXT_PATH": "Context",
+      "FIELD_CREATED_AT": "Date",
+      "FIELD_ID": "Id",
+      "FIELD_LANG": "Language",
+      "FIELD_METHOD": "Method",
+      "FIELD_PARAMS": "Parameters",
+      "FIELD_BODY": "Body",
+      "FIELD_SERVLET_PATH": "Request",
+      "FIELD_USERNAME": "User",
+      "FIELD_IP": "IP Address",
+      "FIELD_USER_AGENT": "Browser"
+    }
+  },
+  "reports": {
+    "list": {
+      "SEARCH_TEXT": "Search",
+      "TITLE": "Reports"
+    },
+    "report1": {
+      "TITLE": "Test report 1"
+    }
+  },
+  "errors": {
+    "level": {
+      "ERROR": "Error",
+      "WARNING": "Warning",
+      "INFO": "Information"
+    },
+    "grid": {
+      "COL_EMAIL": "Reported",
+      "COL_FIXED": "Fixed",
+      "COL_LEVEL": "Level",
+      "COL_MESSAGE": "Message",
+      "COL_ORIGIN": "Origin",
+      "COL_APP": "Application",
+      "COL_REQUEST": "Request"
+    },
+    "list": {
+      "TITLE": "Application errors",
+      "SEARCH_TEXT": "Error search"
+    },
+    "sent": {
+      "SENT_ONLY": "Only sent",
+      "NOT_SENT_ONLY": "Only not sent"
+    },
+    "fixed": {
+      "FIXED_ONLY": "Only fixed",
+      "NOT_FIXED_ONLY": "Only not fixed"
+    },
+    "view": {
+      "TITLE_EDIT": "Edit error",
+      "FIELD_EMAIL": "Email",
+      "FIELD_FIXED": "Fixed",
+      "FIELD_LEVEL": "Level",
+      "FIELD_MESSAGE": "Message",
+      "FIELD_STACKTRACE": "Details",
+      "FIELD_EMAIL_SENT": "Email sent",
+      "BUTTON_SEND_EMAIL": "Send to email"
+    },
+    "messages": {
+      "UPDATE_CONFIRMATION": "The error was updated successfully.",
+      "DELETE_QUESTION": "Are you sure you want to delete the selected error?",
+      "DELETE_CONFIRMATION": "The error was deleted successfully.",
+      "SEND_EMAIL_QUESTION": "Are you sure you want to report this error?",
+      "EMAIL_SENT_CONFIRMATION": "The error was successfully reported."
+    }
+  },
+  "currencies": {
+    "list": {
+      "TITLE": "Currencies",
+      "SEARCH_TEXT": "Search by code"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Are you sure you want to delete the selected currency?",
+      "DELETE_CONFIRMATION": "The currency was successfully deleted.",
+      "CREATE_CONFIRMATION": "The currency was created successfully.",
+      "UPDATE_CONFIRMATION": "The currency was updated successfully."
+    },
+    "grid": {
+      "COL_CODE": "Code",
+      "COL_DESCRIPTION": "Description",
+      "COL_DEFAULT_VALUE": "Default currency",
+      "COL_SYMBOL": "Symbol"
+    },
+    "view": {
+      "TITLE_NEW": "Add currency",
+      "TITLE_EDIT": "Edit currency",
+      "FIELD_CODE": "Code",
+      "FIELD_DESCRIPTION": "Description",
+      "FIELD_DEFAULT_VALUE": "Default currency",
+      "FIELD_SYMBOL": "Symbol"
+    }
+  },
+  "facturi": {
+    "TITLE": "Invoices",
+    "TITLE_SING": "Invoice",
+    "ACHITATA": "Paid",
+    "SCADENTA": "Term",
+    "NT_FACTURA": "No invoice"
+  }
+}

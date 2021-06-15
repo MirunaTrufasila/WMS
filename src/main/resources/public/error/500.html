@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Eroare server</title>
+</head>
+<body>
+<h1 class="color-orange">Eroare interna a serverului</h1>
+<p>A intervenit o eroare.</p><br>
+Navigare catre <a href="/" th:href="@{/}">home</a>
+<input name="action" type="submit" value="Pagina anterioara" onclick="window.history.go(-1);"/>
+</body>
+</html>

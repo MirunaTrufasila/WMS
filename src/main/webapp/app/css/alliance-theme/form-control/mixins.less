@@ -1,0 +1,62 @@
+//// Form control sizing
+////
+//// Build on `.form-control` with modifier classes to decrease or increase the
+//// height and font-size of form controls.
+////
+//// The `.form-group-* form-control` variations are sadly duplicated to avoid the
+//// issue documented in https://github.com/twbs/bootstrap/issues/15074.
+//
+//.input-sm {
+//  .input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @input-border-radius-small);
+//}
+//.form-group-sm {
+//  .form-control {
+//    height: @input-height-small;
+//    padding: @padding-small-vertical @padding-small-horizontal;
+//    font-size: @font-size-small;
+//    line-height: @line-height-small;
+//    border-radius: @input-border-radius-small;
+//  }
+//  select.form-control {
+//    height: @input-height-small;
+//    line-height: @input-height-small;
+//  }
+//  textarea.form-control,
+//  select[multiple].form-control {
+//    height: auto;
+//  }
+//  .form-control-static {
+//    height: @input-height-small;
+//    min-height: (@line-height-computed + @font-size-small);
+//    padding: (@padding-small-vertical + 1) @padding-small-horizontal;
+//    font-size: @font-size-small;
+//    line-height: @line-height-small;
+//  }
+//}
+//
+//
+////** Small `.form-control` height
+//@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+//
+//// Form control sizing
+////
+//// Relative text size, padding, and border-radii changes for form controls. For
+//// horizontal sizing, wrap controls in the predefined grid classes. `<select>`
+//// element gets special love because it's special, and that's a fact!
+//.input-size(@input-height; @padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {
+//  height: @input-height;
+//  padding: @padding-vertical @padding-horizontal;
+//  font-size: @font-size;
+//  line-height: @line-height;
+//  border-radius: @border-radius;
+//
+//  select& {
+//    height: @input-height;
+//    line-height: @input-height;
+//  }
+//
+//  textarea&,
+//  select[multiple]& {
+//    height: auto;
+//  }
+//}

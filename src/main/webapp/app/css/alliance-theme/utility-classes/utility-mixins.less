@@ -1,0 +1,16 @@
+//
+// Utility mixins
+//
+
+.applyStylingToText(@fontSizeInPx, @lineHeightInPx, @colorHex, @fontWeight, @marginBottomInPx) {
+  font-size: @fontSizeInPx + 0px;
+  line-height: @lineHeightInPx + 0px;
+  font-weight: @fontWeight;
+  margin-bottom: @marginBottomInPx + 0px;
+
+  color: @colorHex;
+}
+
+.setBoldText() {
+  font-family: 'Read-Bold', sans-serif;
+}

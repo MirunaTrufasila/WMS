@@ -1,0 +1,268 @@
+@import "additional-styling.less";
+// additional-styling
+@import "variables.less";
+// main-theme variables
+@import "bootstrap-overrides.less";
+// general bootstrap overrides
+@import "ui-grid-overrides.less";
+// specific overrides for ui-grid
+@import "utility-classes.less"; // utility classes
+
+html {
+  position: relative;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+#main-wrapper {
+  height: auto;
+  min-height: 100%;
+}
+
+body.main-theme {
+  background-image: none;
+  background: @default-white;
+
+  font-family: 'Montserrat', Arial, Helvetica, Liberation Sans, FreeSans, sans-serif;
+  font-size: @default-font-size-px;
+
+  &.isMobileDevice {
+    font-size: 1.25em !important;
+
+    #mainRightArea,
+    #mainView {
+      margin-top: 50px;
+    }
+  }
+}
+
+#mainRightArea,
+#mainView {
+  margin-top: @app-header-min-height-px;
+}
+
+a {
+  &:visited,
+  &:link {
+    color: @default-black;
+  }
+
+  &:hover,
+  &:active {
+    color: @default-black;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  }
+}
+
+a.special-link {
+  &:visited,
+  &:link {
+    color: @default-black;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:active {
+    color: @default-black;
+    border-bottom: 1px solid @intense-yellow;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .15);
+  }
+}
+
+// ui-grid general height setting; this can be overwritten on individual grid ( ng-style={...} in templates )
+.grid {
+
+  .ui-grid {
+    .ui-grid-cell {
+      a {
+        color: @darker-yellow;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  article.pagination-container {
+    background: #FFFFFF;
+    padding: 10px;
+    float: right;
+
+    ul.pagination {
+      margin: 0;
+      vertical-align: middle;
+    }
+
+    .selectPagination {
+      height: @input-field-height;
+      line-height: @input-field-height;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+  }
+}
+
+
+#main-wrapper { // sticky footer styling
+  margin-bottom: -@footer-height-px;
+}
+
+.sticky-footer,
+.sticky-footer-push {
+  height: @footer-height-px;
+}
+
+.sticky-footer {
+  color: @dark-grey-8;
+  background: @default-black;
+
+  .footer-text {
+    line-height: @footer-height-px;
+  }
+}
+
+// END OF sticky footer
+
+
+.ng-hide-add,
+.ng-hide-remove { // some other customizations will follow; do not delete please :)
+  // transition: 1s linear all;
+}
+
+.transformable-height {
+  -webkit-transition: min-height 200ms ease-out;
+  -moz-transition: min-height 200ms ease-out;
+  -o-transition: min-height 200ms ease-out;
+  -ms-transition: min-height 200ms ease-out;
+  transition: min-height 200ms ease-out;
+}
+
+.transformable-opacity {
+  -webkit-transition: opacity 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out;
+  -o-transition: opacity 200ms ease-out;
+  -ms-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+}
+
+#tab-content-wrapper {
+  opacity: 1;
+}
+
+#tab-content-wrapper.ng-hide {
+  opacity: 0;
+}
+
+.ui-notification { // custom styling for ui-notification
+
+  &.notification-container {
+    width: 200px;
+    padding: 5px;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+
+    color: initial;
+    background: initial;
+
+    &.error {
+      color: #a22323;
+      background: #ffe3e2;
+      border: 1px solid #ffadad;
+      text-shadow: 1px 1px 0 @default-white;
+    }
+
+    &.warning {
+      color: #79742e;
+      background: #f9f8af;
+      border: 1px solid #c5c972;
+      text-shadow: 1px 1px 0 @default-white;
+    }
+
+    &.info {
+      color: #3b5a90;
+      background: #d7edff;
+      border: 1px solid #7bacff;
+      text-shadow: 1px 1px 0 @default-white;
+    }
+
+    &.success {
+      color: #267b4a;
+      background: #e4f9e5;
+      border: 1px solid #8ac9a4;
+      text-shadow: 1px 1px 0 @default-white;
+    }
+
+    .close-notification {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: .92em;
+      color: inherit;
+    }
+
+    .message {
+      word-break: break-all;
+      margin: 0;
+    }
+  }
+}
+
+// END-OF custom styling for ui-notification
+
+
+.loading-indicator-wrapper { // Custom loading-spinner
+
+  .loading-text {
+    display: inline-block;
+    line-height: 25px;
+  }
+
+  .loading {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+
+    background: url("../../images/loading_icon.gif") 50% 50% transparent no-repeat;
+    background-size: 300%;
+  }
+}
+
+.modal-content { // dimensions for grids in modals
+  .ui-grid {
+    min-height: 200px;
+    max-height: 200px;
+  }
+}
+
+.strong {
+  font-weight: 900
+}
+
+textarea {
+  min-height: 50px;
+}
+
+.custom-file-input {
+
+  &::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  &::before {
+    content: '';
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border-radius: 3px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+  }
+}
+
+@import "navigation.less"; // imports of navigation styling
+@import "../../app/components/menu-for-mobile-component/menu-for-mobile-component.less";

@@ -1,0 +1,2933 @@
+{
+  "general": {
+    "SQL_CONSTRAINT_VIOLATION": "Componenta este folosită în aplicație și nu poate fi ștearsă.",
+    "LOGGED_USER": "Utilizator: ",
+    "ID": "ID",
+    "YES": "Da",
+    "NO": "Nu",
+    "ALL": "Toate",
+    "ALL_MASC": "Toți",
+    "RESET": "Resetează",
+    "SEARCH": "Caută",
+    "NO_ITEM_SELECTED": "Nici un element selectat",
+    "HOME": "Acasă",
+    "CONTACT": "Contact",
+    "ADMINISTRATION": "Administrare",
+    "REPORTS": "Rapoarte",
+    "APPLICATION_ERRORS_TAB": "Erori aplicație",
+    "LOGOUT": "Deconectare",
+    "CLOSE_BUTTON": "Renunțare",
+    "CLOSE_SECTION": "Închidere secțune",
+    "SAVE_BUTTON": "Salvare",
+    "FILTERS": "Filtre",
+    "APPLIED_FILTERS": "Numărul filtrelor aplicate",
+    "APPLY": "Aplică",
+    "NOT_IMPLEMENTED": "Articol neimplementat",
+    "SECONDARY_NAV_TIP": "Selectați o pagină la care să navigați sau efectuați click oriunde pentru a închide secțiunea.",
+    "NAVIGATE_TO_PAGE": "Navigare către pagină",
+    "CHOOSE_FILE_TO_UPLOAD": "Alegere fișier",
+    "TAB_AUDIT": "Audit",
+    "COMMENTS": "Comentarii",
+    "LINES": "linii",
+    "origin": {
+      "NONE": "n/a",
+    },
+    "profileDropDown": {
+      "MANAGE": "ADMINISTRARE",
+      "COMPANY": "Companie",
+      "FURNIZORI": "Furnizori",
+      "USERS": "Utilizatori",
+      "GROUP_RIGHTS": "Drepturi grupuri"
+    },
+    "errorTypes": {
+      "Informative": "Info",
+      "Rejected": "Respinsă",
+      "Recycled": "Reciclată"
+    },
+    "delayTypes": {
+      "DAYS": "Zile",
+      "HOURS": "Ore"
+    },
+    "scheduleWeeklyFrequency": {
+      "Monday": "Luni",
+      "Tuesday": "Marți",
+      "Wednesday": "Miercuri",
+      "Thursday": "Joi",
+      "Friday": "Vineri",
+      "Saturday": "Sâmbătă",
+      "Sunday": "Duminică"
+    },
+    "buttons": {
+      "ADD": "Adaugă",
+      "EDIT": "Editare",
+      "DELETE": "Șterge",
+      "SEARCH": "Căutare",
+      "SAVE": "Salvare",
+      "BACK": "Înapoi",
+      "CLOSE": "Închide",
+      "REFRESH": "Actualizare",
+      "PREVIOUS": "anterior",
+      "NEXT": "următor",
+      "CHECK_ALL": "Selectare tot",
+      "UNCHECK_ALL": "Deselectare tot",
+      "REPLY": "Răspunde",
+      "SEND_EMAIL": "Trimite",
+      "CANCEL": "Renunțare",
+      "DOWNLOAD": "Download",
+      "UPLOAD": "Încărcare fișier",
+      "SEND_TO_EMAIL": "Trimite pe email",
+      "RESET": "Resetare",
+      "SELECT": "Selectare",
+      "BUTTON_SEARCH_CITY": "Selecție localitate",
+      "BUTTON_SEARCH_CONTACT": "Selecție persoană de contact"
+    },
+    "tooltips": {
+      "ADD": "Add",
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "SEARCH": "Search",
+      "SAVE": "Save",
+      "BACK": "Back",
+      "CLOSE": "Close",
+      "REFRESH": "Refresh",
+      "PREVIOUS": "previous",
+      "NEXT": "next",
+      "CHECK_ALL": "Select all",
+      "UNCHECK_ALL": "Select none",
+      "REPLY": "Reply",
+      "SEND_EMAIL": "Send",
+      "CANCEL": "Cancel",
+      "DOWNLOAD": "Download",
+      "UPLOAD": "Upload",
+      "SEND_TO_EMAIL": "Send to email",
+      "RESET": "Reset",
+      "SELECT": "Select",
+      "BUTTON_SEARCH_CITY": "Select city",
+      "BUTTON_SEARCH_CONTACT": "Select contact",
+      "BUTTON_GROUPS_AND_PLATFORM": "Add platform & group"
+    },
+    "fields": {
+      "ID": "Id",
+      "CREATED_AT": "Creat la",
+      "CREATED_BY": "Creat de",
+      "UPDATED_AT": "Actualizat la",
+      "UPDATED_BY": "Actualizat de",
+      "PUBLISHED_AT": "Publicat la",
+      "PUBLISHED_BY": "Publicat de",
+      "START_DATE": "Dată început",
+      "END_DATE": "Dată sfârșit",
+      "LAST_LOGIN": "Ultima logare",
+      "NO_SELECT": "Neselectat",
+      "SELECT_ALL": "Selectează tot",
+      "DESELECT_ALL": "Deselecteaza tot",
+      "SELECTED": "selectat",
+      "ORIGIN": "Origine",
+      "APPLICATION": "Applicație",
+      "CODE": "Cod"
+    },
+    "static": {
+      "TITLE": "Acces refuzat",
+      "ERROR_TITLE": "Pagină de eroare",
+      "CONTENT": "Nu sunteți autorizat să vizualizați această pagină.",
+      "ERROR_CONTENT": "A intervenit o eroare.",
+      "PREVIOUS_PAGE": "Pagina anterioară"
+    },
+    "notificationsPopup": {
+      "POPUP_TITLE": "Notificări utilizator",
+      "TITLE": "Notificare",
+      "CONTENT": "Conținut",
+      "CLOSE_BUTTON": "Închide"
+    },
+    "mainMenu": {
+      "ADMIN": "Administrare",
+      "MASTER_DATA": "Master data",
+      "ORDERS_MANAGEMENT": "Comenzi",
+      "EXECUTION": "Execuție",
+      "REPORTS": "Rapoarte",
+      "ALERTS": "Alerte",
+      "INVOICING": "Facturare",
+      "CRM": "CRM",
+      "SRM": "SRM",
+      "NOMENCLATURES": "Nomenclatoare",
+      "SETTINGS": "Setări"
+    },
+    "menu": {
+      "admin": {
+        "USERS": "Utilizatori",
+        "LISTS": "Liste",
+        "SYSTEM": "System",
+        "users": {
+          "USER_GROUPS": "Grupuri",
+          "USER_GROUPS_PRIVILEGES": "Drepturi grupuri"
+        },
+        "lists": {
+          "COUNTRIES": "Țări",
+          "COUNTIES": "Județe",
+          "TOWNS": "Localități",
+          "INCOTERM_CODES": "Coduri incoterm",
+          "GALIA_TRANSPORT_CODES": "Coduri transport Galia",
+          "SUPPLYING_SPECIFIC": "Coduri aprovizionare",
+          "CURRENCIES": "Valute",
+          "CONTRACTS": "Contracte",
+          "BRANDS": "Mărci",
+          "UNITS_OF_MEASURE": "Unități de măsură",
+          "CONTRACTOR_TYPES": "Tipuri contractori",
+          "COLORS": "Culori",
+          "PROJECTS": "Familii și proiecte",
+          "DO_FORMATS": "Formate DO",
+          "CUSTOMER_TYPES": "Tipuri clienți",
+          "ORDER_STATUSES": "Stări comandă",
+          "ANOMALY_MESSAGES": "Mesaje de eroare",
+          "DO_CONTROLS": "Control comenzi",
+          "EMERGENCY_ORDER_REASONS": "Motive comenzi urgente",
+          "PLATFORM_ACTIVITY_CODES": "Coduri activitate platformă",
+          "RAN_CODES": "Coduri RAN",
+          "INVOICING_TYPES": "Tipuri facturare",
+          "FLOW_TYPES": "Tipuri de procese",
+          "PACKAGING_OWNERS": "Proprietari ambalaje"
+        },
+        "system": {
+          "SECTION_TITLE": "Sistem",
+          "ACTIVITIES_MANAGEMENT": "Activități utilizatori",
+          "TRANSPORT_TYPES": "Tipuri transport",
+          "FLOW_TYPES": "Tipuri flux"
+        }
+      },
+      "master": {
+        "PRODUCTS": "Produse",
+        "PARTNERS": "Partneri",
+        "PLATFORMDATA": "Date platformă",
+        "CONTRACTS": "Contracte",
+        "SUPPLIER_CONTRACTS": "Contracte furnizori",
+        "CUSTOMER_CONTRACTS": "Contracte clienți",
+        "CONTRACTOR_CONTRACTS": "Contracte contractori",
+        "products": {
+          "SECTION_TITLE": "Produse",
+          "COLLECTIONS": "Colecții (kituri)",
+          "ASSEMBLIES": "Asamblări",
+          "DISASEMBLES": "Dezasamblări"
+        },
+        "partners": {
+          "SUPPLIERS": "Furnizori",
+          "CUSTOMERS": "Clienți",
+          "CONTRACTORS": "Contractori",
+          "CONTACTS": "Contacte"
+        },
+        "platform": {
+          "SECTION_TITLE": "Date platformă",
+          "CALENDAR": "Calendar",
+          "PLATFORMS": "Platforme",
+          "CUSTOM_OFFICES": "Birouri specifice"
+        }
+      },
+      "execution": {
+        "mrp": {
+          "SECTION_TITLE": "MRP management",
+          "REQUIREMENTS_CONTROL": "Control cerințe",
+          "CUSTOMER_PROGRAM": "Program client",
+          "EXPEDITION_PROGRAM": "Program expediție",
+          "RECEPTION_PROGRAM": "Program recepție",
+          "EXPEDITION_SUPPLIER_PROGRAM": "Program expediție furnizor"
+        },
+        "stockStatus": {
+          "SECTION_TITLE": "Stoc",
+          "STOCK_STATUS": "Status stoc"
+        },
+        "asn": {
+          "SECTION_TITLE": "ASN management",
+          "ASN_OVERVIEW": "ASN perspectivă generală",
+          "ASN_HISTORIC": "ASN istoric"
+        },
+        "followUp": {
+          "SECTION_TITLE": "Follow Up",
+          "FOLLOW_UP_FLOWS": "Follow up flows",
+          "SUMMARY_OF_DELIVERY_DELAYS": "Summary of delivery delays",
+          "FOLLOW_UP_BY_TRANSPORTS": "Follow up by transports",
+          "FOLLOW_UP_BY_ASN": "Follow up by ASN",
+          "FOLLOW_UP_BY_RAN_STATUS": "Follow up by RAN status"
+        }
+      },
+      "network-solutions": {
+        "SECTION_TITLE": "Soluții logistice",
+        "GLOBAL": "Perspectivă globală",
+        "DEFINE": "Definire soluții logistice",
+        "DOWNSTREAM-UPSTREAM": "Soluții downstream/upstream",
+        "INTERNAL": "Soluții interne"
+      },
+      "orders": {
+        "SECTION_TITLE": "Manger comenzi",
+        "RECEIVING_ORDERS": "Comenzi primite",
+        "MANUAL_ORDERS": "Comenzi manuale",
+        "EMERGENCY_ORDERS": "Comenzi urgente",
+        "SENDING_ORDERS": "Comenzi trimise"
+      }
+    },
+    "breadcrumbs": {
+      "HOME": "acasă",
+      "ANGAJATI": "angajati",
+      "FURNIZORI": "furnizori",
+      "ADMINISTRATION": "administrare",
+      "USERS": "utilizatori",
+      "CREATE_USER": "creare-utilizator",
+      "EDIT_USER": "editare-utilizator",
+      "USERS_PRIVILEGES": "drepturi-utilizatori",
+      "EDIT_USERS_PRIVILEGES": "editare-drepturi-utilizator",
+      "USER_GROUPS": "grupuri",
+      "CREATE_USER_GROUPS": "creare-grupuri",
+      "EDIT_USER_GROUPS": "editare-grupuri",
+      "USER_GROUPS_PRIVILEGES": "drepturi-grupuri",
+      "EDIT_USER_GROUPS_PRIVILEGES": "editare-drepturi-grupuri",
+      "COMPANY_DETAILS": "detalii-companie",
+      "COUNTRIES": "țări",
+      "CREATE_COUNTRIES": "editare-țări",
+      "EDIT_COUNTRY": "editare-țară",
+      "COUNTIES": "județe",
+      "CREATE_COUNTY": "creare-județ",
+      "EDIT_COUNTY": "editare-județ",
+      "TOWNS": "orașe",
+      "CREATE_TOWN": "creare-oraș",
+      "EDIT_TOWN": "editare-town",
+      "TRANSPORT_CODES": "coduri-transport",
+      "CREATE_TRANSPORT_CODES": "creare-coduri-transport",
+      "EDIT_TRANSPORT_CODES": "editare-coduri-transport",
+      "INCOTERM_CODES": "coduri-incoterm",
+      "CREATE_INCOTERM_CODES": "creare-coduri-incoterm",
+      "EDIT_INCOTERM_CODES": "editare-coduri-incoterm",
+      "SUPPLY_SPECIFIC_CODES": "coduri-specifice-furnizori",
+      "CREATE_SPECIFIC_CODES": "creare-coduri-specifice",
+      "EDIT_SPECIFIC_CODES": "editare-coduri-specifice",
+      "CUSTOMER_TYPES": "tipuri-clienți",
+      "CREATE_CUSTOMER_TYPE": "creare-tip-client",
+      "EDIT_CUSTOMER_TYPE": "editare-tip-client",
+      "INVOICING_TYPES": "tipuri-facturi",
+      "CREATE_INVOICING_TYPE": "creare-tip-factură",
+      "EDIT_INVOICING_TYPE": "editare-tip-factură",
+      "CURRENCIES": "valute",
+      "CREATE_CURRENCY": "creare-valută",
+      "EDIT_CURRENCY": "editare-valută",
+      "BRANDS": "mărci",
+      "CREATE_BRAND": "creare-marcă",
+      "EDIT_BRAND": "editare-marcă",
+      "UNITS_OF_MEASURE": "unități-de-măsură",
+      "CREATE_UNITS_OF_MEASURE": "creare-unități-de-măsură",
+      "EDIT_UNITS_OF_MEASURE": "editare-unități-de-măsură",
+      "CONTRACTOR_TYPES": "tipuri-contractori",
+      "CREATE_CONTRACTOR_TYPE": "creare-tip-contractor",
+      "EDIT_CONTRACTOR_TYPE": "editare-tip-contractor",
+      "COLORS": "culori",
+      "CREATE_COLOR": "creare-culoare",
+      "EDIT_COLOR": "editare-culoare",
+      "PROJECTS": "proiecte",
+      "CREATE_PROJECT": "creare-proiect",
+      "EDIT_PROJECT": "editare-proiect",
+      "TRANSPORT_TYPES": "tipuri-transport",
+      "CREATE_TRANSPORT_TYPE": "creare-tip-transport",
+      "EDIT_TRANSPORT_TYPE": "editare-tip-transport",
+      "DO_FORMATS": "formate-comenzi-clienți",
+      "CREATE_DO_FORMAT": "creare-formate-comenzi",
+      "EDIT_DO_FORMAT": "editare-formate-comenzi",
+      "ORDER_STATUSES": "stări-comenzi",
+      "CREATE_ORDER_STATUS": "creare-stare-comanda",
+      "EDIT_ORDER_STATUS": "editare-stare-comanda",
+      "ANOMALY_MESSAGES": "mesaje-de-eroare",
+      "CREATE_ANOMALY_MESSAGE": "creare-mesaj-de-eroare",
+      "EDIT_ANOMALY_MESSAGE": "editare-mesaj-de-eroare",
+      "DO_CONTROLS": "controale-comandă",
+      "EDIT_DO_CONTROLS": "editare-control-comandă",
+      "EMERGENCY_ORDER_REASONS": "motive-comenzi-urgente",
+      "CREATE_EMERGENCY_ORDER_REASON": "creare-motiv-urgenta",
+      "EDIT_EMERGENCY_ORDER_REASON": "editare-motiv-urgenta",
+      "PLATFORM_ACTIVITY_CODES": "coduri-activitate-platformă",
+      "CREATE_PLATFORM_ACTIVITY_CODE": "creare-cod-activitate-platformă",
+      "EDIT_PLATFORM_ACTIVITY_CODE": "editare--cod-activitate-platformă",
+      "RAN_CODES": "coduri-RAN",
+      "CREATE_RAN_CODE": "creare-cod-RAN",
+      "EDIT_RAN_CODE": "editare-cod-RAN",
+      "FLOW_TYPES": "tipuri-procese",
+      "CREATE_FLOW_TYPE": "creare-tip-proces",
+      "EDIT_FLOW_TYPE": "editare-tip-proces",
+      "PLATFORMS": "platforme",
+      "CALENDARS": "calendare",
+      "SUPPLIERS": "furnizori",
+      "CREATE_SUPPLIER": "creare-furnizor",
+      "EDIT_SUPPLIER": "editare-furnizor",
+      "CUSTOMERS": "clienți",
+      "CREATE_CUSTOMER": "creare-client",
+      "EDIT_CUSTOMER": "editare-client",
+      "CONTRACTORS": "contractori",
+      "CREATE_CONTRACTOR": "creare-contractor",
+      "EDIT_CONTRACTOR": "editare-contractor",
+      "EDIT_CONTRACT": "editare-contract",
+      "CONTACTS": "contacte",
+      "CREATE_CONTACT": "creare-contact",
+      "EDIT_CONTACT": "editare-contact",
+      "REPORTS": "raporate",
+      "DEBUG": "debug",
+      "ACTIVITIES": "activități",
+      "CONFIG_USERS": "configurare-utilizatori",
+      "CONTACT": "contact",
+      "ERRORS": "erori",
+      "EDIT_ERROR": "editare-eroare",
+      "ARTICLES": "articole",
+      "CREATE_ARTICLE": "creare-articol",
+      "EDIT_ARTICLE": "editare-articol",
+      "PACKAGING": "ambalaje",
+      "CREATE_PACKAGING": "creare-ambalaj",
+      "EDIT_PACKAGING": "editare-ambalaj",
+      "MATERIALS": "materiale",
+      "CREATE_MATERIAL": "creare-material",
+      "EDIT_MATERIAL": "editare-material",
+      "CONDITIONINGS": "condiționări",
+      "CREATE_CONDITIONING": "creare-condiționare",
+      "EDIT_CONDITIONING": "editare-condiționare",
+      "TRIPLETS": "triplets",
+      "CREATE_TRIPLET": "creare-triplet",
+      "EDIT_TRIPLET": "editare-triplet",
+      "LOGISTIC_SOLUTIONS_DOWNSTREAM_UPSTREAM": "soluții-logistice-downstream-upstream",
+      "CREATE_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM": "creare-soluție-logistică-downstream-upstream",
+      "EDIT_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM": "editare-soluție-logistică-downstream-upstream",
+      "EDIT_LOGISTIC_SOLUTION_DOWNSTREAM_UPSTREAM_TPS": "editare-puncte-tranzit-downstream-upstream",
+      "LOGISTIC_SOLUTIONS_INTERNAL": "soluții-logistice-internal",
+      "CREATE_LOGISTIC_SOLUTION_INTERNAL": "creare-soluție-logistică-internal",
+      "EDIT_LOGISTIC_SOLUTION_INTERNAL": "editare-soluție-logistică-internal",
+      "LOGISTIC_SOLUTIONS": "soluții-logistice",
+      "RECEIVING_ORDERS": "comenzi-primite",
+      "SENDING_ORDERS": "comenzi-trimise",
+      "MANUAL_ORDERS": "comenzi-manuale",
+      "EMERGENCY_ORDERS": "comenzi-urgente",
+      "EDIT_RECEIVING_ORDER": "editare-comandă-primită",
+      "ACCESS_DENIED": "acces-restricționat",
+      "LOGOUT": "Delogare",
+      "ERROR_PAGE": "pagină-eroare",
+      "NOTIFICATION": "alerte",
+      "PACKAGING_OWNERS": "proprietari-ambalaj",
+      "CREATE_PACKAGING_OWNER": "creare-proprietar-ambalaj",
+      "EDIT_PACKAGING_OWNERS": "editare-proprietar-ambalaj",
+      "ASSEMBLIES": "asamblări",
+      "CREATE_ASSEMBLY": "creare-asamblare",
+      "EDIT_ASSEMBLY": "editare-asamblare",
+      "REQUIREMENTS_CONTROL": "requirements-control",
+      "CUSTOMER_PROGRAM": "program-client",
+      "EXPEDITION_PROGRAM": "program-expediție",
+      "RECEPTION_PROGRAM": "program-receptie",
+      "EXPEDITION_SUPPLIER_PROGRAM": "program-expediție-furnizor",
+      "EXECUTION_STOCK_STATUS": "status-stoc",
+      "ASN_OVERVIEW": "asn-perspectiva-generala",
+      "ASN_HISTORIC": "asn-istoric",
+      "FOLLOW_UP_FLOWS": "follow-up-flows",
+      "SUMMARY_OF_DELIVERY_DELAYS": "summary-of-delivery-delays",
+      "FOLLOW_UP_BY_TRANSPORTS": "follow-up_by-transports",
+      "FOLLOW_UP_BY_ASN": "follow-up-by-asn",
+      "FOLLOW_UP_BY_RAN_STATUS": "follow-up-by-ran-status",
+      "PROFILE": "Vizualizare profil",
+      "HELP": "Ajutor"
+    }
+  },
+  "follow_up": {
+    "flows": {
+      "TITLE": "Fluxuri follow-up",
+      "TITLE_ABBR": "FF",
+      "TITLE_EDIT": "Editare flux follow-up",
+      "ARTICLE_FILTER": "Cod articol",
+      "RAN_FILTER": "RAN",
+      "CUSTOMER_NAME_FILTER": "Client",
+      "AILN_FILTER": "AILN",
+      "SUPPLIER_FILTER": "Furnizor",
+      "UPDATE_SLOT_START_DATE": "Date actualizată: data început",
+      "UPDATE_SLOT_END_DATE": "Dată actualizată: data sfârșit",
+      "UPDATE_SLOT_START_TIME": "Dată actualizată: timp început",
+      "UPDATE_SLOT_END_TIME": "Dată actualizată: timp sfârșit",
+      "DATE_REALIZED": "Dată realizat",
+      "TIME_REALIZED": "Timp realizat",
+      "QUANTITY": "Cantitate așteptată",
+      "UPDATED_QUANTITY": "Cantitate actualizată",
+      "QUANTITY_REALIZED": "Cantitate realizată",
+      "RAN_STATUS": "Status RAN",
+      "grid": {
+        "COL_ACTIONS": "Acțuni",
+        "COL_CUSTOMER": "Client",
+        "COL_SUPPLIER": "Furnizor",
+        "COL_SCHEDULED_SLOT": "Dată planificată",
+        "COL_UPDATED_SLOT": "Dată actualizată",
+        "COL_RAN_CODE": "RAN",
+        "COL_EXPECTED_QTY": "Cantitate așteptată",
+        "COL_UPDATED_QTY": "Cantitate actualizată",
+        "COL_DATE_TIME_REALIZED": "Dată/timp realizat",
+        "COL_QUANTITY_REALIZED": "Cantitate realizată",
+        "COL_RAN_STATUS": "Status RAN",
+        "COL_TRANSPORT": "Transport IT/container",
+        "COL_TRANSPORT_REALIZED": "Transport IT/container realizat"
+      },
+      "extras": {
+        "SELECT_AILN": "Selectare AILN",
+        "BUTTON_SEARCH_CUSTOMER": "Selectare client",
+        "BUTTON_SEARCH_SUPPLIER": "Selectare furnizor"
+      },
+      "ran_details": {
+        "SECTION_TITLE": "Detalii RAN",
+        "grid": {
+          "COL_MILESTONE": "Milestone",
+          "COL_ARTICOL_INTERNAL_NUMBER": "Număr Articol",
+          "COL_SUPPLIER_EXPEDITION": "Expediție furnizor",
+          "COL_AILN_RECEPTION": "Recepție AILN",
+          "COL_AILN_EXPEDITION": "Expediție AILN",
+          "COL_CUSTOMER_RECEPTION": "Recepție client",
+          "COL_ETD": "Estimare plecare",
+          "COL_ETA": "Estimare sosire"
+        }
+      }
+    },
+    "byRanStatus": {
+      "TITLE": "Follow up by RAN status",
+      "TITLE_ABBR": "FR",
+      "RAN_FILTER": "RAN",
+      "CUSTOMER_NAME_FILTER": "Customer name",
+      "AILN_FILTER": "AILN",
+      "SUPPLIER_FILTER": "Supplier",
+      "RAN_STATUS_FILTER": "Status",
+      "grid": {
+        "COL_RAN_CODE": "RAN",
+        "COL_ORDER_FOLLOW_UP_BY_RAN": "Order follow up by RAN",
+        "COL_RECEIVED_TO_AILN": "Received to AILN",
+        "COL_CONTROLLED": "Controlled",
+        "COL_INTEGRATED": "Integrated",
+        "COL_RECYCLED": "Recycled",
+        "COL_REJECTED": "Rejected",
+        "COL_SENT_TO_SUPPLIER": "Sent to supplier",
+        "COL_CUSTOMER_NOTIFIED": "Customer notified",
+        "COL_CANCELLED": "Cancelled",
+        "COL_LINKED_TO_RAN": "Linked to RAN",
+        "COL_ARTICLE": "Article",
+        "COL_CUSTOMER": "Customer",
+        "COL_AILN": "AILN",
+        "COL_SUPPLIER": "Supplier",
+        "COL_RAN_STATUS": "RAN status"
+      },
+      "extras": {
+        "STAGES": "FollowUp Stages",
+        "SELECT_AILN": "Select AILN",
+        "BUTTON_SEARCH_CUSTOMER": "Select customer",
+        "BUTTON_SEARCH_SUPPLIER": "Select supplier"
+      }
+    }
+  },
+  "users": {
+    "TITLE": "Administrare utilizatori",
+    "SEARCH_BY_NAME": "Căutare după nume",
+    "view": {
+      "TITLE_EDIT": "Editare utilizator",
+      "TITLE_NEW": "Utilizator nou",
+      "TITLE_SING": "Utilizator",
+      "FIELD_USERNAME": "Nume utilizator",
+      "FIELD_PASSWORD": "Parola",
+      "FIELD_PASSWORD_CONFIRMATION": "Confirmare parolă",
+      "FIELD_NAME": "Prenume",
+      "FIELD_SURNAME": "Nume",
+      "FIELD_LANGUAGE": "Limba",
+      "FIELD_EMAIL": "Email",
+      "FIELD_PHONE": "Număr telefon",
+      "FIELD_FUNCTION": "Funcție",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea utilizatorului selectat?",
+      "DELETE_CONFIRMATION": "Utilizatorul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Utilizatorul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Utilizatorul a fost actualizat cu succes.",
+      "PASSWORD_WARNING": "Parola introdusă nu este aceeași ca în primul câmp."
+    },
+    "buttons": {
+      "ADD": "Adăugare utilizator",
+      "REMOVE": "Ștergere",
+      "BACK_TO_USERS": "Înapoi la gestionarea utilizatorilor"
+    }
+  },
+  "angajati": {
+    "TITLE": "Administrare angajati",
+    "SEARCH_BY_NAME": "Căutare după nume",
+    "view": {
+      "TITLE_EDIT": "Editare angajat",
+      "TITLE_NEW": "Angajat nou",
+      "TITLE_SING": "Angajat",
+      "FIELD_NAME": "Prenume",
+      "FIELD_SURNAME": "Nume",
+      "FIELD_EMAIL": "Email",
+      "FIELD_PHONE": "Număr telefon",
+      "FIELD_FUNCTION": "Funcție",
+      "FIELD_NET_SALARIU": "Salariu net",
+      "FIELD_BRUT_SALARIU": "Salariu brut",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea angajatului selectat?",
+      "DELETE_CONFIRMATION": "Angajatul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Angajatul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Angajatul a fost actualizat cu succes."
+    },
+    "buttons": {
+      "ADD": "Adăugare angajat",
+      "REMOVE": "Ștergere",
+      "BACK_TO_EMPLOYEES": "Înapoi la gestionarea angajatilor"
+    }
+  },
+  "furnizori": {
+    "TITLE": "Administrare furnizori",
+    "SEARCH_BY_NAME": "Căutare după nume",
+    "view": {
+      "TITLE_EDIT": "Editare furnizor",
+      "TITLE_NEW": "Furnizor nou",
+      "TITLE_SING": "Furnizor",
+      "FIELD_ID": "ID"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea furnizorului selectat?",
+      "DELETE_CONFIRMATION": "Furnizorul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Furnizorul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Furnizorul a fost actualizat cu succes."
+    },
+    "buttons": {
+      "ADD": "Adăugare furnizor",
+      "REMOVE": "Ștergere furnizor",
+      "BACK_TO_EMPLOYEES": "Înapoi la gestionarea furnizorilor"
+    }
+  },
+  "firma": {
+    "TITLE": "Detalii firmă",
+    "FIRMA": "Firma",
+    "ADRESA": "Adresa",
+    "TEL": "Tel./Fax/Email",
+    "BANCI": "Bănci",
+    "PERSOANA_AUTORIZATA": "Persoană autorizată",
+    "DECLARANT": "Declarant",
+    "ALTELE": "Altele",
+    "UPDATE_CONFIRMATION": "Detaliile firmei au fost actualizate cu succes.",
+    "NUME_FIRMA": "Nume firmă",
+    "COD_UI": "Cod unic de înregistrare",
+    "COD_REGISTRU": "Cod registru",
+    "CAPITAL_SOCIAL": "Capital social",
+    "CAPITAL_SOCIAL_MONEDA": "lei",
+    "PUNCT_DE_LUCRU": "Punct de lucru",
+    "JUDET": "Județ",
+    "LOCALITATE": "Localitate",
+    "STRADA": "Strada",
+    "NUMAR": "Număr",
+    "SECTOR": "Sector",
+    "COD_POSTAL": "Cod poștal",
+    "COD_RA": "An",
+    "BLOC": "Bloc",
+    "SCARA": "Scară",
+    "APARTAMENT": "Apartament",
+    "NR_TELEFON": "Număr de telefon",
+    "NR_FAX": "Număr de fax",
+    "EMAIL": "Adresă de email",
+    "WEB": "Web",
+    "NR_CRT": "Nr",
+    "NUME_BANCA": "Nume bancă",
+    "SITE_BANCA": "Filială",
+    "CONT_BANCA": "Număr cont",
+    "NUME_PERSOANA": "Numele",
+    "FUNCTIE_PERSOANA": "Funcția",
+    "CNP_PERSOANA": "CNP",
+    "ADRESA_PERSOANA": "Adresa",
+    "NUME_DECLARANT": "Nume",
+    "PRENUME_DECLARANT": "Prenume",
+    "CNP_DECLARANT": "CNP",
+    "FUNCTIE_DECLARANT": "Funcția",
+    "LICENTA_TRANSPORT": "Licența de transport internațional",
+    "TIP_PLATITOR": "Tip plătitor (decl. 394)",
+    "TIP_ACTIV_SPECIALA": "Tip activitate specială",
+    "COD_CAEN": "Cod CAEN (decl. 300)",
+    "NR_CASE_MARCAT": "Nr case marcat (AMEF) (d394)"
+  },
+  "userGroups": {
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea grupului selectat?",
+      "DELETE_CONFIRMATION": "Grupul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Grupul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Grupul a fost actualizat cu succes.",
+      "NO_SELECTION": "Nu ați selectat nici un utilizator."
+    },
+    "grid": {
+      "COL_NAME": "Nume grup",
+      "COL_ID": "Id"
+    },
+    "list": {
+      "TITLE": "Grupuri utilizatori",
+      "SEARCH_TEXT": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare grup",
+      "TITLE_NEW": "Grup nou",
+      "FIELD_NAME": "Nume"
+    }
+  },
+  "userGroupPrivileges": {
+    "messages": {
+      "UPDATE_CONFIRMATION": "Drepturile asociate grupului selectat au fost actualizate cu succes."
+    },
+    "grid": {
+      "COL_NAME": "Nume grup",
+      "COL_ID": "Id"
+    },
+    "list": {
+      "TITLE": "Drepturi grupuri",
+      "SEARCH_TEXT": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare drepturi grup",
+      "PRIVILEGES_SELECTED": "drepturi selectate"
+    }
+  },
+  "contacts": {
+    "SECTION_TITLE": "Contacte",
+    "list": {
+      "TITLE": "Contacte",
+      "SEARCH_TEXT_1": "Căutare după nume sau prenume"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare contact",
+      "TITLE_NEW": "Adăugare contact",
+      "FIELD_ID": "Id",
+      "FIELD_GIVEN_NAME": "Prenume",
+      "FIELD_FAMILY_NAME": "Nume",
+      "FIELD_POSITION": "Funcție",
+      "FIELD_PHONE_1": "Numar telefon 1",
+      "FIELD_PHONE_2": "Numar telefon 2",
+      "FIELD_EMAIL": "Adresa email"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți contactul selectată?",
+      "DELETE_CONFIRMATION": "Contactul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Contactul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Contactul a fost modificat cu succes.",
+      "NO_SELECTION": "Nu ați selectat nici un contact."
+    },
+    "grid": {
+      "COL_ID": "Id",
+      "COL_GIVEN_NAME": "Prenume",
+      "COL_FAMILY_NAME": "Nume",
+      "COL_POSITION": "Funcție",
+      "COL_PHONE_1": "Telefon 1",
+      "COL_PHONE_2": "Telefon 2",
+      "COL_EMAIL": "Email"
+    }
+  },
+  "countries": {
+    "SECTION_TITLE": "Țări",
+    "list": {
+      "TITLE": "Țări",
+      "SEARCH_TEXT_1": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare țară",
+      "TITLE_NEW": "Adăugare țară",
+      "FIELD_CODE": "Cod",
+      "FIELD_NAME": "Nume",
+      "FIELD_CODE_NUM": "Cod numeric",
+      "FIELD_IS_EU": "Țară EU"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți țara selectată?",
+      "DELETE_CONFIRMATION": "Țara a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Țara a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Țara a fost modificată cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Nume",
+      "COL_CODE_NUM": "Cod numeric",
+      "COL_IS_EU": "Țară EU",
+      "COL_ID": "Id"
+    }
+  },
+  "nomenclatures": {
+    "sections": {
+      "LOCATION": "Locații",
+      "TRANSPORT": "Transport",
+      "LABELS": "Etichete",
+      "SPECIFICS": "Specifice",
+      "ORDERS": "Comenzi",
+      "PARTNERS": "Parteneri"
+    }
+  },
+  "counties": {
+    "SECTION_TITLE": "Județe",
+    "list": {
+      "TITLE": "Județe",
+      "SEARCH_TEXT_1": "Căutare după nume",
+      "SEARCH_TEXT_2": "Țara"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare județ",
+      "TITLE_NEW": "Adăugare județ",
+      "FIELD_COUNTRY": "Țara",
+      "FIELD_CODE": "Cod",
+      "FIELD_NAME": "Nume",
+      "FIELD_CODE_NUM": "Cod numeric"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți județul selectat?",
+      "DELETE_CONFIRMATION": "Județul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Județul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Județul a fost modificat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Nume",
+      "COL_CODE_NUM": "Cod numeric",
+      "COL_COUNTRY": "Țara",
+      "COL_ID": "Id"
+    }
+  },
+  "galia_tr_codes": {
+    "SECTION_TITLE": "Coduri transport Galia",
+    "list": {
+      "TITLE": "Coduri transport Galia",
+      "SEARCH_TEXT_1": "Căutare după descriere"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare cod transport Galia",
+      "TITLE_NEW": "Adăugare cod transport Galia",
+      "FIELD_CODE": "Cod",
+      "FIELD_NAME": "Descriere"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți codul Galia selectat?",
+      "DELETE_CONFIRMATION": "Codul Galia a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Codul Galia a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Codul Galia a fost modificat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Descriere",
+      "COL_ID": "Id"
+    }
+  },
+  "incoterms": {
+    "SECTION_TITLE": "Coduri incoterm",
+    "list": {
+      "TITLE": "Coduri incoterm",
+      "SEARCH_TEXT_1": "Căutare după cod"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare incoterm",
+      "TITLE_NEW": "Adăugare incoterm",
+      "FIELD_CODE": "Cod",
+      "FIELD_NAME": "Descriere"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți codul incoterm selectat?",
+      "DELETE_CONFIRMATION": "Codul incoterm a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Codul incoterm a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Codul incoterm a fost modificat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Descriere",
+      "COL_ID": "Id"
+    }
+  },
+  "supplying_specific": {
+    "SECTION_TITLE": "Coduri aprovizionare",
+    "list": {
+      "TITLE": "Coduri aprovizionare",
+      "SEARCH_TEXT_1": "Căutare după cod"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare cod",
+      "TITLE_NEW": "Adăugare cod",
+      "FIELD_CODE": "Cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți codul selectat?",
+      "DELETE_CONFIRMATION": "Codul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Codul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Codul a fost modificat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_ID": "Id"
+    }
+  },
+  "suppliers": {
+    "SECTION_TITLE": "Furnizori",
+    "general_info": {
+      "ACCOUNT": "Datele contului",
+      "ACCOUNT_TEXT": "Date care permit identificarea partenerului conform codului RAFT și SSR. Aici ar trebui să vă documentați numai entitatea părinte.",
+      "LOCATION": "Locație"
+    },
+    "list": {
+      "TITLE": "Furnizori",
+      "SEARCH_TEXT_1": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare furnizor",
+      "TITLE_EDIT": "Editare furnizor",
+      "TITLE_SELECT": "Selecție furnizor",
+      "TITLE_SING": "Furnizor",
+      "TITLE_GENERAL": "Caracteristici generale",
+      "TITLE_AILN_SITES": "AILN/Locații",
+      "TITLE_AILN_SITE_GENERAL": "Caracteristici generale",
+      "TITLE_AILN_SITE_ORDERING": "Caracteristici comandă",
+      "TITLE_MANUFACTURING_SITES": "Locații producție",
+      "TITLE_MANUFACTURING_SITE_ADD": "Adăugare locație producție",
+      "TITLE_MANUFACTURING_SITE_EDIT": "Modificare locație producție",
+      "TITLE_DISPATCH_SITES": "Locații expediere",
+      "TITLE_DISPATCH_SITE_ADD": "Adăugare locație expediere",
+      "TITLE_DISPATCH_SITE_EDIT": "Modificare locație expediere",
+      "TITLE_CONTACTS": "Contacte",
+      "FIELD_ACCOUNT": "Cont",
+      "FIELD_SUBACCOUNT": "Subcont",
+      "FIELD_NAME": "Nume",
+      "FIELD_SENDER_CODE": "Cod EDI expeditor",
+      "FIELD_RECEIVER_CODE": "Cod EDI destinatar",
+      "FIELD_VAT_CODE": "Cod TVA",
+      "FIELD_FEATURES": "Caracteristici",
+      "FIELD_FEATURE_FAB": "FAB",
+      "FIELD_FEATURE_COMAN": "COMAN",
+      "FIELD_FEATURE_FACTU": "FACTU",
+      "FIELD_FEATURE_FABT": "FABT",
+      "FIELD_FEATURE_ENLEV": "ENLEV",
+      "FIELD_FEATURE_SICLI": "SICLI",
+      "FIELD_FEATURE_EXPED": "EXPED",
+      "FIELD_FEATURE_CDG": "CDG",
+      "FIELD_ADDRESS": "Adresa",
+      "FIELD_COUNTRY": "Țara",
+      "FIELD_COUNTY": "Județ",
+      "FIELD_TOWN": "Localitate",
+      "FIELD_ZIPCODE": "Cod poștal",
+      "FIELD_PHONE": "Telefon",
+      "FIELD_EMAIL": "E-mail",
+      "FIELD_AILN": "AILN",
+      "FIELD_LINKED_SITE": "Site asociat",
+      "FIELD_SITE_SITE_NAME": "Site",
+      "FIELD_SITE_SHORT_NAME": "Nume scurt",
+      "FIELD_SITE_SUPP_NAME": "Nume",
+      "FIELD_SITE_INCOTERM": "Incoterm",
+      "FIELD_SITE_SUPPLIER_TYPE": "Tip furnizor",
+      "FIELD_SITE_DO_TYPE": "Tip DO",
+      "FIELD_SITE_MODE": "Mod",
+      "FIELD_SITE_DO_MODE": "Mod DO",
+      "FIELD_SITE_DO_HYBRID": "DO hibrid",
+      "FIELD_SITE_ORDER_FREQUENCY": "Frecvență comenzi",
+      "FIELD_SITE_ORDER_DAY": "fiecare",
+      "FIELD_SITE_SUPPLYING_SPECIFIC": "Cod aprovizionare",
+      "FIELD_SITE_CHAIN_CODE": "Cod lanț",
+      "FIELD_SITE_GALIA_TR_CODE": "Cod transport Galia",
+      "IS_SITE_DISPATCH": "Este locație expediere?",
+      "CUSTOMER_CONTACT_CREATED": "Persoana de contact a fost creată cu succes.",
+      "CUSTOMER_CONTACT_MODIFIED": "Persoana de contact a fost actualizată cu succes.",
+      "DISPATCH_SITE_CREATED": "Locația expediere a fost creată cu succes.",
+      "MANUFACTURING_SITE_CREATED": "Locația producție a fost creată cu succes.",
+      "DISPATCH_SITE_MODIFIED": "Locația expediere a fost actualizată cu succes.",
+      "MANUFACTURING_SITE_MODIFIED": "Locația producție a fost actualizată cu succes."
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sigur doriți stergerea furnizorului selectat?",
+      "CREATE_CONFIRMATION": "Furnizorul a fost adăugat cu succes.",
+      "UPDATE_CONFIRMATION": "Furnizorul a fost modificat cu succes.",
+      "DELETE_CONFIRMATION": "Furnizorul a fost șters cu succes.",
+      "DELETE_QUESTION_SITE": "Sigur doriți ștergerea locației selectate?",
+      "CREATE_CONFIRMATION_SITE": "Locația a fost adăugată cu succes.",
+      "UPDATE_CONFIRMATION_SITE": "Locația a fost modificată cu succes.",
+      "DELETE_CONFIRMATION_SITE": "Locația a fost ștearsă cu succes.",
+      "NO_CONTACTS_SELECTED": "Nici un contact selectat.",
+      "CONTACT_DELETE_QUESTION": "Sigur doriți stergerea contactului selectat?",
+      "CONTACT_DELETE_CONFIRMATION": "Contactul a fost șters cu succes."
+    },
+    "grid": {
+      "COL_ACCOUNT": "Cont",
+      "COL_SUBACCOUNT": "Subcont",
+      "COL_NAME": "Nume",
+      "COL_SENDER_CODE": "Cod EDI expeditor",
+      "COL_RECEIVER_CODE": "Cod EDI destinatar",
+      "COL_VAT_CODE": "Cod TVA",
+      "COL_FEATURES": "Caracteristici",
+      "COL_ADDRESS": "Adresa",
+      "COL_COUNTRY": "Țară",
+      "COL_COUNTY": "Județ",
+      "COL_TOWN": "Localitate",
+      "COL_ZIP_CODE": "Cod poștal",
+      "COL_AILN": "AILN",
+      "COL_LINKED_SITE": "Site asociat",
+      "COL_CHAIN_CODE": "Cod lanț",
+      "COL_GALIA_TR_CODE": "Cod tr Galia",
+      "COL_PHONE": "Telefon",
+      "COL_EMAIL": "Email"
+    },
+    "grid_sites_ailn": {
+      "COL_SITE": "Site",
+      "COL_SHORT_NAME": "Nume scurt",
+      "COL_SUPP_NAME": "Nume",
+      "COL_INCOTERM": "Incoterm",
+      "COL_TYPE": "Tip furnizor",
+      "COL_DO_TYPE": "Tip DO",
+      "COL_MODE": "Mod",
+      "COL_DO_MODE": "Mod DO",
+      "COL_DO_HYBRID": "DO hibrid",
+      "COL_ORDER_FREQUENCY": "Frecvență comenzi",
+      "COL_ORDER_DAY": "Ziua comandă",
+      "COL_SUPPLYING_SPECIFIC": "Cod aprovizionare",
+      "COL_WAREHOUSE": "Magazie"
+    }
+  },
+  "customers": {
+    "SECTION_TITLE": "Clienți",
+    "list": {
+      "TITLE": "Clienți",
+      "SEARCH_TEXT_1": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare client",
+      "TITLE_SELECT": "Selecție client",
+      "TITLE_NEW": "Adăugare client",
+      "TITLE_SING": "Client",
+      "TITLE_GENERAL": "General",
+      "TITLE_SITES": "Locații",
+      "TITLE_ORDER": "Comandare",
+      "TITLE_ORDER_DELIVERIES": "Livrări",
+      "TITLE_ORDER_DELIVERIES_UNLOADING_POINTS": "Puncte de descărcare",
+      "TITLE_BILLING": "Facturare",
+      "TITLE_BILLING_INVOICES": "Facturi",
+      "FIELD_ACCOUNT": "Cont",
+      "FIELD_SUBACCOUNT": "Subcont",
+      "FIELD_NAME": "Nume",
+      "FIELD_FEATURES": "Caracteristici",
+      "FIELD_FEATURE_FAB": "FAB",
+      "FIELD_FEATURE_COMAN": "COMAN",
+      "FIELD_FEATURE_FACTU": "FACTU",
+      "FIELD_FEATURE_FABT": "FABT",
+      "FIELD_FEATURE_ENLEV": "ENLEV",
+      "FIELD_FEATURE_SICLI": "SICLI",
+      "FIELD_FEATURE_EXPED": "EXPED",
+      "FIELD_FEATURE_CDG": "CDG",
+      "FIELD_SENDER_CODE": "Cod EDI expeditor",
+      "FIELD_RECEIVER_CODE": "Cod EDI destinatar",
+      "FIELD_VAT_CODE": "Numar TVA",
+      "FIELD_ADDRESS": "Adresa",
+      "FIELD_ZIP_CODE": "Codul poștal",
+      "FIELD_COUNTRY": "ID Țara",
+      "FIELD_AILN": "AILN",
+      "FIELD_SITE": "Locație",
+      "FIELD_CUSTOMER_SITE": "Locație client",
+      "FIELD_SITE_SHORT_NAME": "Nume scurt",
+      "FIELD_SITE_CUSTOMER_NAME": "Nume client",
+      "FIELD_SITE_CUSTOMER_TYPE": "Tip client",
+      "FIELD_SITE_INCOTERM": "Incoterm",
+      "FIELD_SITE_ACCOUNT": "Cont locație",
+      "FIELD_SITE_SUBACCOUNT": "Subcont locație",
+      "FIELD_LINKED_SITE": "Locația asociată",
+      "FIELD_ORDER_MANUAL": "Comandă manuală",
+      "FIELD_ORDER_NOTIFICATION": "Notificare",
+      "FIELD_ORDER_CUSTOM": "La comandă",
+      "FIELD_ORDER_MODE": "Mod",
+      "FIELD_ORDER_EXPEDITE_RAN": "RAN urgentă",
+      "FIELD_ORDER_ROUNDING": "Rotunjire",
+      "FIELD_ORDER_DO_TYPE": "Tip DO",
+      "FIELD_ORDER_DO_MODE": "Mod DO",
+      "FIELD_ORDER_HYBRID_DO": "DO hibrid",
+      "FIELD_ORDER_DO_RECYCLE": "Reciclare DO",
+      "FIELD_ORDER_FREQUENCY": "Frecvența",
+      "FIELD_ORDER_FREQUENCY_ON_EVERY": "fiecare",
+      "FIELD_ORDER_SUPPLYING_SPECIFIC": "Cod aprovizionare",
+      "FIELD_ORDER_CUSTOMER_ACTIVITY": "Activitate client",
+      "FIELD_ORDER_PPC": "PPC",
+      "FIELD_ORDER_ADDRESS_NEW_DELIVERY": "Livrare noua",
+      "FIELD_ORDER_ADDRESSES_CUSTOMER_NAME": "Nume client",
+      "FIELD_ORDER_ADDRESSES_WAREHOUSE": "Magazie",
+      "FIELD_ORDER_ADDRESSES_CHAIN_CODE": "Cod legatură",
+      "FIELD_ORDER_ADDRESSES_ADDRESS": "Adresa",
+      "FIELD_ORDER_ADDRESSES_CITY": "Oraș",
+      "FIELD_ORDER_ADDRESSES_POST_CODE": "Cod poștal",
+      "FIELD_ORDER_ADDRESSES_PHONE": "Număr telefon",
+      "FIELD_ORDER_ADDRESSES_EMAIL": "Adresă email",
+      "FIELD_ORDER_ADDRESSES_RESTRICTED_PARTS": "Părți restricționate mixte",
+      "FIELD_ORDER_ADDRESS_DELIVERY": "Livrare",
+      "FIELD_ORDER_ADDRESS_DELIVERY_CODE": "Cod",
+      "FIELD_ORDER_ADDRESS_DELIVERY_TRANSPORT_CODE": "Cod transport",
+      "FIELD_BILLING_INVOICING_TYPE": "Tip facturare",
+      "FIELD_BILLING_BACF_EMISSION": "Emisie BAC-F",
+      "FIELD_BILLING_SIDRE": "Client SIDRE",
+      "FIELD_BILLING_CMR_TRANSMIT": "Transmitere CMR",
+      "FIELD_BILLING_TRANSPORT_TYPE": "Tip transport",
+      "FIELD_BILLING_IT_MANDATORY": "IT obligatoriu",
+      "FIELD_BILLING_INVOICE": "Factura",
+      "FIELD_BILLING_NEW_INVOICE": "Factură noua",
+      "FIELD_BILLING_INVOICES_ADDRESS": "Adresa",
+      "FIELD_BILLING_INVOICES_CUSTOMER_NAME": "Nume client",
+      "FIELD_BILLING_INVOICES_VAT_CODE": "Cod TVA",
+      "FIELD_BILLING_INVOICES_CITY": "Oraș",
+      "FIELD_BILLING_INVOICES_POST_CODE": "Cod poștal",
+      "FIELD_BILLING_INVOICES_PHONE": "Număr telefon",
+      "FIELD_BILLING_INVOICES_EMAIL": "Adresă email",
+      "FIELD_BILLING_INVOICES_TRANSLATION": "Cod limbă traducere",
+      "CUSTOMER_SITE_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea locația de client selectată?",
+      "CUSTOMER_SITE_DELETE_CONFIRMATION": "Locația de client a fost ștearsă cu succes.",
+      "CUSTOMER_WAREHOUSE_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea magaziei selectate?",
+      "CUSTOMER_WAREHOUSE_DELETE_CONFIRMATION": "Magazia a fost șterasă cu succes.",
+      "CUSTOMER_WAREHOUSE_CREATED": "Magazia a fost creată cu succes.",
+      "CUSTOMER_WAREHOUSE_MODIFIED": "Magazia a fost actualizată cu succes.",
+      "CUSTOMER_DELIVERY_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea livrării selectate?",
+      "CUSTOMER_DELIVERY_DELETE_CONFIRMATION": "Livrarea a fost ștearsă cu succes.",
+      "UNLOADING_POINT_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea punctului de descarcare selectat?",
+      "UNLOADING_POINT_DELETE_CONFIRMATION": "Punctul de descarcare a fost șters cu succes.",
+      "CUSTOMER_INVOICE_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea facturii selectate?",
+      "CUSTOMER_INVOICE_DELETE_CONFIRMATION": "Factura a fost ștearsă cu succes.",
+      "CUSTOMER_DELIVERY_CREATED": "Livrarea a fost creată cu succes.",
+      "CUSTOMER_DELIVERY_MODIFIED": "Livrarea a fost actualizată cu succes.",
+      "UNLOADING_POINT_CREATED": "Punctul de descarcare a fost creat cu succes.",
+      "UNLOADING_POINT_MODIFIED": "Punctul de descarcare a fost actualizat cu succes.",
+      "INVOICE_CREATED": "Factura a fost creată cu succes.",
+      "INVOICE_MODIFIED": "Factura a fost actualizată cu succes.",
+      "CUSTOMER_CONTACT_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea persoanei de contact selectate?",
+      "CUSTOMER_CONTACT_DELETE_CONFIRMATION": "Persoana de contact a fost ștearsă cu succes.",
+      "CUSTOMER_CONTACT_CREATED": "Persoana de contact a fost creată cu succes.",
+      "CUSTOMER_CONTACT_MODIFIED": "Persoana de contact a fost actualizată cu succes.",
+      "CUSTOMER_WAREHOUSE_MISSMATCH_ACTIVITY": "Magazia selectata nu este de tipul activitătii alese."
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți clientul selectat?",
+      "DELETE_CONFIRMATION": "Clientul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Clientul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Clientul a fost modificat cu succes.",
+      "NO_ACTIVITIES_SELECTED": "Nici o activitate selectată.",
+      "NO_SITES": "Clientul nu are definite date pentru nici o filială.",
+      "NOT_SELECTED": "Selectați un client.",
+      "NO_UNLOADING_POINTS": "Clientul {{customerName}} nu are puncte de descărcare definite."
+    },
+    "grid": {
+      "COL_ACCOUNT": "Cont",
+      "COL_SUBACCOUNT": "Subcont",
+      "COL_NAME": "Nume",
+      "COL_SENDER_CODE": "Cod EDI expeditor",
+      "COL_RECEIVER_CODE": "Cod EDI destinatar",
+      "COL_VAT_CODE": "Numar TVA",
+      "COL_CITY": "Orașul",
+      "COL_COUNTY": "Județul",
+      "COL_COUNTRY": "Țara",
+      "COL_AILN": "AILN",
+      "COL_ZIP_CODE": "Cod poștal",
+      "COL_ADDRESS": "Adresă",
+      "sites": {
+        "COL_SITE": "Locație",
+        "COL_SHORT_NAME": "Nume scurt",
+        "COL_CUSTOMER_NAME": "Nume client",
+        "COL_CUSTOMER_TYPE": "Tip client",
+        "COL_INCOTERM": "Incoterm",
+        "COL_IT_MANDATORY": "IT obligatoriu",
+        "COL_MANUAL_ORDER": "Comandă manuală",
+        "COL_NOTIFICATION": "Notificare",
+        "COL_CUSTOM_ORDER": "La comandă",
+        "COL_MODE": "Mod",
+        "COL_EXPEDITE_RAN": "RAN urgentă",
+        "COL_ROUNDING": "Rotunjire",
+        "COL_DO_TYPE": "Tip DO",
+        "COL_DO_MODE": "Mod DO",
+        "COL_HYBRID_DO": "DO hibrid",
+        "COL_DO_RECYCLE": "Reciclare DO",
+        "COL_FREQUENCY": "Frecvența",
+        "COL_WEEKLY_FREQUENCY": "Orar săptămânal",
+        "COL_SUPPLYING_SPECIFIC": "Cod aprovizionare",
+        "COL_CUSTOMER_ACTIVITY": "Activitate client",
+        "COL_PPC": "PPC",
+        "COL_INVOICING_TYPE": "Tip facturare",
+        "COL_BACF_EMISSION": "Emisie BAC-F",
+        "COL_SIDRE": "Client SIDRE",
+        "COL_CMR_TRANSMIT": "Transmitere CMR",
+        "COL_TRANSPORT_TYPE": "Tip transport"
+      },
+      "deliveries": {
+        "COL_DELIVERY": "Livrare",
+        "COL_CUSTOMER_NAME": "Nume client",
+        "COL_SITE_ACCOUNT": "Cont locație",
+        "COL_SITE_SUBACCOUNT": "Subcont locație",
+        "COL_FEATURES": "Caracteristici",
+        "COL_WAREHOUSE": "Magazie",
+        "COL_CHAIN_CODE": "Cod legatură",
+        "COL_ADDRESS": "Adresa",
+        "COL_CITY": "Orașul",
+        "COL_ZIP_CODE": "Cod poștal",
+        "COL_COUNTY": "Județul",
+        "COL_COUNTRY": "Țara",
+        "COL_PHONE": "Număr telefon",
+        "COL_EMAIL": "Adresa email",
+        "COL_RESTRICTED_PARTS": "Părți restricționate mixte"
+      },
+      "unloadingPoints": {
+        "COL_TRANSPORT_CODE": "GALIA transport code"
+      },
+      "invoices": {
+        "COL_CUSTOMER_NAME": "Nume client",
+        "COL_SITE_ACCOUNT": "Cont locație",
+        "COL_SITE_SUBACCOUNT": "Subcont locație",
+        "COL_VAT_CODE": "Cod TVA",
+        "COL_ADDRESS": "Adresa",
+        "COL_CITY": "Oraș",
+        "COL_ZIP_CODE": "Cod poștal",
+        "COL_COUNTY": "Județul",
+        "COL_COUNTRY": "Țara",
+        "COL_PHONE": "Număr telefon",
+        "COL_EMAIL": "Adresă email",
+        "COL_TRANSLATION": "Cod limbă traducere"
+      },
+      "warehouses": {
+        "COL_CUSTOMER_ACTIVITY": "Tip activitate client",
+        "COL_WAREHOUSE": "Magazie"
+      }
+    }
+  },
+  "towns": {
+    "SECTION_TITLE": "Localități",
+    "list": {
+      "TITLE": "Localități",
+      "SEARCH_TEXT_1": "Căutare după nume",
+      "SEARCH_TEXT_2": "Țara",
+      "SEARCH_TEXT_3": "Județ"
+    },
+    "view": {
+      "TITLE_EDIT": "Editare localitate",
+      "TITLE_NEW": "Adăugare localitate",
+      "TITLE_SELECT": "Selectare localitate",
+      "FIELD_COUNTRY": "Țara",
+      "FIELD_COUNTY": "Județ",
+      "FIELD_NAME": "Localitate",
+      "FIELD_TZ_ON_ALL_CITIES": "Aplicare pe toate localitățile acestei tări"
+    },
+    "messages": {
+      "VALIDATION_COUNTRY_REQUIRED": "Vă rugăm selectați o țară.",
+      "VALIDATION_COUNTY_REQUIRED": "Vă rugăm selectați un județ.",
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți localitatea selectată?",
+      "DELETE_CONFIRMATION": "Localitatea a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Localitatea a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Localitatea a fost modificată cu succes."
+    },
+    "grid": {
+      "COL_NAME": "Nume",
+      "COL_COUNTRY": "Țara",
+      "COL_COUNTY": "Județ",
+      "COL_ID": "Id"
+    }
+  },
+  "activities": {
+    "list": {
+      "TITLE": "Activitate utilizatori"
+    },
+    "methods": {
+      "GET": "GET",
+      "POST": "POST",
+      "PUT": "PUT",
+      "DELETE": "DELETE"
+    },
+    "grid": {
+      "COL_USERNAME": "Utilizator",
+      "COL_METHOD": "Metoda",
+      "COL_CREATED_AT": "Dată",
+      "COL_SERVLET_PATH": "Adresa",
+      "COL_REQUEST_PARAMS": "Parametri",
+      "COL_OPERATION_TYPE": "Tip operație",
+      "COL_ID": "Id"
+    },
+    "operationType": {
+      "ADD": "Adăugare",
+      "MOD": "Modificare",
+      "DELETE": "Ștergere",
+      "READ": "Citire",
+      "DOWNLOAD": "Descărcare",
+      "SEND_EMAIL": "Trimitere e-mail",
+      "PARSE": "Parsare",
+      "PROGRAMARE_CSCT": "Programare CSCT"
+    },
+    "popup": {
+      "TITLE": "Activitate utilizator",
+      "FIELD_CONTEXT_PATH": "Context",
+      "FIELD_CREATED_AT": "Dată",
+      "FIELD_ID": "Id",
+      "FIELD_LANG": "Limba",
+      "FIELD_METHOD": "Metodă",
+      "FIELD_PARAMS": "Parametri",
+      "FIELD_BODY": "Conținut",
+      "FIELD_SERVLET_PATH": "Cerere",
+      "FIELD_USERNAME": "Utilizator",
+      "FIELD_IP": "Adresă IP",
+      "FIELD_USER_AGENT": "Browser"
+    }
+  },
+  "wms": {
+    "SECTION_TITLE": "WMS"
+  },
+  "lists": {
+    "SECTION_TITLE": "Nomenclatoare"
+  },
+  "other": {
+    "SECTION_TITLE": "Altele"
+  },
+  "platforms": {
+    "list": {
+      "TITLE": "Platforme",
+      "SITES": "Filiale",
+      "SUBSITES": "Depozite",
+      "WAREHOUSES": "Magazii",
+      "WAREHOUSE": "Magazie"
+    },
+    "platformEntities": {
+      "TITLE": "Entitati",
+      "TITLE_NEW": "Adaugă entitate",
+      "TITLE_EDIT": "Editare entitate",
+      "TITLE_ENTITY": "Entitate",
+      "CONT_SITE": "Cont Site",
+      "CUVANT": "Cuvânt director",
+      "DENUMIRE": "Denumire",
+      "COD_TVA": "Cod TVA",
+      "TIP_FURNIZOR": "Tip furnizor",
+      "buttons": {
+        "ADD_ENTITY": "Adaugă entitate"
+      },
+      "ENTITY_CREATED": "Entitatea a fost creată cu succes.",
+      "ENTITY_MODIFIED": "Entitatea a fost actualizată cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea entitatii selectate?",
+      "DELETE_CONFIRMATION": "Entitatea a fost ștearsă cu succes."
+    },
+    "platformSites": {
+      "TITLE": "Filiale",
+      "TITLE_NEW": "Adaugă filială",
+      "TITLE_EDIT": "Editare filială",
+      "TITLE_SITE": "Filiala",
+      "TITLE_AILN": "AILN",
+      "TITLE_SELECT": "Selectare filială",
+      "CONT_SITE": "Cont Site",
+      "SUBCONT_SITE": "Subcont Site",
+      "DENUMIRE": "Denumire",
+      "ADRESA": "Adresa",
+      "TARA_DENUMIRE": "Tara",
+      "TARA_COD_GALIA": "Cod Galia",
+      "TARA_COD_ISO": "Cod ISO",
+      "JUDET": "Judet",
+      "ORAS": "Oras",
+      "COD_POSTAL": "Cod postal",
+      "BIROU": "Birou",
+      "COD_PROVINCIE": "Cod provincie",
+      "COD_EMITATOR_EDI": "Emitator EDI",
+      "COD_RECEPTOR_EDI": "Receptor EDI",
+      "CARACTERISTICA_SITE": "Carac. Site",
+      "TIP_FURNIZOR": "Tip furnizor",
+      "SITE_REFERINTA": "Site referinta",
+      "COD_SNC": "Cod SNC",
+      "buttons": {
+        "ADD_SITE": "Adăugare filială",
+        "SAVE_ENTITY": "Salvare entitate",
+        "SELECT_SITE": "Selecție filială"
+      },
+      "messages": {
+        "NOT_SELECTED": "Selectați o filială"
+      },
+      "SITE_CREATED": "Filială a fost creată cu succes.",
+      "SITE_MODIFIED": "Filială a fost actualizată cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea filialei selectate?",
+      "DELETE_CONFIRMATION": "Filială a fost ștearsă cu succes."
+    },
+    "platformSubsites": {
+      "TITLE": "Depozite",
+      "TITLE_SING": "Depozit",
+      "TITLE_NEW": "Adaugă depozit",
+      "TITLE_EDIT": "Editare depozit",
+      "buttons": {
+        "ADD_SUBSITE": "Adăugare depozit",
+        "SAVE_SITE": "Salvare filiala"
+      },
+      "CONT_SITE": "Cont Site",
+      "SUBCONT_SITE": "Subcont Site",
+      "DENUMIRE": "Denumire",
+      "SITE_DENUMIRE": "Denumire filială",
+      "SUBSITE_CREATED": "Depozitul a fost creat cu succes.",
+      "SUBSITE_MODIFIED": "Depozitul a fost actualizată cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea depozitului selectat?",
+      "DELETE_CONFIRMATION": "Depozitul a fost șters cu succes."
+    },
+    "platformWarehouses": {
+      "TITLE": "Magazii",
+      "TITLE_SING": "Magazie",
+      "TITLE_NEW": "Adaugă magazie",
+      "TITLE_EDIT": "Editare magazie",
+      "TITLE_SELECT": "Selectare magazie",
+      "buttons": {
+        "ADD_WAREHOUSE": "Adăugare magazie",
+        "SAVE_SUBSITE": "Salvare depozit",
+        "SAVE_WAREHOUSE": "Salvare magazie"
+      },
+      "COD_WAREHOUSE": "Cod magazie",
+      "LOC_FACTURARE": "Loc de facturare",
+      "CONT_FACTURARE": "Cont facturare",
+      "TIP_WAREHOUSE": "Tip maagazie",
+      "MOD_GESTIUNE": "Mod gestiune",
+      "TIP_ACTIVITATE": "Tip activitate",
+      "INFO_ACTIVITATE": "Info activitate",
+      "WAREHOUSE_CREATED": "Magazia a fost creată cu succes.",
+      "WAREHOUSE_MODIFIED": "Magazia a fost actualizată cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea magaziei selectate?",
+      "DELETE_CONFIRMATION": "Magazia a fost ștearsă cu succes."
+    }
+  },
+  "reports": {
+    "list": {
+      "SEARCH_TEXT": "Căutare",
+      "TITLE": "Rapoarte"
+    },
+    "report1": {
+      "TITLE": "Raport test 1"
+    }
+  },
+  "errors": {
+    "level": {
+      "ERROR": "Eroare",
+      "WARNING": "Atenționare",
+      "INFO": "Informație"
+    },
+    "grid": {
+      "COL_EMAIL": "Raportat",
+      "COL_FIXED": "Fixat",
+      "COL_LEVEL": "Nivel",
+      "COL_MESSAGE": "Mesaj",
+      "COL_ORIGIN": "Origine",
+      "COL_APP": "Aplicație",
+      "COL_REQUEST": "Adresa"
+    },
+    "list": {
+      "TITLE": "Erori aplicație",
+      "SEARCH_TEXT": "Căutare erori"
+    },
+    "sent": {
+      "SENT_ONLY": "Doar raportate",
+      "NOT_SENT_ONLY": "Doar neraportate"
+    },
+    "fixed": {
+      "FIXED_ONLY": "Doar fixate",
+      "NOT_FIXED_ONLY": "Doar nefixate"
+    },
+    "view": {
+      "TITLE_EDIT": "Modificare eroare",
+      "FIELD_EMAIL": "Email",
+      "FIELD_FIXED": "Fixat",
+      "FIELD_LEVEL": "Nivel",
+      "FIELD_MESSAGE": "Mesaj",
+      "FIELD_STACKTRACE": "Detalii",
+      "FIELD_EMAIL_SENT": "Email trimis",
+      "BUTTON_SEND_EMAIL": "Raportează eroarea"
+    },
+    "messages": {
+      "UPDATE_CONFIRMATION": "Eroarea a fost actualizată cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea erorii selectate?",
+      "DELETE_CONFIRMATION": "Eroarea a fost ștearsă cu succes.",
+      "SEND_EMAIL_QUESTION": "Sigur doriți să raportați această eroare?",
+      "EMAIL_SENT_CONFIRMATION": "Eroarea a fost raportată cu succes."
+    }
+  },
+  "articole": {
+    "list": {
+      "TITLE": "Articole",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "grid": {
+      "COL_COD_INTERN": "Cod",
+      "COL_DESCRIERE": "Descriere",
+      "COL_ARTICOL_TYPE": "Tip",
+      "COL_BRAND": "Brand",
+      "COL_PROIECTE": "Proiecte",
+      "COL_FAMILII": "Familii",
+      "COL_SERIAL_NR": "Serial nr.",
+      "COL_UNDER_RESTRICTION": "Restricționat"
+    },
+    "view": {
+      "TAB_NAME": "Caracteristici generale",
+      "TITLE_NEW": "Adăugare articol",
+      "TITLE_EDIT": "Editare articol",
+      "TITLE_SELECT": "Selectare articol",
+      "TITLE_SING": "Articol",
+      "FIELD_CUSTOMER_ARTICLE": "Articol client",
+      "FIELD_DESCRIERE": "Descriere",
+      "FIELD_COLOR": "Culoare",
+      "FIELD_UM": "Unitate de măsura",
+      "FIELD_FAMILY": "Familii",
+      "FIELD_PROJECT": "Proiecte",
+      "FIELD_COD_INTERN": "Cod articol",
+      "FIELD_ARTICOL_TYPE": "Tip articol",
+      "FIELD_BRAND": "Brand",
+      "FIELD_PRICE": "Preț standard",
+      "FIELD_SECURITY_CHARACTERISTICS": "Caract. siguranță",
+      "FIELD_TYPE": "Tip",
+      "FIELD_WEIGHT": "Greutate",
+      "FIELD_HEIGHT": "Înălțime",
+      "FIELD_WIDTH": "Lățime",
+      "FIELD_LENGTH": "Lungime",
+      "FIELD_VOLUME": "Volum",
+      "FIELD_SERIAL_NUMBER": "Număr serial",
+      "FIELD_UNDER_RESTRICTION": "Cu restricții",
+      "FIELD_REF": "Referință {{refNo}}",
+      "TAB_GENERAL": "General",
+      "TAB_AUDIT": "Audit",
+      "TAB_SITE_SPECIFIC": "Specifice filialei",
+      "TAB_DESCRIPTIONS": "Descrieri",
+      "TAB_TRIPLETS": "Tripleți",
+      "FIELD_SITE": "Filiala",
+      "TAB_SITES_GENERAL": "Caracteristici generale",
+      "TAB_SITES_CHANGE_MANAGEMENT": "Management schimbare"
+    },
+    "siteSpecific": {
+      "FIELD_DESCRIERE": "Descriere site",
+      "FIELD_COD_INTERN": "Cod",
+      "FIELD_TIP_FURNIZOR": "Tip furnizor",
+      "FIELD_REF": "Referință {{refNo}}",
+      "FIELD_ARTICOL_NOU": "Articol nou",
+      "FIELD_START_DATE": "Dată de inceput",
+      "FIELD_SPECIFIC_DESCRIERE": "Descriere specifică",
+      "FIELD_SPECIFIC_ARTICLE": "Cod articol specific",
+      "FIELD_CHANGED_ARTICLE": "Articol schimbat",
+      "FIELD_ACTIVE": "Activ"
+    },
+    "descriptions": {
+      "LANGUAGE_REF": "Descriere [{{language}}]"
+    },
+    "triplets": {
+      "COL_CUSTOMER_ACCOUNT": "Cont client",
+      "COL_CUSTOMER_NAME": "Nume client",
+      "COL_SUPPLIER_ACCOUNT": "Cont furnizor",
+      "COL_SUPPLIER_NAME": "Nume furnizor",
+      "MANUFACTURING_SITE": "Site productie"
+    },
+    "messages": {
+      "CREATE_CONFIRMATION": "Articolul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Articolul a fost actualizat cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea articolului selectat?",
+      "DELETE_CONFIRMATION": "Articolul a fost șters cu succes.",
+      "NO_PROJECT_SELECTED": "Nici un proiect selectat.",
+      "NO_FAMILY_SELECTED": "Nici o familie selectată.",
+      "TRIPLET_AND_CONDITIONING_NOT_FOUND": "Nu a fost gasit triplet cu conditionare activa pentru clientul, furnizorul si articolul selectat.",
+      "NOT_SELECTED": "Introduceți un cod de articol.",
+      "ALL": "Toate",
+      "RESET": "Resetează",
+      "SEARCH": "Caută"
+    },
+    "types": {
+      "PART": "Piese",
+      "MATERIAL": "Materiale"
+    },
+    "securityCharacteristics": {
+      "SAFETY": "Siguranță",
+      "REGULATORY": "Reglementare"
+    }
+  },
+  "packagings": {
+    "list": {
+      "TITLE": "Ambalaje",
+      "TITLE_SELECT": "Selectare ambalaj",
+      "TITLE_PALLET_SELECT": "Selectare palet"
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ORIGIN_CODE": "Cod origine",
+      "COL_TRANSPORT_CHARACTERISTIC": "Caracteristica transport",
+      "COL_DURABLE": "Durabil",
+      "COL_FAMILY": "Familie",
+      "COL_NATURE": "Categorie",
+      "COL_SIZE": "Dimensiuni"
+    },
+    "messages": {
+      "CREATE_CONFIRMATION": "Ambalajul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Ambalajul a fost actualizat cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea ambalajului selectat?",
+      "DELETE_CONFIRMATION": "Ambalajul a fost șters cu succes."
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare ambalaj",
+      "TITLE_EDIT": "Editare ambalaj",
+      "TITLE_SING": "Ambalaj",
+      "general": {
+        "TAB_NAME": "Caracteristici generale",
+        "FIELD_CODE": "Cod",
+        "FIELD_STACKING_CODE": "Cod stivuire",
+        "FIELD_DESCRIPTION": "Descriere",
+        "FIELD_ORIGIN_CODE": "Cod origine",
+        "FIELD_PACKAGING_OWNER": "Proprietari ambalaj",
+        "FIELD_TRANSPORT": "Tip transport",
+        "FIELD_FAMILY": "Familie",
+        "FIELD_NATURE": "Categorie",
+        "FIELD_VALIDATION_DATE": "Dată validare",
+        "FIELD_DURABLE": "Durabil",
+        "FIELD_DIMENSIONS": "Dimensiuni"
+      },
+      "dimensions": {
+        "TAB_NAME": "Dimensiuni",
+        "FIELD_TARE_GO": "Tare go (kg)",
+        "FIELD_MAX_LOAD": "Maxim incarcare (kg)",
+        "FIELD_MAX_WEIGHT": "Greutate maxima (kg)",
+        "OUTSIDE": "Exterior",
+        "INSIDE": "Interior",
+        "EMPTY": "Spatiu",
+        "LENGTH": "Lungime (mm)",
+        "WIDTH": "Latime (mm)",
+        "HEIGHT": "Inaltime (mm)",
+        "AREA": "Suprafata (dm2)",
+        "VOLUME": "Volum (dm3)",
+        "NOT_A_NUMBER": "Dimensiunile trebuie sa fie numerice.",
+        "GREATER_THEN_0": "Dimensiunile trebuie sa fie mai mari ca 0.",
+        "INTEGER_VALUES_ONLY": "Dimensiunile trebuie sa fie numere intregi.",
+        "GREATER_THAN_MAX": "Dimensiunile trebuie sa fie mai mici decat 999999999999999999."
+      },
+      "otherCharact": {
+        "TAB_NAME": "Alte caracteristici",
+        "FIELD_MATERIAL": "Material",
+        "FIELD_COLOR": "Culoare",
+        "FIELD_COLOR_NAME": "Nume culoare",
+        "FIELD_COLOR_SHADE": "Nuanta culoare",
+        "FIELD_DOC_QUALITY": "Calitate documentara",
+        "FIELD_PROJECT_CODE": "Cod proiect",
+        "FIELD_MOD_INDEX": "Index modificare"
+      },
+      "pricing": {
+        "TAB_NAME": "Preturi",
+        "PRICE": "Pret",
+        "PRICE_CURRENCY": "Valuta",
+        "YEAR_PRICE": "An"
+      },
+      "stacking": {
+        "TAB_NAME": "Stivuire",
+        "STORAGE": "Spatiu Stivuire",
+        "PILE_HEIGHT": "Înălțimea pilonului (mm)",
+        "TRANSPORT": "Stivuirea transportului",
+        "TRANSPORT_PILE_HEIGHT": "Transportul înălțimii pilonului (mm)",
+        "TRANSPORT_LINEAR": "Transport metru liniar (mm)",
+        "UNFOLDED": "Plin/Desfasurat",
+        "EMPTY": "Pliat/Gol",
+        "NOT_A_NUMBER": "Dimensiunile de stivuire trebuie sa fie numerice."
+      },
+      "palletization": {
+        "TAB_NAME": "Paletizare",
+        "BOX_LAYER": "Caseta/Strat",
+        "LAYER_PALLET": "Strat/Palet",
+        "BOX_PALLET": "Caseta/Palet",
+        "LAYER_HEIGHT": "Strat/Lungime (mm)",
+        "PALLETIZED_SET": "Lungime set palet (mm)",
+        "UNFOLDED": "Plin/Desfasurat",
+        "EMPTY": "Pliat/Gol",
+        "RECOMANDED_PALLET": "Palet recomandat",
+        "NOT_A_NUMBER": "Dimensiunile de paletizare trebuie sa fie numerice."
+      },
+      "components": {
+        "TAB_NAME": "Componente",
+        "MATERIAL_CODE": "Cod material",
+        "NATURE": "Categorie",
+        "DESCRIPTION": "Descriere",
+        "SIZE": "Dimensiune",
+        "QUANTITY": "Cantitate",
+        "RETURNED": "Returnate",
+        "TAB_EDIT": "Componenta",
+        "PACKAGING_COMPONENT_CREATED": "Componenta a fost creată cu succes.",
+        "PACKAGING_COMPONENT_MODIFIED": "Componenta a fost actualizată cu succes.",
+        "PACKAGING_COMPONENT_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea componentei selectate?",
+        "PACKAGING_COMPONENT_DELETE_CONFIRMATION": "Componenta a fost ștearsă cu succes.",
+        "PACKAGING_COMPONENT_ERROR": "Componenta nu poate fi aceeasi cu ambalajul curent.",
+        "componentPopup": {
+          "TITLE": "Căutare ambalaj",
+          "CLOSE_BUTTON": "Renunțare",
+          "SAVE_BUTTON": "Salvare",
+          "SEARCH_TEXT": "Căutare după cod"
+        }
+      },
+      "partners": {
+        "TAB_NAME": "Coduri parteneri",
+        "CUSTOMER": "Client",
+        "SUPPLIER": "Furnizor",
+        "PACKAGE_CODE": "Cod ambalaj",
+        "PARTNER_ACCOUNT": "Cont partener",
+        "PARTNER_NAME": "Nume partener",
+        "PARTNER_TYPE": "Tip",
+        "PACKAGING_PARTNER_CREATED": "Partenerul a fost creat cu succes.",
+        "PACKAGING_PARTNER_MODIFIED": "Partenerul a fost actualizat cu succes.",
+        "PACKAGING_PARTNER_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea partenerului selectat?",
+        "PACKAGING_PARTNER_DELETE_CONFIRMATION": "Partenerul a fost șters cu succes.",
+        "ADD_CUSTOMER": "Adaugă client",
+        "ADD_SUPPLIER": "Adaugă furnizor",
+        "CLOSE_BUTTON": "Renunțare",
+        "SAVE_BUTTON": "Salvare",
+        "SEARCH_TEXT": "Căutare după nume",
+        "CUSTOMER_POPUP": "Căutare client",
+        "SUPPLIER_POPUP": "Căutare furnizor"
+      },
+      "audit": {
+        "TAB_NAME": "Audit"
+      }
+    }
+  },
+  "materials": {
+    "list": {
+      "TITLE": "Materiale",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "CREATE_CONFIRMATION": "Materialul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Materialul a fost actualizat cu succes.",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea materialul selectat?",
+      "DELETE_CONFIRMATION": "Materialul a fost șters cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod material",
+      "COL_DESCRIERE": "Descriere",
+      "COL_TYPE": "Tip material",
+      "COL_DURABLE": "Durabil",
+      "COL_DIMENSION": "Dimensiune",
+      "COL_VOLUME": "Volum",
+      "COL_WEIGHT": "Greutate",
+      "COL_SUPPLIERS": "Furnizori"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare material",
+      "TITLE_EDIT": "Editare material",
+      "TAB_SUPPLIERS": "Furnizori pentru materialul [{{materialCode}}]",
+      "COL_SUPPLIER_NAME": "Nume furnizor",
+      "COL_SUPPLIER_ACCOUNT": "Cont furnizor",
+      "COL_SUPPLIER_SUBACCOUNT": "Subcont furnizor",
+      "COL_SITE_CODE": "Cod site",
+      "COL_SPECIFIC_CODE": "Cod specific",
+      "general": {
+        "TAB_NAME": "Caracteristici generale",
+        "FIELD_CODE": "Material Cod",
+        "FIELD_DESCRIPTION": "Descriere",
+        "FIELD_TYPE": "Tip",
+        "FIELD_UM": "Unitate de măsura",
+        "FIELD_DURABLE": "Durabil",
+        "FIELD_MATERIAL_TYPE": "Tip material",
+        "FIELD_COLOR": "Culoare"
+      },
+      "dimensions": {
+        "TAB_NAME": "Dimensiuni",
+        "LENGTH": "Lungime (mm)",
+        "HEIGHT": "Inălţime (mm)",
+        "WIDTH": "Lăţime (mm)",
+        "THICKNESS": "Grosime (mm)",
+        "WEIGHT": "Greutate (g)",
+        "VOLUME": "Volum (dm3)"
+      },
+      "pricing": {
+        "TAB_NAME": "Preturi",
+        "PRICE": "Pret",
+        "PRICE_CURRENCY": "Valuta"
+      },
+      "audit": {
+        "TAB_NAME": "Audit"
+      },
+      "suppliers": {
+        "TAB_NAME": "Furnizori",
+        "TAB_EDIT": "Furnizor",
+        "SITE": "Filiala",
+        "SUPPLIER_ACCOUNT": "Cont furnizor",
+        "SUPPLIER_SUBACCOUNT": "Subcont furnizor",
+        "SUPPLIER_NAME": "Nume furnizor",
+        "SPECIFIC_CODE": "Cod material",
+        "MATERIAL_SUPPLIER_CREATED": "Furnizorul a fost creat cu succes.",
+        "MATERIAL_SUPPLIER_MODIFIED": "Furnizorul a fost actualizat cu succes.",
+        "MATERIAL_SUPPLIER_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea furnizorului selectat?",
+        "MATERIAL_SUPPLIER_DELETE_CONFIRMATION": "Furnizorul a fost șters cu succes.",
+        "SEARCH_TEXT": "Căutare după nume"
+      },
+      "descriptions": {
+        "TAB_NAME": "Descrieri"
+      }
+    }
+  },
+  "currencies": {
+    "list": {
+      "TITLE": "Valute",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea valutei selectate?",
+      "DELETE_CONFIRMATION": "Valuta a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Valuta a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Valuta a fost actualizată cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_DEFAULT_VALUE": "Valută implicită",
+      "COL_SYMBOL": "Simbol"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare valută",
+      "TITLE_EDIT": "Editare valută",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FIELD_DEFAULT_VALUE": "Valută implicită",
+      "FIELD_SYMBOL": "Simbol"
+    }
+  },
+  "brands": {
+    "list": {
+      "TITLE": "Mărci",
+      "SEARCH_TEXT": "Căutare după nume"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea mărcii selectate?",
+      "DELETE_CONFIRMATION": "Marca a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Marca a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Marca a fost actualizată cu succes."
+    },
+    "grid": {
+      "COL_NAME": "Nume",
+      "COL_DESCRIPTION": "Descriere"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare marcă",
+      "TITLE_EDIT": "Editare marcă",
+      "FIELD_NAME": "Nume",
+      "FIELD_DESCRIPTION": "Descriere"
+    }
+  },
+  "triplets": {
+    "SECTION_TITLE": "Tripleți",
+    "list": {
+      "TITLE": "TRIPLEȚI PERSPECTIVĂ GENERALĂ",
+      "SEARCH_TEXT_1": "Căutare după nume"
+    },
+    "view": {
+      "TITLE_SING": "Triplet",
+      "TITLE_NEW": "Adăugare triplet",
+      "TITLE_LIST": "Lista TRIPLEȚI",
+      "TAB_DATA": "Date triplet",
+      "TAB_PAIRED": "Tripleți pereche",
+      "TAB_OTHER_CHARACTERISTICS": "Alte caracteristici",
+      "TAB_ORDERING_PARAM": "Parametri comandă",
+      "TAB_SUPPLYING_ORDER": "Parametri comandă furnizor",
+      "TAB_SOURCING_PARAM": "Parametri de aprovizionare",
+      "TAB_ORDERS_ENTRY": "Intrare comenzi",
+      "COM_LOGISTIC_SOLUTION_ACTIVE": "Detalii Soluții Logistice",
+      "COM_LOGISTIC_SOLUTION_FUTURE": "Detalii Soluții Logistice Viitoare",
+      "COM_CONDITIONINGS_ACTIVE": "Detalii Condiționări",
+      "COM_CONDITIONINGS_FUTURE": "Detalii Condiționări Viitoare",
+      "COM_CONTRACTS_ACTIVE": "Detalii Contracte",
+      "COM_CONTRACTS_FUTURE": "Detalii Contracte Viitoare",
+      "FIELD_ARTICLE": "Cod articol",
+      "FIELD_ARTICLE_DESCRIPTION": "Descriere articol",
+      "FIELD_ARTICLE_TOOLTIP": "Cod articol",
+      "FIELD_API_CODE": "Cod API site",
+      "FIELD_INITIALIZATION_DATE": "Dată creare",
+      "FIELD_INITIALIZATION_DATE_EXPLANATION": "(dată de creare a tripletului)",
+      "FIELD_CUSTOMER_ACCOUNT": "Cont client",
+      "FIELD_CUSTOMER_NAME": "Nume client",
+      "FIELD_CUSTOMER_SUBACCOUNT": "Subcont client",
+      "FIELD_UNLOADING_POINT": "Punct descărcare",
+      "FIELD_SUPPLIER_ACCOUNT": "Cont furnizor",
+      "FIELD_SUPPLIER_SUBACCOUNT": "Subcont furnizor",
+      "FIELD_SUPPLIER_NAME": "Nume furnizor",
+      "FIELD_MANUFACTURING_SITE": "Site producție",
+      "FIELD_MANUFACTURING_SITE_EXPLANATION": "(pentru furnizorul selectat)",
+      "FIELD_DISPATCH_SITE": "Site expediere",
+      "FIELD_DISPATCH_SITE_EXPLANATION": "(pentru furnizorul selectat)",
+      "FIELD_MANUFACTURING_CONT_SITE": "Cont site producție",
+      "FIELD_FROM_DATE": "De la",
+      "FIELD_TO_DATE": "Până la",
+      "FIELD_BUSINESS_MODE": "Mod de afaceri",
+      "FIELD_START_DATE": "Dată aplicare (ziua de început)",
+      "FIELD_START_DATE_EXPLANATION": "(ziua de început)",
+      "FIELD_END_DATE": "Dată sfârșit (ziua de sfârșit)",
+      "FIELD_LOGISTIC_IDS": "Id-uri soluții logistice",
+      "FIELD_DELIVERY_DAY": "Ziua livrare (ziua de recepție la client)",
+      "FIELD_PARTNER_CODIFICATION": "Codificare partener",
+      "FIELD_PARTNER_ARTICLE_CODE": "Cod articol partener",
+      "FIELD_PARTNER_ARTICLE_DESCRIPTION": "Descriere articol partener",
+      "FIELD_FIRST_DUE_DATE": "Prima scadență (prima zi de utilizare a articolului la client)",
+      "FIELD_LAST_DUE_DATE": "Ultima scadență (ultima zi de utilizare a articolului la client)",
+      "FIELD_TRIPLET_TYPE": "Tip triplet",
+      "FIELD_TRIPLET_CODE": "Cod triplet",
+      "FIELD_ARTICLE_SECOND": "Articol secundar",
+      "BUTTON_SEARCH_ARTICLE": "Selecție articol",
+      "BUTTON_SEARCH_CUSTOMER": "Selecție client",
+      "BUTTON_SEARCH_SUPPLIER": "Selecție furnizor",
+      "FIELD_STATUS": "Status",
+      "SECTION_DATA": "Date generale triplet",
+      "SECTION_ARTICLE": "Articol",
+      "SECTION_CUSTOMER": "Client",
+      "SECTION_SUPPLIER": "Furnizor",
+      "SECTION_BUSINESS": "Activitate"
+    },
+    "orders": {
+      "FIELD_FIRST_DATE": "Prima scadență ",
+      "FIELD_LAST_DATE": "Ultima scadență",
+      "FIELD_DO": "Comenzi primite",
+      "FIELD_FIRST_DATE_TEXT": "Reprezintă prima scadență a clientului. Pentru modul de plecare, prima zi ar putea fi ≥ ziua curentă. Pentru modul de sosire, prima zi ar putea fi ≥ data calculată, în conformitate cu tranzitul de timp al soluției logistice.",
+      "FIELD_LAST_DATE_TEXT": "Reprezintă ultima scadență a clientului.",
+      "FIELD_DO_TEXT": "Reprezintă parametrii comenzilor.",
+      "FIELD_DO_TYPE": "Tip DO",
+      "FIELD_DO_MODE": "Mod DO",
+      "FIELD_MODE": "Mod",
+      "FIELD_ORDER_FREQ": "Frecvență comandă",
+      "FIELD_ORDER_FREQUENCY_ON_EVERY": "Fiecare",
+      "FIELD_ORDERING_NOTICE": "Notificare de comandă",
+      "FIELD_OVERALL_TIME": "Timpul general",
+      "FIELD_NOTICE_DAYS": "Numărul de zile de preaviz",
+      "COL_TRANSIT_TIME": "Timp tranzit",
+      "COL_START_DATE": "Dată aplicare",
+      "COL_END_DATE": "Dată sfârșit",
+      "COL_STATUS": "Status",
+      "COL_UNLOADING_POINT": "Punct descărcare",
+      "COL_TR_CODE": "Cod transport",
+      "COL_OVERALL_TIME": "Timp general"
+    },
+    "orderingParam": {
+      "FIELD_FORECAST_ACCURACY": "Precizia prognozei",
+      "FIELD_FORECAST_ACCURACY_TEXT": "Exactitatea comenzii prognozate față de comandă fermă.",
+      "FIELD_SAFETY_STOCK": "Stoc de siguranță",
+      "FIELD_SAFETY_STOCK_TEXT": "Reprezintă nevoile clientului în ceea ce privește stocul de siguranță.",
+      "FIELD_PPC_MANAGEMENT": "Management PPC",
+      "FIELD_PPC_MANAGEMENT_TEXT": "Verifică dacă piesa este livrată în modul PPC (piese mici).",
+      "FIELD_EQ_ORDER_QUANTITY": "Cantitatea de comandă economică",
+      "FIELD_EQ_ORDER_QUANTITY_TEXT": "Determinarea cantității la comandă pentru a găsi echilibrul corect între costurile de achiziție și costurile de deținere.",
+      "FIELD_VALUE": "Valoare",
+      "FIELD_REVERSE_LOGISTICS": "Logistică inversă",
+      "FILED_PROJECTS": "Proiecte",
+      "FILED_PROJECTS_TEXT": "Specifică proiectele pentru care este utilizat articolul selectat."
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți tripletul selectat?",
+      "DELETE_CONFIRMATION": "Tripletul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Tripletul a fost adaugat cu succes.",
+      "UPDATE_CONFIRMATION": "Tripletul a fost modificat cu succes."
+    },
+    "grid": {
+      "COL_TRIPLET_TYPE": "Tip triplet",
+      "COL_TRIPLET_CODE": "Cod triplet",
+      "COL_ARTICLE": "Articol",
+      "COL_API_CODE": "Cod API site",
+      "COL_CUSTOMER_ACCOUNT": "Cont client",
+      "COL_CUSTOMER_NAME": "Nume client",
+      "COL_UNLOADING_POINT": "Punct descărcare",
+      "COL_SUPPLIER_ACCOUNT": "Cont furnizor",
+      "COL_SUPPLIER_NAME": "Nume furnizor",
+      "COL_MANUFACTURING_SITE": "Site producție",
+      "COL_START_DATE": "Dată aplicare",
+      "COL_END_DATE": "Dată sfârșit",
+      "COL_STATUS": "Status"
+    },
+    "statuses": {
+      "IN_WORK": "În lucru",
+      "ACTIVE": "Activ",
+      "INACTIVE": "Inactiv"
+    },
+    "pswCertificates": {
+      "APPROVED": "K0 - Aprobat",
+      "INTERIM": "K10 – Aprobare interimară",
+      "REJECT": "K50 – Refuzat",
+      "UNKNOWN": "Necunoscut"
+    },
+    "supplyOrders": {
+      "FIELD_SUPPLY_ORDERS": "Comenzi de aprovizionare",
+      "FIELD_SUPPLY_ORDERS_TEXT": "Reprezintă parametrii comenzilor.",
+      "FIELD_DO_TYPE": "Tip DO",
+      "FIELD_MODE": "Mod",
+      "FIELD_DO_MODE": "Mod DO",
+      "FIELD_ORDER_FREQ": "Frecvența comenzilor",
+      "FIELD_ORDER_FREQUENCY_ON_EVERY": "În fiecare",
+      "FIELD_DELIVERY_CODE": "Cod livrare",
+      "FIELD_DELIVERY_CODE_TEXT": "Descrierea secțiunii și a câmpurilor pentru a înțelege mai bine.",
+      "FIELD_PSW": "Certificat PSW",
+      "FIELD_PSW_TEXT": "Descrierea secțiunii și a câmpurilor pentru a înțelege mai bine.",
+      "FIELD_DEROGATION": "Derogare",
+      "FIELD_FROM_DEROGATION": "Derogare de la",
+      "FIELD_DEROGATION_TEXT": "Descrierea secțiunii și a câmpurilor pentru a înțelege mai bine.",
+      "FIELD_ORDER_PREP": "Pregătirea comenzii",
+      "FIELD_SUPPLY_ORDER_PREP": "Pregătirea comenzii de aprovizionare",
+      "FIELD_NOTICE_DAYS": "Numărul de zile de preaviz",
+      "PRORATE_VALUE": "Valoare prorată"
+    },
+    "sourcingParam": {
+      "FIELD_ROUNDING": "Rotunjire",
+      "FIELD_ROUNDING_TEXT": "Reprezintă rotunjirea comenzii.",
+      "FIX_QTY": "Cantitate fixă",
+      "INFERIOR_ROUNDING": "Rotunjire inferioară",
+      "SUPERIOR_ROUNDING": "Rotunjire superioară",
+      "FIELD_CAPACITY_OPTIONAL": "Capacitate (opțional)",
+      "FIELD_CAPACITY": "Capacitate",
+      "FIELD_CAPACITY_TEXT": "Reprezintă capacitatea furnizorului de a produce articolul selectat.",
+      "FIELD_ECO_PROD_QTY": "Economic production quantity",
+      "FIELD_ECO_PROD_QTY_TEXT": "Determină cantitatea pe care o companie sau un comerciant cu amănuntul ar trebui să dispună să reducă la minimum costurile totale ale inventarului, echilibrând costul de deținere al inventarului și costul mediu fix de comandă.",
+      "FIELD_VALUE": "Valoare",
+      "FIELD_REVERSE_LOGISTICS": "Logistică inversă",
+      "FIELD_REVERSE_LOGISTICS_TEXT": "Reprezintă managementul returnării pieselor în caz de incoerență.",
+      "FIELD_PROJECTS": "Proiecte",
+      "FIELD_PROJECTS_TEXT": "Reprezintă proiectele pentru care este utilizat articolul selectat."
+    }
+  },
+  "conditionings": {
+    "list": {
+      "TITLE": "Condiționări"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea condiționării selectate?",
+      "DELETE_CONFIRMATION": "Condiționarea a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Condiționarea a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Condiționarea a fost actualizată cu succes.",
+      "NOT_FOUND": "Condiționarea nu a fost găsită."
+    },
+    "grid": {
+      "COL_SITE": "Filiala",
+      "COL_TRIPLET_CODE": "Cod triplet",
+      "COL_ARTICLE_CODE": "Cod articol",
+      "COL_CUSTOMER_NAME": "Nume client",
+      "COL_SUPPLIER_NAME": "Nume furnizor",
+      "COL_PU_PACKAGING_CODE": "Cod ambalaj PU",
+      "COL_HU_PACKAGING_CODE": "Cod ambalaj HU",
+      "COL_PARTS_PU": "Nr bucăți PU",
+      "COL_PARTS_HU": "Nr bucăți HU",
+      "COL_APPLICABILITY_DATE": "Dată aplicare",
+      "COL_STOP_DATE": "Dată stop",
+      "COL_STATUS": "Stare"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare condiționare",
+      "TITLE_EDIT": "Editare condiționare",
+      "general": {
+        "TAB_NAME": "Caracteristici generale",
+        "SITE": "Filiala (ILN)",
+        "TRIPLET_CODE": "Cod triplet",
+        "ARTICLE_CODE": "Cod articol",
+        "SUPPLIER_ACCOUNT": "Cont furnizor",
+        "SUPPLIER_NAME": "Nume furnizor",
+        "CUSTOMER_ACCOUNT": "Cont client",
+        "CUSTOMER_NAME": "Nume client",
+        "CONDITIONING_TYPE": "Tip condiționare",
+        "PU_PACKAGING_CODE": "Cod ambalaj PU",
+        "PU_PACKAGING_CODE_SHORT": "PU",
+        "PU_SAME_WITH_HU": "PU = HU",
+        "HU_PACKAGING_CODE": "Cod ambalaj HU",
+        "HU_PACKAGING_CODE_SHORT": "HU",
+        "PARTS_PU": "Nr bucăți PU",
+        "PARTS_HU": "Nr bucăți HU",
+        "NUMBER_PU_HU": "Nr bucăți PU/HU",
+        "APPLICABILITY_DATE": "Dată aplicare",
+        "STOP_DATE": "Dată stop",
+        "STATUS": "Stare",
+        "PART_WEIGHT": "Greutate piesă (Kg)",
+        "PU_WEIGHT": "Greutate PU (Kg)",
+        "HU_WEIGHT": "Greutate HU (Kg)",
+        "TOTAL_WEIGHT": "Greutate totală (Kg)",
+        "TOTAL_VOLUME": "Volum total",
+        "IS_PALLETIZATION": "Paletizare activă",
+        "SEARCH_TRIPLET": "Caută triplet",
+        "TRIPLET_SEARCH_TEXT": "Căutare după cod",
+        "SEARCH_PACKINGING": "Căutare ambalaj"
+      },
+      "stacking": {
+        "TAB_NAME": "Stivuire"
+      },
+      "palletization": {
+        "TAB_NAME": "Paletizare",
+        "USED_PALLET": "Palet folosit"
+      },
+      "materials": {
+        "TAB_EDIT": "Material",
+        "TAB_NAME": "Materiale",
+        "CODE": "Cod material",
+        "DESCRIPTION": "Descriere material",
+        "TYPE": "Tip material",
+        "DIMENSIUNI": "Dimensioni (mm)",
+        "UNIT_OF_MEASUREMENT": "UM",
+        "QUANTITY": "Cantitate",
+        "TOTAL_WEIGHT": "Greutate totală (Kg)",
+        "TOTAL_MATERIALS": "Greutate totală",
+        "SEARCH_TEXT": "Căutare după cod",
+        "MATERIAL_CREATED": "Materialul a fost creat cu succes.",
+        "MATERIAL_MODIFIED": "Materialul a fost actualizat cu succes.",
+        "MATERIAL_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea materialului selectat?",
+        "MATERIAL_DELETE_CONFIRMATION": "Materialul a fost șters cu succes."
+      },
+      "audit": {
+        "TAB_NAME": "Audit"
+      }
+    }
+  },
+  "unitsOfMeasure": {
+    "list": {
+      "TITLE": "Unități de măsură",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea unității de măsură selectate?",
+      "DELETE_CONFIRMATION": "Unitatea de măsură a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Unitatea de măsură a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Unitatea de măsură fost actualizată cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Nume",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare unitate de măsură",
+      "TITLE_EDIT": "Editare unitate de măsură",
+      "FIELD_CODE": "Cod",
+      "FIELD_FALLBACK_NAME": "Nume implicit",
+      "LANGUAGE_REF": "Nume [{{language}}]"
+    }
+  },
+  "contractorTypes": {
+    "list": {
+      "TITLE": "Tipuri contractori",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de contractor selectat?",
+      "DELETE_CONFIRMATION": "Tipul de contractor a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Tipul de contractor a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Tipul de contractor fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id",
+      "COL_USED_FOR_LOGISTIC_SOLUTION": "Folosit la soluții logistice"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare tip de contractor",
+      "TITLE_EDIT": "Editare tip de contractor",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere"
+    }
+  },
+  "contractors": {
+    "list": {
+      "TITLE": "Contractori"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea contractorului selectat?",
+      "DELETE_CONFIRMATION": "Contractorul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Contractorul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Contractorul a fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_ACCOUNT": "Cont",
+      "COL_SUBACCOUNT": "Subcont",
+      "COL_NAME": "Nume",
+      "COL_CONTRACTOR_TYPE": "Tip contractor",
+      "COL_NR_CONTRACT": "Număr contract",
+      "COL_SENDER_CODE": "Cod expeditor (EDI)",
+      "COL_RECEIVER_CODE": "Cod destinatar (EDI)",
+      "COL_CITY_NAME": "Localitate",
+      "COL_ADDRESS": "Adresă",
+      "COL_ZIP_CODE": "Cod ZIP",
+      "COL_PHONE": "Telefon",
+      "COL_EMAIL": "E-mail"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare contractor",
+      "TITLE_EDIT": "Editare contractor",
+      "TITLE_SELECT": "Selectare contractor",
+      "SEARCH_TEXT": "Căutare după nume",
+      "general": {
+        "TAB_NAME": "Caracteristici generale",
+        "FIELD_ACCOUNT": "Cont",
+        "FIELD_SUBACCOUNT": "Subcont",
+        "FIELD_NAME": "Nume",
+        "FIELD_CONTRACTOR_TYPE": "Tip contractor",
+        "FIELD_NR_CONTRACT": "Number contract",
+        "FIELD_SENDER_CODE": "Cod expeditor (EDI)",
+        "FIELD_RECEIVER_CODE": "Cod destinatar (EDI)",
+        "FIELD_COUNTRY": "Țara",
+        "FIELD_COUNTY": "Județ",
+        "FIELD_CITY_NAME": "Localitate",
+        "FIELD_ADDRESS": "Adresă",
+        "FIELD_ZIP_CODE": "Cod ZIP",
+        "FIELD_PHONE": "Telefon",
+        "FIELD_EMAIL": "E-mail"
+      },
+      "contacts": {
+        "TAB_NAME": "Contacte",
+        "CONTACT_CREATED": "Persoana de contact a fost adaugată cu succes.",
+        "CONTACT_MODIFIED": "Persoana de contact a fost actualizată cu succes.",
+        "CONTACT_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea persoanei de contact selectate?",
+        "CONTACT_DELETE_CONFIRMATION": "Persoana de contact a fost ștearsă cu succes."
+      },
+      "audit": {
+        "TAB_NAME": "Audit"
+      }
+    }
+  },
+  "colors": {
+    "list": {
+      "TITLE": "Culori",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea culorii selectate?",
+      "DELETE_CONFIRMATION": "Culoarea a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Culoarea a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Culoarea fost actualizată cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_NAME": "Nume",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare culoare",
+      "TITLE_EDIT": "Editare culoare",
+      "FIELD_CODE": "Cod",
+      "FIELD_FALLBACK_NAME": "Nume implicit",
+      "LANGUAGE_REF": "Nume [{{language}}]"
+    }
+  },
+  "projects": {
+    "list": {
+      "TITLE": "Familii și proiecte",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "buttons": {
+      "ADD_NEW_FAMILY": "Adaugă familie"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de proiect selectat?",
+      "DELETE_CONFIRMATION": "Proiectul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Proiectul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Proiectul fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_FAMILY_CODE": "Cod familie",
+      "COL_CODE": "Cod proiect",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare proiect",
+      "TITLE_EDIT": "Editare proiect",
+      "FIELD_FAMILY_CODE": "Cod familie",
+      "FIELD_CODE": "Cod proiect",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FAMILY_CREATED": "Familia a fost creată cu succes"
+    }
+  },
+  "transportTypes": {
+    "list": {
+      "TITLE": "Tipuri transport",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de transport selectat?",
+      "DELETE_CONFIRMATION": "Tipul de transport a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Tipul de transport a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Tipul de transport fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_TYPE": "Tip",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare tip de transport",
+      "TITLE_EDIT": "Editare tip de transport",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FIELD_TYPE": "Tip"
+    }
+  },
+  "notifications": {
+    "TITLE": "Mesaje instante",
+    "MESSAGE": "Mesaj",
+    "SEND": "Trimite"
+  },
+  "doFormats": {
+    "list": {
+      "TITLE": "Formate DO",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea formatului DO selectat?",
+      "DELETE_CONFIRMATION": "Formatul DO a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Formatul DO a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Formatul DO a fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_DO_TYPE": "Tip DO",
+      "COL_FILE_FORMAT": "Tip fișier",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_FREQUENCY": "Frecvența",
+      "COL_DO_SOURCE": "Sursă DO",
+      "COL_INTEGRATED": "Integrare",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare format DO",
+      "TITLE_EDIT": "Editare format DO",
+      "FIELD_DO_TYPE": "Tip DO",
+      "FIELD_FILE_FORMAT": "Tip fișier",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FIELD_FREQUENCY": "Frecvența",
+      "FIELD_DO_SOURCE": "Sursă DO",
+      "FIELD_INTEGRATED": "Integrare"
+    }
+  },
+  "customerTypes": {
+    "list": {
+      "TITLE": "Tipuri clienţi",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de client selectat?",
+      "DELETE_CONFIRMATION": "Tipul de client a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Tipul de client a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Tipul de client fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare tip de client",
+      "TITLE_EDIT": "Editare tip de client",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere"
+    }
+  },
+  "invoicingTypes": {
+    "list": {
+      "TITLE": "Tipuri facturare",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de facturare selectat?",
+      "DELETE_CONFIRMATION": "Tipul de facturare a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Tipul de facturare a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Tipul de facturare fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare tip de facturare",
+      "TITLE_EDIT": "Editare tip de facturare",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere"
+    }
+  },
+  "orderStatuses": {
+    "list": {
+      "TITLE": "Stări comandă",
+      "SEARCH_TEXT": "Căutare după status"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea stării selectate?",
+      "DELETE_CONFIRMATION": "Starea a fost ștearsă cu succes.",
+      "CREATE_CONFIRMATION": "Starea a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Starea afost actualizată cu succes."
+    },
+    "grid": {
+      "COL_STATUS": "Stare",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Stare comandă nouă",
+      "TITLE_EDIT": "Editare stare comandă",
+      "FIELD_FALLBACK_NAME": "Traducere implicită",
+      "LANGUAGE_REF": "Stare [{{language}}]"
+    }
+  },
+  "anomalyMessages": {
+    "list": {
+      "TITLE": "Mesaje de eroare",
+      "SEARCH_TEXT": "Căutare după mesaj"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea mesajului de eroare selectat?",
+      "DELETE_CONFIRMATION": "Mesajul de eroare a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Mesajul de eroare a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Mesajul de eroare a fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CLASS": "Clasă eroare",
+      "COL_TYPE": "Tip eroare",
+      "COL_MESSAGE": "Mesaj de eroare",
+      "COL_ACTION": "Acțiune",
+      "COL_IMPACT": "Impactul erorii",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Mesaj de eroare nou",
+      "TITLE_EDIT": "Editare mesaj de eroare",
+      "TITLE_SELECT": "Selecție mesaj eroare",
+      "FIELD_CLASS": "Clasă eroare",
+      "FIELD_TYPE": "Tip eroare",
+      "FIELD_MESSAGE": "Mesaj de eroare",
+      "FIELD_ACTION": "Acțiune",
+      "FIELD_IMPACT": "Impactul erorii",
+      "FIELD_ID": "Id"
+    }
+  },
+  "emergencyOrderReasons": {
+    "list": {
+      "TITLE": "Motive comenzi urgente",
+      "SEARCH_TEXT": "Căutare după motiv"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea motivului selectat?",
+      "DELETE_CONFIRMATION": "Motivul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Motivul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Motivul a fost actualizat cu succes."
+    },
+    "grid": {
+      "COD_REASON": "Motiv",
+      "COL_DESCRIPTION": "Descriere cauză",
+      "COL_RESPONSABILITY": "Responsabilitate",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Motiv nou",
+      "TITLE_EDIT": "Editare motiv",
+      "FIELD_REASON": "Motiv",
+      "FIELD_DESCRIPTION": "Descriere cauză",
+      "FIELD_RESPONSABILITY": "Responsabilitate",
+      "FIELD_ID": "Id"
+    }
+  },
+  "platformActivityCodes": {
+    "list": {
+      "TITLE": "Coduri activitate platformă",
+      "SEARCH_TEXT": "Comentariu conține"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea codului activitate platforma selectat?",
+      "DELETE_CONFIRMATION": "Codul activitate platforma a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Codul activitate platforma a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Codul activitate platforma a fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CATEGORY": "Categorie",
+      "COL_TYPE": "Tip",
+      "COL_COMMENTS": "Comentarii",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Cod activitate platformă nou",
+      "TITLE_EDIT": "Editare cod activitate platformă",
+      "FIELD_CATEGORY": "Categorie",
+      "FIELD_TYPE": "Tip",
+      "FIELD_COMMENTS": "Comentarii",
+      "FIELD_ID": "Id"
+    }
+  },
+  "ranCodes": {
+    "list": {
+      "TITLE": "Coduri RAN",
+      "TITLE_SING": "Cod RAN",
+      "SEARCH_TEXT": "Căutare după cod RAN",
+      "TYPE_NONE": "Nealocat",
+      "TYPE_STANDARD": "Standard",
+      "TYPE_MANUAL": "Manual",
+      "TYPE_EMERGENCY": "Urgentă",
+      "TYPE_BALANCE": "Balansare",
+      "TYPE_SPLIT": "Împărțire",
+      "TYPE_MERGE": "Îmbinare",
+      "TYPE_CUSTOMER_CA": "Client în mod CA/CAA",
+      "TYPE_SUPPLIER_CA": "Furnizor în mod CA/CAA",
+      "RAN_STATUS": "RAN status"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea codului RAN selectat?",
+      "DELETE_CONFIRMATION": "Codului RAN a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Codului RAN a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Codului RAN afost actualizat cu succes.",
+      "TYPE_NOT_SELECTED": "Selectați un tip de RAN."
+    },
+    "grid": {
+      "COL_TYPE": "Tip",
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Cod RAN nou",
+      "TITLE_EDIT": "Editare cod RAN",
+      "FIELD_TYPE": "Tip",
+      "FIELD_CODE": "Cod",
+      "FIELD_CODE_PLACEHOLDER": "Cod, caractere speciale: # = generare numere incremental (aleatoriu fără cod de bază), @ = generare litere incremental, * = copiere din codul de bază, orice alt caracter = folosit neschimbat",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FIELD_ID": "Id"
+    }
+  },
+  "logisticSolutions": {
+    "SECTION_TITLE": "Soluții logistice",
+    "list": {
+      "TITLE": "Soluții logistice downstream/upstream",
+      "SEARCH_TEXT_1": "Căutare după nume"
+    },
+    "tooltips": {
+      "EDIT_TRANSIT_POINTS": "Modificare puncte tranzit/segmente"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare soluție logistică",
+      "TITLE_EDIT": "Modificare soluție logistică",
+      "TITLE_DOWN_UP_NEW": "Adăugare soluție logistică downstream/upstream",
+      "TITLE_DOWN_UP_EDIT": "Modificare soluție logistică downstream/upstream",
+      "TITLE_EDIT_TPS": "Modificare puncte tranzit",
+      "TITLE_SELECT": "Selecție soluție logistică",
+      "SUBTITLE_GENERAL": "Caracteristici soluție logistică",
+      "SUBTITLE_LS_DETAILS": "Detalii soluție logistică",
+      "SUBTITLE_TPS_DETAILS": "Puncte de tranzit/segmente",
+      "FIELD_ARTICLE": "Articol",
+      "FIELD_ARTICLE_TOOLTIP": "Scrieți codul articolului pentru căutare",
+      "FIELD_SITE": "Site AILN",
+      "FIELD_CUSTOMER_ACCOUNT": "Client",
+      "FIELD_SUPPLIER_ACCOUNT": "Furnizor",
+      "FIELD_TRANSPORT_TYPE": "Cod transport Galia",
+      "FIELD_INCOTERM": "Incoterm",
+      "FIELD_TRANSIT_TIME": "Timp tranzit",
+      "FIELD_TYPE": "Tip",
+      "FIELD_DO_MODE": "Mod DO",
+      "FIELD_START_DATE": "Dată aplicare",
+      "FIELD_END_DATE": "Dată sfărșit",
+      "FIELD_END_DATE_EXPLANATION": "(Dată expirare triplet)",
+      "FIELD_END_DATEFIELD_ARTICOL_NUMBER": "Dată sfărșit",
+      "FIELD_ID": " Id",
+      "FIELD_STATUS": "Stare",
+      "BUTTON_SEARCH_ARTICLE": "Selecție articol",
+      "BUTTON_SEARCH_CUSTOMER": "Selecție client",
+      "BUTTON_SEARCH_SUPPLIER": "Selecție furnizor",
+      "DAYS_SCHEDULE": "Planificare pe zile",
+      "FIELD_UNLOADING_POINT": "Puncte de descărcare",
+      "MONDAY": "Mon",
+      "TUESDAY": "Tue",
+      "WEDNESDAY": "Wed",
+      "THURSDAY": "Thu",
+      "FRIDAY": "Fri",
+      "SATURDAY": "Sat",
+      "SUNDAY": "Sun",
+      "articles": {
+        "TAB_NAME": "Articole"
+      }
+    },
+    "messages": {
+      "INVALID_FORM_DATA": "Datele introduse nu sunt valide!",
+      "INVALID_FORM_DATA_SITE": "Selectați an site AILN!",
+      "INVALID_FORM_DATA_CUSTOMER": "Selectați un client!",
+      "INVALID_FORM_DATA_SUPPLIER": "Selectați un furnizor!",
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea soluției logistice?",
+      "CREATE_CONFIRMATION": "Soluția logistică a fost adaugată cu succes.",
+      "UPDATE_CONFIRMATION": "Soluția logistică a fost modificată cu succes.",
+      "DELETE_CONFIRMATION": "Soluția logistică a fost ștearsă cu succes.",
+      "ERROR_ON_TIME": "Timpul definit pe milestone-uri e diferit de cel de pe segmente.",
+      "MISSING_SEGMENT_DEFINITION": "Segmentul nu este definit pentru acest milestone.",
+      "MISMATCH_ON_TIME_PER_MILESTONE": "Milestone-ul trebuie sa aibe acelasi timp ca și segmentul impreuna cu timpul de pe transit point."
+    },
+    "grid": {
+      "COL_SITE": "Site AILN",
+      "COL_CUSTOMER_ACCOUNT": "Cont client",
+      "COL_CUSTOMER_NAME": "Nume client",
+      "COL_SUPPLIER_ACCOUNT": "Cont furnizor",
+      "COL_SUPPLIER_NAME": "Nume furnizor",
+      "COL_GALIA_TR_CODE": "Cod tr Galia",
+      "COL_TRANSIT_TIME": "Timp tranzit",
+      "COL_INCOTERM": "Incoterm",
+      "COL_TYPE": "Tipi",
+      "COL_DO_MODE": "Mod DO",
+      "COL_START_DATE": "Dată început",
+      "COL_END_DATE": "Dată sfărșit"
+    },
+    "transitPoints": {
+      "TAB_EDIT": "Editare punct de transit",
+      "TAB_NEW": "Creare punct de transit",
+      "WAITING_TIME": "Timp de așteptare",
+      "COMMENT1": "Comentarii 1",
+      "COMMENT2": "Comentarii 2",
+      "TYPE_FORMALITY": "Tip formalitate",
+      "SEARCH_TEXT": "Căutare după nume"
+    },
+    "segments": {
+      "TAB_EDIT": "Editare segment",
+      "TAB_NEW": "Creare segment",
+      "SEGMENT_CODE": "Code segment",
+      "TRANSIT_TIME": "Timp de tranzit",
+      "TYPE_DELAY": "Tip intarziere",
+      "CARRIERS": "Transportatori",
+      "REFERENCE1": "Recomandare 1",
+      "REFERENCE2": "Recomandare 2",
+      "REFERENCE3": "Recomandare 3"
+    },
+    "milestones": {
+      "TAB_EDIT": "Editare milestone",
+      "TAB_NEW": "Creare milestone",
+      "ORDER_DAY": "Ziua de start",
+      "ASN_EMISSION": "Emisie ASN",
+      "TRANSPORT_EXIT": "Iesire transport",
+      "EXPORT_CUSTOM": "Export custom",
+      "TRANSIT_POINT_RECEPTION": "Receptie punct tranzit",
+      "TRANSIT_POINT_SHIPPING": "Expediere punct tranzit",
+      "IMPORT_CUSTOM": "Import custom",
+      "DUE_DATE": "Dată scadentă",
+      "SCHEDULE": "Planificat",
+      "CONTAINER_CLOSING": "Inchidere container",
+      "TRANSPORT_DEPARTURE": "Plecare transport",
+      "CUT_OFF": "Oprire",
+      "ETD": "ETD",
+      "ETA": "ETA",
+      "TRANSHIPMENT_ENTRY": "Intrare transbordare",
+      "TRANSHIPMENT_EXIT": "Iesire transbordare"
+    },
+    "template": {
+      "TYPE": "Tip:",
+      "SUPPLIER_NAME": "Nume furnizor:",
+      "ACCOUNT": "Cont:",
+      "ADDRESS": "Adresă:",
+      "CITY_COUNTRY": "Localitate (Ţara):",
+      "TRANSIT_TIME": "Timp tranzit:",
+      "TOTAL_MILESTONE_TRANSIT_TIME": "Total:",
+      "AILN_NAME": "Nume AILN:",
+      "CUSTOMER_NAME": "Nume client:",
+      "TRANSIT_POINT_TYPE": "Tip TP:",
+      "CONTRACTOR_NAME": "Nume contractor:",
+      "WAITING_TIME": "Timp așteptare:",
+      "DEPARTURE": "Plecare",
+      "ARRIVAL": "Sosire",
+      "END_POINT": "Milestone:",
+      "DAYS": "Zile"
+    },
+    "network": {
+      "FILTER_PERSPECTIVE": "Filtrare perspectivă",
+      "CUSTOMER": "Client",
+      "SUPPLIER": "Furnizor",
+      "ALL_CUSTOMERS": "Toți clienți",
+      "ALL_SUPPLIERS": "Toți furnizorii",
+      "FIELD_SITES": "Filiale",
+      "filter2": {
+        "ROUTE_CODE": "ID",
+        "SOLUTION_CODE": "Cod soluție",
+        "CUSTOMER_NAME": "Nume client",
+        "AILN_TYPE": "Tip AILN",
+        "DESTINATION_POINT": "Pct. dest.",
+        "AILN_NAME": "Nume AILN",
+        "TRANSPORT_MODE": "Mod transport",
+        "TRANSIT_TIME": "Timp transit",
+        "STATUS": "Status",
+        "SUPPLIER_NAME": "Nume furnizor",
+        "FLOW_TYPE": "Tip proces",
+        "AILN_DELAY": "Intarziere AILN",
+        "DOWNSTREAM_SOLUTIONS": "Soluții Downstream",
+        "UPSTREAM_SOLUTIONS": "Soluții Upstream",
+        "INTERNAL_SOLUTIONS": "Soluții Interne",
+        "ARTICLES": "Articole"
+      }
+    }
+  },
+  "deliveryOrders": {
+    "list": {
+      "TITLE": "Comenzi primite",
+      "TITLE_ABBR": "DO",
+      "FILE_NAME_FILTER": "Nume fișier",
+      "RAN_CODE_FILTER": "Codul RAN conține",
+      "CUSTOMER_FILTER": "Client",
+      "AILN_FILTER": "AILN",
+      "FILE_TYPE_FILTER": "Format fișier",
+      "grid": {
+        "COL_FILE_NAME": "Nume fișier",
+        "COL_TYPE": "Tip",
+        "COL_SOURCE": "Sursă",
+        "SENDER_DATE": "Dată trimitere",
+        "FILE_SIZE": "Dimensiune fișier",
+        "ROW_COUNT": "Nr linii",
+        "ROW_VALIDATED_COUNT": "Validate",
+        "ROW_RECYCLED_COUNT": "Reciclate",
+        "ROW_REJECTED_COUNT": "Respinse",
+        "COL_STATUS": "Status",
+        "COL_CUSTOMER": "Client",
+        "COL_SITE": "Site",
+        "COL_ACTIVE": "Activă"
+      }
+    },
+    "view": {
+      "TITLE_EDIT": "Vizualizare comandă primită [{{id}}]: {{fileName}}, {{rowNo}} linii",
+      "FIELD_FILE_NAME": "Nume fișier",
+      "FIELD_TYPE": "Tip",
+      "FIELD_SOURCE": "Sursă",
+      "FIELD_SENDER_DATE": "Dată trimitere",
+      "FIELD_FILE_SIZE": "Dimensiune fișier",
+      "FIELD_ROW_COUNT": "Nr linii",
+      "FIELD_ROW_VALIDATED_COUNT": "Validate",
+      "FIELD_ROW_RECYCLED_COUNT": "Reciclate",
+      "FIELD_ROW_REJECTED_COUNT": "Respinse",
+      "FIELD_STATUS": "Status",
+      "COL_ROW_INDEX": "Index fișier",
+      "COL_VALIDATION_STATUS": "Status",
+      "COL_NAME": "Nume",
+      "COL_CONTENT": "Conținut",
+      "ROW_FIELDS": "Câmpuri pentru linia:&nbsp;",
+      "FILE_ROWS": "Linii fișier:&nbsp;",
+      "REJECTED": "Refuzate",
+      "RECYCLED": "Reciclate",
+      "VALIDATED": "Validate",
+      "NAME": "Nume:&nbsp;",
+      "CONTENT": "Conținut:&nbsp;",
+      "STATUS": "Stare:&nbsp;",
+      "DESCRIPTION": "Descriere:&nbsp;",
+      "LENGTH": "Lungime:&nbsp;",
+      "ERROR_TYPE": "Tip eroare:&nbsp;",
+      "ANOMALY_MESSAGE": "Mesaj de eroare:&nbsp;",
+      "AS_LIST": "Listă",
+      "AS_TABLE": "Tabel",
+      "AS_LINE": "Linie",
+      "RAN_FILTER": "Cod RAN"
+    },
+    "messages": {
+      "UPDATE_CONFIRMATION": "Comanda a fost actualizată cu succes.",
+      "UPLOAD_CONFIRMATION": "Comanda a fost încărcată cu succes.",
+      "VALIDATION_STARTED": "Procesul de validare a început.",
+      "PC_STARTED": "Procesul de trimitere către Program clienți a început.",
+      "VALIDATON_FINISHED": "Procesul de validare a fișierului {{fileName}} s-a încheiat, cu rezultatul: <ul><li>linii validate: {{validatedCount}}</li><li>linii reciclate: {{recycledCount}}</li><li>linii respinse: {{rejectedCount}}</li></ul>.",
+      "SEND_TO_PC_FINISHED": "Procesul de trimitere a fișierului {{fileName}} in Program client s-a încheiat. S-au trimis {{rowsTotal}} linii.",
+      "RECYCLE_SUCCESS_CONFIRMATION": "Comanda de livrare a fost reciclată cu success în fișierul nou {{fileName}}, {{rowsProcessed}} linii reciclate din {{rowsTotal}}.",
+      "RECYCLE_FAILED_CONFIRMATION": "Reciclarea fișierului comandă de livrare {{fileName}} a eșuat din cauza: {{errMessage}}."
+    }
+  },
+  "sendOrders": {
+    "list": {
+      "TITLE": "Comenzi trimise",
+      "TITLE_ABBR": "SO",
+      "FILE_NAME_FILTER": "Nume fișier",
+      "SUPPLIER_FILTER": "Furnizor",
+      "AILN_FILTER": "AILN",
+      "FILE_TYPE_FILTER": "Format fișier",
+      "grid": {
+        "COL_SUPPLIER_NAME": "Nume furnizor",
+        "COL_FILE_NAME": "Nume fișier",
+        "COL_TYPE": "Tip",
+        "COL_SOURCE": "Sursă",
+        "ROW_COUNT": "Nr linii",
+        "COL_STATUS": "Status",
+        "COL_SITE": "Site"
+      }
+    },
+    "messages": {
+      "UPLOAD_CONFIRMATION": "Fișierul de comenzi a fost încărcată cu succes.",
+      "SEND_TO_SUPPLIER_FINISHED": "Fișierul de comenzi {{fileName}} a fost trimis la furnizor cu success."
+    }
+  },
+  "flowTypes": {
+    "list": {
+      "TITLE": "Tipuri de procese",
+      "SEARCH_TEXT": "Caută dupa cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea tipului de proces?",
+      "CREATE_CONFIRMATION": "Tipul de proces a fost adaugat cu succes.",
+      "UPDATE_CONFIRMATION": "Tipul de proces a fost modificat cu succes.",
+      "DELETE_CONFIRMATION": "Tipul de proces a fost șters cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_TYPE": "Tip",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_STOCKING": "Stoc",
+      "COL_WORKLOAD_INDICATOR": "Indicator volum de muncă",
+      "COL_INTERNAL_DELAY": "Întârziere",
+      "COL_AILN": "Nume AILN",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adaugă tip de proces",
+      "TITLE_EDIT": "Editare tip de proces",
+      "FIELD_CODE": "Cod",
+      "FIELD_TYPE": "Tip",
+      "FIELD_DESCRIPTION": "Descriere",
+      "FIELD_STOCKING": "Stoc",
+      "FIELD_WORKLOAD_INDICATOR": "Indicator volum de muncă",
+      "FIELD_INTERNAL_DELAY": "Întârziere",
+      "FIELD_AILN": "Nume AILN",
+      "FIELD_DELAY_TYPE": "Tip intârziere"
+    }
+  },
+  "packagingOwners": {
+    "list": {
+      "TITLE": "Proprietari ambalaje",
+      "SEARCH_TEXT": "Căutare după cod"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea proprietarului selectat?",
+      "DELETE_CONFIRMATION": "Proprietarul a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Proprietarul a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Proprietarul fost actualizat cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare proprietar ambalaj",
+      "TITLE_EDIT": "Editare proprietar ambalaj",
+      "FIELD_CODE": "Cod",
+      "FIELD_DESCRIPTION": "Descriere"
+    }
+  },
+  "manual_orders": {
+    "view": {
+      "ADD_MANUAL_ORDER": "Adăugare comandă manual",
+      "TITLE_LIST": "Lista comenzi manuale",
+      "TITLE": "Comenzi manuale",
+      "TITLE_ABBR": "MO",
+      "CUSTOMER_NAME_FILTER": "Nume client",
+      "DO_TYPE_FILTER": "Tip DO",
+      "DO_MODE_FILTER": "Mod DO",
+      "ROUNDING_FILTER": "Rotunjire",
+      "MODE_FILTER": "Mod",
+      "UNLOADING_POINT_FILTER": "Punct descărcare",
+      "ACTIVITY_TYPE_FILTER": "Tip activitate",
+      "TRANSPORT_TYPE_FILTER": "Tip transport",
+      "ARTICLE_CODE_FILTER": "Cod articol",
+      "grid": {
+        "COL_ARTICLE_CODE": "Cod articol",
+        "COL_DESCRIPTION": "Descriere",
+        "COL_PACKAGING_CODE": "Cod ambalare",
+        "COL_NO_CONTRACT": "Număr contract",
+        "COL_ORDERED_QUANTITY": "Cantitate comandă",
+        "COL_RAN": "RAN",
+        "COL_QUANTITY_PACKAGING": "Cantitate / ambalaj"
+      }
+    },
+    "popup_item": {
+      "TITLE_MANUAL_ORDER_ITEM": "Articol comandă manuală",
+      "ARTICLE_CODE": "Cod articol",
+      "ARTICLE_DESCRIPTION": "Descriere",
+      "ORDER_DATE": "Dată comandă",
+      "ORDERED_QUANTITY": "Cantitate comandată",
+      "RAN": "RAN",
+      "QUANTITY_PER_PACKAGING": "Cantitate / ambalaj",
+      "DATE": "Data/ziua",
+      "TOTAL_ORDER_QUANTITY": "Cantitatea total comandata"
+    },
+    "popup": {
+      "TITLE_SELECT": "Selectare punct descărcare",
+      "grid": {
+        "UNLOADING_POINT_CODE": "Cod",
+        "WAREHOUSE": "Depozit",
+        "TRANSPORT_TYPE": "Tip transport"
+      }
+    },
+    "messages": {
+      "NO_RAN": "RAN nu a fost completat.",
+      "CREATE_CONFIRMATION": "Comanda a fost creată cu succes.",
+      "INVALID_QUANTITY": "Cantitatea introdusă {{quantityPerTranche}} nu este multiplu al cantității per pachet {{quantityPerPackaging}}.",
+      "NO_QUANTITY_TO_SAVE": "Nu există cantităţi introduse pentru a fi salvate.",
+      "DELETE_ITEM_QUESTION": "Sunteti sigur ca doriti stergerea articolului selectat?",
+      "DLA_DO_TYPE_NOT_SUPPORTED": "Comenzi de livrare de tipul DLA nu sunt suportate."
+    }
+  },
+  "emergency_orders": {
+    "view": {
+      "TITLE": "Comenzi de urgență",
+      "TITLE_ABBR": "EO",
+      "TOTAL": "Total",
+      "CUSTOMER_NAME_FILTER": "Nume client",
+      "DO_TYPE_FILTER": "Tip DO",
+      "ARTICLE_CODE_FILTER": "Cod articol",
+      "DO_MODE_FILTER": "Mod DO",
+      "ROUNDING_FILTER": "Rotunjire",
+      "MODE_FILTER": "Mod",
+      "UNLOADING_POINT_FILTER": "Punct descărcare",
+      "ACTIVITY_TYPE_FILTER": "Tip activitate",
+      "TRANSPORT_TYPE_FILTER": "Tip transport",
+      "grid": {
+        "COL_ARTICLE_CODE": "Cod articol",
+        "COL_ARTICLE_DESCRIPTION": "Descriere",
+        "COL_ORDER_DATE": "Dată comanda",
+        "COL_ORDERED_QUANTITY": "Cantitate comandata",
+        "COL_RAN": "RAN",
+        "COL_PACKAGING_CODE": "Cod ambalare",
+        "COL_QUANTITY_PER_PACKAGING": "Cantitate / ambalaj",
+        "COL_TRANSPORT_TYPE": "Tip transport",
+        "COL_REASON": "Motiv",
+        "COL_RESPONSABILITY": "Responsabilitate",
+        "COL_NO_CONTRACT": "Nr contract"
+      }
+    },
+    "popup_item": {
+      "TITLE_EMERGENCY_ORDER_ITEM": "Articol comanda urgenta",
+      "ARTICLE_CODE": "Cod articol",
+      "ARTICLE_DESCRIPTION": "Descriere",
+      "ORDER_DATE": "Dată comanda",
+      "ORDERED_QUANTITY": "Cantitate comandata",
+      "RAN": "Cod RAN",
+      "BUTTON_GENERATE_RAN": "Generare",
+      "PACKAGING_CODE": "Cod ambalare",
+      "QUANTITY_PER_PACKAGING": "Cantitate / ambalaj",
+      "TRANSPORT_TYPE": "Tip transport",
+      "REASON": "Motiv",
+      "RESPONSABILITY": "Responsabilitate",
+      "NO_CONTRACT": "Nr contract"
+    },
+    "messages": {
+      "CREATE_CONFIRMATION": "Comanda a fost adaugata cu succes.",
+      "NO_RAN": "Campul RAN este gol.",
+      "NO_REASON_SELECTED": "Selectati un motiv din lista.",
+      "INVALID_QUANTITY": "Cantitatea introdusa {{quantityPerTranche}} nu este multiplu de cantitate / ambalaj {{quantityPerPackaging}}.",
+      "INVALID_QUANTITY_ZERO": "Cantitatea nu poate fi 0.",
+      "DELETE_ITEM_QUESTION": "Sunteti sigur ca doriti stergerea articolului selectat?",
+      "SELECT_UNLOADING_POINT": "Selectati mai inainte un punct de descarcare.",
+      "DLA_DO_TYPE_NOT_SUPPORTED": "Comenzi de livrare de tipul DLA nu sunt suportate."
+    }
+  },
+  "assemblies": {
+    "list": {
+      "TITLE": "Asamblări"
+    },
+    "messages": {
+      "DELETE_QUESTION": "Sunteți siguri că doriți ștergerea asamblării selectate?",
+      "DELETE_CONFIRMATION": "Asamblarea a fost ștersă cu succes.",
+      "CREATE_CONFIRMATION": "Asamblarea a fost creată cu succes.",
+      "UPDATE_CONFIRMATION": "Asamblarea fost actualizată cu succes."
+    },
+    "grid": {
+      "COL_CODE": "Cod asamblare",
+      "COL_DESCRIPTION": "Descriere",
+      "COL_SITES": "Filiale",
+      "COL_ID": "Id"
+    },
+    "view": {
+      "TITLE_NEW": "Adăugare asamblare",
+      "TITLE_EDIT": "Editare asamblare",
+      "general": {
+        "TAB_NAME": "Caracteristici generale",
+        "FIELD_CODE": "Cod asamblare",
+        "FIELD_ARTICLE_CODE": "Articol cod",
+        "FIELD_DESCRIPTION": "Descriere",
+        "FIELD_SITES": "Filiale"
+      },
+      "components": {
+        "TAB_NAME": "Componente",
+        "TAB_EDIT": "Componentă",
+        "FIELD_COMPONENT_CODE": "Cod componentă",
+        "FIELD_COMPONENT_DESCRIPTION": "Descriere componentă",
+        "FIELD_NR_OF_COMPONENTS": "Nr. bucăți",
+        "FIELD_FAILURE_RATE": "Rată eșec (%)",
+        "ASSEMBLY_COMPONENT_CREATED": "Componenta a fost creată cu succes.",
+        "ASSEMBLY_COMPONENT_MODIFIED": "Componenta a fost actualizată cu succes.",
+        "ASSEMBLY_COMPONENT_DELETE_QUESTION": "Sunteți siguri că doriți ștergerea componentei selectate?",
+        "ASSEMBLY_COMPONENT_DELETE_CONFIRMATION": "Componenta a fost ștersă cu succes."
+      },
+      "audit": {
+        "TAB_NAME": "Audit"
+      },
+      "FIELD_ID": "Id"
+    }
+  },
+  "facturi": {
+    "TITLE": "Facturi",
+    "TITLE_SING": "Factura",
+    "ACHITATA": "Achitata",
+    "SCADENTA": "Scadenta",
+    "NR_FACTURA": "Nr. factura",
+    "messages": {
+      "DELETE_QUESTION": "Sunteți sigur că doriți sa ștergeți factura selectată?",
+      "DELETE_CONFIRMATION": "Factura a fost șters cu succes.",
+      "CREATE_CONFIRMATION": "Factura a fost creat cu succes.",
+      "UPDATE_CONFIRMATION": "Factura a fost modificat cu succes."
+    }
+  }
+}

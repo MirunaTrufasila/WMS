@@ -1,0 +1,220 @@
+/*TODO: move necessary overrides into bootstrap-overrides.less and then remove all the contents of the file and the file itself*/
+
+/* form controls */
+.col-form-label {
+    font-weight: normal;
+}
+
+/* override the main checkboxes and helper layer */
+.multiSelect .checkboxLayer {
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    min-width: 278px;
+    display: none !important;
+    margin-left: 150px !important;
+}
+
+/* override the multiselect button */
+.multiSelect > button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #c6c6c6;
+    padding: 1px 8px 1px 8px;
+    font-size: 14px;
+    min-height: 30px !important;
+    border-radius: 4px;
+    color: #555;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    white-space: normal;
+    background-color: #fff;
+    background-image: linear-gradient(#fff, #f7f7f7);
+}
+
+/*Fix the iSteven lib popup display*/
+.multiSelect .show {
+    display: block !important;
+    margin: 0 !important;
+}
+
+/* Fix the flag combo display (bootstrap-select component) */
+.dropdown-menu li a {
+    padding-left: 10px !important;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0 !important;
+    /*border: 1px solid transparent;*/
+    border-radius: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* TODO replace the grid height calculations in controllers: we can use ng-style="{'height' : someScopeVariable }" in template,
+ */
+
+.pagination {
+    padding-left: 0;
+    margin-bottom: 0 !important;
+    border-radius: 4px;
+}
+
+.breadcrumb {
+    background-color: #fcf8e3 !important;
+    padding: 0 14px !important;
+    margin-bottom: 5px !important;
+}
+
+/*Enable text selection in angular ui-grid*/
+.ui-grid .ui-grid-disable-selection {
+    -webkit-touch-callout: default;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    cursor: auto;
+}
+
+.btn-group-vertical {
+    padding: 5px !important;
+}
+
+.exceptions-modal-window .modal-dialog {
+    width: 50%;
+    height: 30%;
+}
+
+.search-popup-modal-window .modal-dialog {
+    width: 40%;
+    height: 30%;
+}
+
+.component-modal-window .modal-dialog {
+    width: 60%;
+    height: 40%;
+}
+
+.user-notifications-modal-window .modal-dialog {
+    width: 60%;
+    height: 80%;
+}
+
+.full-modal-window .modal-dialog {
+    width: 80%;
+    height: 80%;
+}
+
+.multiSelect .show {
+    display: block !important;
+    margin: 0px !important;
+}
+
+.dropdown-menu li a {
+    padding-left: 10px !important;
+}
+
+
+.multiselect-container > li > a > label {
+    font-size: 14px !important;
+    color: #000 !important;
+}
+
+.multiselect-container > li > a:hover {
+    padding: 0px 0px 0px 10px !important;
+    color: #000 !important;
+}
+
+.input-group-addon {
+    padding: 0px;
+    height: 5px;
+    border: 0px;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .15);
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+.multiselect-clear-filter .glyphicon {
+    line-height: 0.5;
+}
+
+.multiselect-clear-filter {
+    border: 0px;
+}
+
+.multiselect-reset {
+    margin-left: 30px;
+}
+
+/* Declared some constants that are only available for Bootstrap 4+ */
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+a.badge-success:hover, a.badge-success:focus {
+    color: #fff;
+    background-color: #1e7e34;
+}
+
+a.badge-success:focus, a.badge-success.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+a.badge-warning:hover, a.badge-warning:focus {
+    color: #212529;
+    background-color: #d39e00;
+}
+
+a.badge-warning:focus, a.badge-warning.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+a.badge-danger:hover, a.badge-danger:focus {
+    color: #fff;
+    background-color: #bd2130;
+}
+
+a.badge-danger:focus, a.badge-danger.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.multiselect-parent {
+    width: 100%;
+}
+
+.multiselect-parent .dropdown-toggle {
+    width: 100%;
+}
