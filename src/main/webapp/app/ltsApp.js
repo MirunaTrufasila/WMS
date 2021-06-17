@@ -82,44 +82,35 @@ angular.module('lite', [
                     }
                 })
 
-                // .when('/users', {
-                //     templateUrl: 'app/components/users/users.html',
-                //     controller: 'usersController',
-                //     label: 'general.breadcrumbs.USERS',
-                //     params: {
-                //         menuCategory: 'admin'
-                //     }
-                // })
-                // .when('/users/create', {
-                //     templateUrl: 'app/components/users/user.html',
-                //     controller: 'userController',
-                //     resolve: {
-                //         'resolvedUser': dummyResolve,
-                //     },
-                //     params: {
-                //         menuCategory: 'admin'
-                //     }
-                // })
-                // .when('/users/edit/:id', {
-                //     templateUrl: 'app/components/users/user.html',
-                //     controller: 'userController',
-                //     resolve: {
-                //         'resolvedUser': function (userService, $route, $location) {
-                //             showPleaseWait();
-                //             return userService.getUser($route.current.params.id)
-                //                 .then(function onSuccess(response) {
-                //                     hidePleaseWait();
-                //                     return response.data;
-                //                 }).catch(function onError(response) {
-                //                     hidePleaseWait();
-                //                     $location.path('/error').search({error: response, goto: 'users'});
-                //                 });
-                //         },
-                //     },
-                //     params: {
-                //         menuCategory: 'admin'
-                //     }
-                // })
+                .when('/users', {
+                    templateUrl: 'app/components/users/users.html',
+                    controller: 'usersController',
+                    label: 'general.breadcrumbs.USERS'
+                })
+                .when('/users/create', {
+                    templateUrl: 'app/components/users/user.html',
+                    controller: 'userController',
+                    resolve: {
+                        'resolvedUser': dummyResolve
+                    }
+                })
+                .when('/users/edit/:id', {
+                    templateUrl: 'app/components/users/user.html',
+                    controller: 'userController',
+                    resolve: {
+                        'resolvedUser': function (userService, $route, $location) {
+                            showPleaseWait();
+                            return userService.getUser($route.current.params.id)
+                                .then(function onSuccess(response) {
+                                    hidePleaseWait();
+                                    return response.data;
+                                }).catch(function onError(response) {
+                                    hidePleaseWait();
+                                    $location.path('/error').search({error: response, goto: 'users'});
+                                });
+                        }
+                    }
+                })
                 // .when('/company-details', {
                 //     templateUrl: 'app/components/company_details/company_details.html',
                 //     label: 'general.breadcrumbs.COMPANY_DETAILS',
@@ -346,7 +337,7 @@ angular.module('lite', [
         $mdInkRippleProvider.disableInkRipple();
 
         $mdThemingProvider
-            .definePalette('alliancePalette', {
+            .definePalette('ltsPalette', {
                 '50': 'ffebee',
                 '100': 'ffcdd2',
                 '200': 'ef9a9a',
@@ -368,9 +359,9 @@ angular.module('lite', [
             });
 
         $mdThemingProvider
-            .theme('allianceTheme')
-            .primaryPalette('alliancePalette')
-            .accentPalette('alliancePalette')
+            .theme('ltsTheme')
+            .primaryPalette('ltsPalette')
+            .accentPalette('ltsPalette')
 
     })
 

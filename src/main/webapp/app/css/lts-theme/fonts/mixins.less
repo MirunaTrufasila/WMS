@@ -1,5 +1,5 @@
 // fonts' basics
-@alliance-font-format: 'truetype';
+@lts-font-format: 'truetype';
 
 // fonts' families
 @font-family-1: 'Read-Bold-Italic';
@@ -9,7 +9,7 @@
 @font-family-5: 'Read-Medium';
 @font-family-6: 'Read-Regular';
 
-@alliance-font-families: @font-family-1, @font-family-2, @font-family-3, @font-family-4, @font-family-5, @font-family-6;
+@lts-font-families: @font-family-1, @font-family-2, @font-family-3, @font-family-4, @font-family-5, @font-family-6;
 
 // fonts' paths
 @font-path-1: 'fonts/Read-BoldItalic_V2000.ttf';
@@ -48,7 +48,7 @@
 
     @font-face {
       .mixin-set-font-family(@index);
-      src: url('@{value}') format(@alliance-font-format);
+      src: url('@{value}') format(@lts-font-format);
 
       .mixin-set-font-weight(@index);
       .mixin-set-font-style(@index);
@@ -57,7 +57,7 @@
 }
 
 .mixin-set-font-family(@current-path-index) {
-  each(@alliance-font-families, {
+  each(@lts-font-families, {
     .mixin-apply-font-weight(@value, @index, @current-path-index)
   })
 
