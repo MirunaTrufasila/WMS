@@ -6,6 +6,25 @@ angular.module('lite').controller('usersController',
             $scope.totalUsers = 0;
             $scope.searchTerm = userService.searchTerm;
 
+            $scope.searchUser = function () {
+                userService.searchUser($scope.searchTerm, $scope.usersGrid.usersCurrentPage,
+                    $scope.usersGrid.paginationPageSize)
+                    .then(function onSuccess(response) {
+                        $scope.users = response.data.content;
+                        $scope.totalUsers = response.data.totalElements;
+                    }).catch(function onError(response) {
+                    $scope.handleErrorNotification(response);
+                });
+            };
+
+            $scope.triggerSearch = function (event) {
+                userService.searchTerm = $scope.searchTerm;
+                var code = event ? (event.keyCode ? event.keyCode : event.which) : '';
+                if (event === null || code === 13 || code === 1) {
+                    $scope.searchUser();
+                }
+            };
+
             $scope.filterUsersGrid = function (pageNumber) {
                 $scope.usersGrid.usersCurrentPage = pageNumber;
                 if ($scope.searchTerm) {
@@ -43,25 +62,6 @@ angular.module('lite').controller('usersController',
                     .then(function onSuccess(response) {
                         $scope.removeFromGrid($scope.users, user.id);
                         Notification.success($scope.getI18nMessage('users.messages.DELETE_CONFIRMATION'))
-                    }).catch(function onError(response) {
-                    $scope.handleErrorNotification(response);
-                });
-            };
-
-            $scope.triggerSearch = function (event) {
-                userService.searchTerm = $scope.searchTerm;
-                var code = event ? (event.keyCode ? event.keyCode : event.which) : '';
-                if (event === null || code === 13 || code === 1) {
-                    $scope.searchUser();
-                }
-            };
-
-            $scope.searchUser = function () {
-                userService.searchUser($scope.searchTerm, $scope.usersGrid.usersCurrentPage,
-                    $scope.usersGrid.paginationPageSize)
-                    .then(function onSuccess(response) {
-                        $scope.users = response.data.content;
-                        $scope.totalUsers = response.data.totalElements;
                     }).catch(function onError(response) {
                     $scope.handleErrorNotification(response);
                 });

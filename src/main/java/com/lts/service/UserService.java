@@ -6,20 +6,16 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 public interface UserService {
 
-    Page<User> filter(String filter, Object value, int pageNumber, int pageSize);
+    Page<User> filterUser(String filter, Object value, int pageNumber, int pageSize);
 
-    Page<User> get(int pageNumber, int pageSize);
+    Page<User> getUsers(int pageNumber, int pageSize);
 
-    User create(User user);
+    User createUser(User user);
 
-    User update(User user);
+    User updateUser(User user);
 
-    void delete(Long id, UserDetails userDetails);
+    void deleteUser(Long id, UserDetails userDetails);
 
     User getUser(Long id);
-
-    User getByUsername(String username);
-
-    User findById(Long idUser);
 
 }

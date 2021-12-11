@@ -1,6 +1,7 @@
 package com.lts.controller;
 
 import com.lts.model.entities.User;
+import com.lts.service.UserService;
 import io.swagger.annotations.Api;
 import org.springframework.data.domain.Page;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -15,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.lts.service.UserService;
 
 @Api(tags = "User")
 @RestController
@@ -35,34 +35,34 @@ public class UserController {
 
     @GetMapping
     public @ResponseBody
-    Page<User> get(@RequestParam int pageNumber,
+    Page<User> getUsers(@RequestParam int pageNumber,
                    @RequestParam int pageSize) {
-        return userService.get(pageNumber, pageSize);
+        return userService.getUsers(pageNumber, pageSize);
     }
 
     @GetMapping("/filter")
     public @ResponseBody
-    Page<User> filter(@RequestParam String filter,
-                      @RequestParam Object value,
-                      @RequestParam int pageNumber,
-                      @RequestParam int pageSize) {
-        return userService.filter(filter, value, pageNumber, pageSize);
+    Page<User> filterUsers(@RequestParam String filter,
+                           @RequestParam Object value,
+                           @RequestParam int pageNumber,
+                           @RequestParam int pageSize) {
+        return userService.filterUser(filter, value, pageNumber, pageSize);
     }
 
     @PostMapping
-    public User create(@RequestBody User user) {
-        return userService.create(user);
+    public User createUser(@RequestBody User user) {
+        return userService.createUser(user);
     }
 
     @PutMapping
-    public User update(@RequestBody User user) {
-        return userService.update(user);
+    public User updateUser(@RequestBody User user) {
+        return userService.updateUser(user);
     }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id,
+    public void deleteUser(@PathVariable Long id,
                        @AuthenticationPrincipal UserDetails userDetails) {
-        userService.delete(id, userDetails);
+        userService.deleteUser(id, userDetails);
     }
 
 }
