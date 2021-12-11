@@ -60,6 +60,7 @@ a:hover {
     background-color: pink !important;
     border-bottom: 1px solid #fff !important;
 }
+
 .method-neachitat {
     background-color: pink !important;
     border-bottom: 1px solid #fff !important;
@@ -138,6 +139,7 @@ a:hover {
 
 .border-solid {
     border: 1px solid #A6A6A6;
+    height: 30px;
 }
 
 .border-radius-5-px {
@@ -920,23 +922,26 @@ ul[dnd-list] li.backgroundTransitPoint {
 }
 
 .panel-heading-new {
-    background-color: #F0EEEB;
+    background-color: #9ef5fa;
     font-size: 17px;
     padding-top: 10px;
     padding-bottom: 7px;
 }
 
-.panel-heading-general{
-    background-color: #F0EEEB;
+.panel-heading-general {
+    background-color: #9ef5fa;
     font-size: 12px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
-.btn-night{
-    background-color: #1c1c1c;
+.btn-general {
+    background-color: deepskyblue;
     color: white;
+    font-weight: bold;
 }
 
-.btn-night:hover {
-    background-color: #1c1c1c;
-    color: white;}
+.btn-general:hover {
+    background-color: #123970;
+    color: white;
+    font-weight: bold;
+}

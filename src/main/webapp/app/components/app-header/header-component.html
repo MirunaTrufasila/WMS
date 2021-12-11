@@ -2,8 +2,8 @@
         ng-class="{'isMobileDevice': isMobileDevice}"
         class="app-header">
         <!-- Nav tabs -->
-        <div  class="pull-left">
-            <ul ng-repeat="item in navigationItems track by item.name"
+        <div  class="dropdown pull-right col-xs-12"  style="background: #9ef5fa;">
+            <ul ng-repeat="item in navigationItems track by item.name" style="background: deepskyblue;"
                 ng-class="{'active' : tabToActivate[item.name], 'activatedByRoute': activeMenu[item.name]}">
                 <ul class="col-xs-12 padding-top-20">
                     <div ng-repeat="section in item.sections">

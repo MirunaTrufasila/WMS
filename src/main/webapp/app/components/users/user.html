@@ -1,0 +1,119 @@
+<article class=col-xs-12">
+    <div class="panel-heading-new col-xs-12 margin-bottom-20">
+        <div ng-if="editUser.id" class="col-xs-offset-2">
+            <h4>
+                <span class="strong">{{'users.view.TITLE_EDIT' | translate}} </span>
+                <span ng-if="editUser.firstName || editUser.lastName">: </span>
+                {{editUser.firstName}} {{editUser.lastName}}
+            </h4>
+
+        </div>
+
+        <div ng-if="!editUser.id" class="col-xs-offset-2">
+            <h4 class="">
+                <span>{{'users.view.TITLE_NEW' | translate}} </span>
+                <span ng-if="editUser.firstName || editUser.lastName">: </span>
+                {{editUser.firstName}} {{editUser.lastName}}
+            </h4>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-general col-xs-offset-1 margin-bottom-20" ng-click="back()">
+        <span class="button-text" data-translate="general.buttons.BACK"></span>
+    </button>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_NAME' | translate}}</label>
+        <div class="col-xs-5">
+            <input ng-model="editUser.firstName"
+                   required
+                   placeholder="{{'users.view.FIELD_NAME' | translate}}"
+                   type="text"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_SURNAME' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.lastName"
+                   required
+                   placeholder="{{'users.view.FIELD_SURNAME' | translate}}"
+                   type="text"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_EMAIL' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.email"
+                   required
+                   placeholder="{{'users.view.FIELD_EMAIL' | translate}}"
+                   type="email"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_USERNAME' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.username"
+                   placeholder="{{'users.view.FIELD_USERNAME' | translate}}"
+                   type="text"
+                   required
+                   ng-minlength="2"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_PASSWORD' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.password"
+                   required
+                   placeholder="{{'users.view.FIELD_PASSWORD' | translate}}"
+                   type="password"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_PASSWORD_CONFIRMATION' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.passwordUpdate"
+                   required
+                   placeholder="{{'users.view.FIELD_PASSWORD_CONFIRMATION' | translate}}"
+                   type="password"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_PHONE' | translate}}</label>
+        <div class=" col-xs-5">
+            <input ng-model="editUser.phone"
+                   placeholder="{{'users.view.FIELD_PHONE' | translate}}"
+                   type="text"
+                   class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group required col-xs-offset-2">
+        <label class="col-xs-3">{{'users.view.FIELD_LANGUAGE' | translate}}</label>
+        <div class=" col-xs-5">
+            <select ng-model="editUser.language"
+                    required
+                    class="form-control">
+                <option ng-repeat="item in languges" value="{{item.id}}">
+                    {{item.label}}
+                </option>
+            </select>
+        </div>
+    </div>
+    <section class="col-xs-offset-9 margin-top-20">
+        <button ng-click="saveUser()" class="btn btn-general">
+            <span data-translate="general.buttons.SAVE"></span>
+        </button>
+    </section>
+</article>
