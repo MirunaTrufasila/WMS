@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tms_privilege")
+@Table(name = "privilege")
 @Where(clause = "valid='1'")
 public class Privilege {
 
@@ -22,7 +22,7 @@ public class Privilege {
     @Column(name = "id_parinte")
     private long idParinte;
 
-    private String descriere;
+    private String description;
 
     private boolean valid;
 
@@ -38,12 +38,12 @@ public class Privilege {
         this.idParinte = idParinte;
     }
 
-    public String getDescriere() {
-        return descriere;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescriere(String descriere) {
-        this.descriere = descriere;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public boolean isValid() {
@@ -54,13 +54,4 @@ public class Privilege {
         this.valid = valid;
     }
 
-    @Override
-    public String toString() {
-        return "Privilege{" +
-                "id=" + id +
-                ", idParinte=" + idParinte +
-                ", descriere='" + descriere + '\'' +
-                ", valid=" + valid +
-                '}';
-    }
 }

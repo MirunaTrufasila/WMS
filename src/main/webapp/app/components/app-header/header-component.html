@@ -1,101 +1,101 @@
 <header ng-cloak
         ng-class="{'isMobileDevice': isMobileDevice}"
         class="app-header">
-        <!-- Nav tabs -->
-        <div  class="dropdown pull-right col-xs-12"  style="background: #9ef5fa;">
-            <ul ng-repeat="item in navigationItems track by item.name" style="background: deepskyblue;"
-                ng-class="{'active' : tabToActivate[item.name], 'activatedByRoute': activeMenu[item.name]}">
-                <ul class="col-xs-12 padding-top-20">
-                    <div ng-repeat="section in item.sections">
-                        <ul ng-repeat="submenu in section.submenus track by $index" class="same-line">
+    <!-- Nav tabs -->
+    <div class="dropdown pull-right col-xs-12" style="background: #9ef5fa;">
+        <ul ng-repeat="item in navigationItems track by item.name" style="background: deepskyblue;"
+            ng-class="{'active' : tabToActivate[item.name], 'activatedByRoute': activeMenu[item.name]}">
+            <ul class="col-xs-12 padding-top-20">
+                <div ng-repeat="section in item.sections">
+                    <ul ng-repeat="submenu in section.submenus track by $index" class="same-line">
 
-                            <a ng-href="{{submenu.url}}"
-                               class="{{submenu.cssClass}}"
-                               title="{{'general.NAVIGATE_TO_PAGE' | translate}}">
+                        <a ng-href="{{submenu.url}}"
+                           class="{{submenu.cssClass}}"
+                           title="{{'general.NAVIGATE_TO_PAGE' | translate}}">
 
-                                {{submenu.label | translate}}
-                            </a>
-                        </ul>
-                    </div>
-                </ul>
-            </ul>
-        </div>
-
-        <div class="header-info">
-            <div class="language pull-right info-item">
-                <div class="info-item-content no-border">
-
-                    <div class="dropdown">
-
-                        <a href="#"
-                           class="dropdown-toggle special-link"
-                           id="lang-dropdown"
-                           data-toggle="dropdown"
-                           role="button"
-                           aria-haspopup="true"
-                           aria-expanded="false">
-
-                            <i class="{{currentLanguage.cssClass}}"></i>
+                            {{submenu.label | translate}}
                         </a>
-                        <span class="caret"></span>
-
-                        <ul class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <li ng-repeat="item in availableLanguages">
-                                <a ng-click="changeLanguage(item.langKey)" href="#">
-                                    <i class="{{item.cssClass}}"></i>
-                                    &nbsp;{{item.label}}
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-            </div>
+            </ul>
+        </ul>
+    </div>
 
-            <div class="logged-user pull-right info-item">
-                <div class="dropdown pull-right col-xs-12">
-                    <label data-toggle="dropdown">{{userResource.name}}<span class="caret"></span></label>
-                    <ul class="dropdown-menu">
-                        <section class="margin-left-10"><b>{{userResource.name}}</b></section>
-                        <section class="margin-left-10">{{userResource.emailUser}}</section>
+    <div class="header-info">
+        <div class="language pull-right info-item">
+            <div class="info-item-content no-border">
 
-                        <section class="dropdown-menu-manage">
-                            <span class="margin-left-10"> <b>{{'general.profileDropDown.MANAGE'| translate}}</b></span>
-                        </section>
+                <div class="dropdown">
 
-                        <section class="dropdown-menu-component">
-                            <div class="margin-left-10">
-                                <span ng-click="goto('users')">{{'general.profileDropDown.USERS'| translate}}<br></span>
-                            </div>
-                            <div class="margin-left-10">
-                                <span ng-click="goto('furnizori')">{{'general.profileDropDown.FURNIZORI'| translate}}<br></span>
-                            </div>
-                            <div class="margin-left-10">
-                                <span ng-click="goto('company-details')">{{'general.profileDropDown.COMPANY'| translate}}<br></span>
-                            </div>
-                        </section>
+                    <a href="#"
+                       class="dropdown-toggle special-link"
+                       id="lang-dropdown"
+                       data-toggle="dropdown"
+                       role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">
 
-                        <section><span ng-click="logout()" class="margin-left-10">{{'general.breadcrumbs.LOGOUT'| translate}}</span>
-                        </section>
+                        <i class="{{currentLanguage.cssClass}}"></i>
+                    </a>
+                    <span class="caret"></span>
+
+                    <ul class="dropdown-menu" aria-labelledby="lang-dropdown">
+                        <li ng-repeat="item in availableLanguages">
+                            <a ng-click="changeLanguage(item.langKey)" href="#">
+                                <i class="{{item.cssClass}}"></i>
+                                &nbsp;{{item.label}}
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="breadcrumbs pull-left info-item no-border" style="margin-left: 10px;">
+        <div class="logged-user pull-right info-item">
+            <div class="dropdown pull-right col-xs-12">
+                <label data-toggle="dropdown">{{userResource.name}}<span class="caret"></span></label>
+                <ul class="dropdown-menu">
+                    <section class="margin-left-10"><b>{{userResource.name}}</b></section>
+                    <section class="margin-left-10">{{userResource.emailUser}}</section>
 
-                <ol class="ab-nav breadcrumb">
-                    <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path"
-                        ng-class="{ active: $last }">
-                        <a ng-if="!$last" ng-href="{{routePrefixForBreadcrumbs}}{{ breadcrumb.path }}"
-                           ng-bind="(breadcrumb.label | translate)"
-                           class="margin-right-xs special-link"></a>
-                        <span ng-if="$last" ng-bind="(breadcrumb.label | translate)"></span>
-                    </li>
-                </ol>
+                    <section class="dropdown-menu-manage">
+                        <span class="margin-left-10"> <b>{{'general.profileDropDown.MANAGE'| translate}}</b></span>
+                    </section>
 
-            </div>
+                    <section class="dropdown-menu-component">
+                        <div class="margin-left-10">
+                            <span ng-click="goto('users')">{{'general.profileDropDown.USERS'| translate}}<br></span>
+                        </div>
+                        <div class="margin-left-10">
+                            <span ng-click="goto('furnizori')">{{'general.profileDropDown.SUPPLIERS'| translate}}<br></span>
+                        </div>
+                        <div class="margin-left-10">
+                            <span ng-click="goto('company-details')">{{'general.profileDropDown.COMPANY'| translate}}<br></span>
+                        </div>
+                    </section>
 
-            <div id="loading-bar-container" class="pull-left info-item">
-                <!-- DO NOT REMOVE this container for loading bar/spinner -->
+                    <section><span ng-click="logout()" class="margin-left-10">{{'general.LOGOUT'| translate}}</span>
+                    </section>
+                </ul>
             </div>
         </div>
+
+        <div class="breadcrumbs pull-left info-item no-border" style="margin-left: 10px;">
+
+            <ol class="ab-nav breadcrumb">
+                <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path"
+                    ng-class="{ active: $last }">
+                    <a ng-if="!$last" ng-href="{{routePrefixForBreadcrumbs}}{{ breadcrumb.path }}"
+                       ng-bind="(breadcrumb.label | translate)"
+                       class="margin-right-xs special-link"></a>
+                    <span ng-if="$last" ng-bind="(breadcrumb.label | translate)"></span>
+                </li>
+            </ol>
+
+        </div>
+
+        <div id="loading-bar-container" class="pull-left info-item">
+            <!-- DO NOT REMOVE this container for loading bar/spinner -->
+        </div>
+    </div>
 </header>

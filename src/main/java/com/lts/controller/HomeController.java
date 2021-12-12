@@ -1,6 +1,7 @@
 package com.lts.controller;
 
 import com.lts.config.ApplicationViews;
+import com.lts.service.MessageService;
 import com.lts.util.AdminConstants;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import com.lts.service.MessageService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -35,7 +35,7 @@ public class HomeController {
     public HomeController(InfoEndpoint infoEndpoint,
                           Environment environment,
                           MessageService messageService,
-                                                   BuildProperties buildProperties) {
+                          BuildProperties buildProperties) {
         this.infoEndpoint = infoEndpoint;
         this.environment = environment;
         this.messageService = messageService;
@@ -102,6 +102,8 @@ public class HomeController {
             "/users",
             "/users/edit/{id}",
             "/users/create",
+
+            "/user-privileges/edit/{id}",
 
             "/employees",
             "/employees/edit/{id}",

@@ -25,7 +25,6 @@ angular.module('lite', [
     'ui.grid.exporter',
     'ui.grid.importer',
     'ui.grid.grouping',
-   // 'ui.grid.custom.rowSelection',
     'ui.grid.saveState',
     'ui.grid.autoResize',
     'ui.grid.expandable',
@@ -38,8 +37,10 @@ angular.module('lite', [
 ])
 
     .constant('PRIVILEGES', {
-        ADMINISTRATION_READ: 'ADMINISTRATION_READ',
-
+        USERS: 1,
+        USERS_ADD: 2,
+        USERS_EDIT: 3,
+        USERS_DEL: 4
     })
 
 
@@ -101,6 +102,36 @@ angular.module('lite', [
                         'resolvedUser': function (userService, $route, $location) {
                             showPleaseWait();
                             return userService.getUser($route.current.params.id)
+                                .then(function onSuccess(response) {
+                                    hidePleaseWait();
+                                    return response.data;
+                                }).catch(function onError(response) {
+                                    hidePleaseWait();
+                                    $location.path('/error').search({error: response, goto: 'users'});
+                                });
+                        }
+                    }
+                })
+
+                .when('/user-privileges/edit/:id', {
+                    templateUrl: 'app/components/users/user_privileges.html',
+                    // permission: PRIVILEGES.CONFIGURARE_DREPTURI_UTILIZATORI,
+                    controller: 'userPrivilegesController',
+                    resolve: {
+                        'resolvedUser': function (userPrivilegesService, $route, $location) {
+                            showPleaseWait();
+                            return userPrivilegesService.getUser($route.current.params.id)
+                                .then(function onSuccess(response) {
+                                    hidePleaseWait();
+                                    return response.data;
+                                }).catch(function onError(response) {
+                                    hidePleaseWait();
+                                    $location.path('/error').search({error: response, goto: 'users'});
+                                });
+                        },
+                        "resolvedUserPrivileges": function (userPrivilegesService, $route, $location) {
+                            showPleaseWait();
+                            return userPrivilegesService.getUserPrivileges($route.current.params.id)
                                 .then(function onSuccess(response) {
                                     hidePleaseWait();
                                     return response.data;

@@ -1,6 +1,7 @@
 package com.lts.controller;
 
 import com.lts.model.entities.PrivilegeNode;
+import com.lts.service.UserPrivilegesService;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.lts.service.UserPrivilegesService;
 
 import java.util.Collection;
 import java.util.List;

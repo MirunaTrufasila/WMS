@@ -3,9 +3,9 @@ package com.lts.util;
 import com.lts.model.entities.Privilege;
 import com.lts.model.entities.PrivilegeNode;
 import com.lts.model.entities.PrivilegeNodeState;
+import com.lts.service.MessageService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.lts.service.MessageService;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -34,14 +34,14 @@ public class UserPrivilegesUtil {
                 privilegeNode = new PrivilegeNode(
                         privilege.getId(),
                         privilege.getIdParinte(),
-                        privilege.getDescriere(),
+                        privilege.getDescription(),
                         new PrivilegeNodeState(privilegesMap.get(privilege.getId()) != null),
                         "green");
             } else {
                 privilegeNode = new PrivilegeNode(
                         privilege.getId(),
                         privilege.getIdParinte(),
-                        privilege.getDescriere(),
+                        privilege.getDescription(),
                         new PrivilegeNodeState(privilegesMap.get(privilege.getId()) != null));
             }
             nodeMap.put(privilegeNode.getId(), privilegeNode);

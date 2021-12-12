@@ -1,0 +1,39 @@
+<form ng-cloak name="userForm" class="panel panel-warning"
+      ng-submit="save()">
+    <section class="panel-heading">
+        <div class="font-size-16-px">
+            <i class=""></i>
+            <span data-translate="users-privileges.view.TITLE_EDIT"></span>
+            <span>: {{editUser.nume}} (id {{editUser.id}})</span>
+        </div>
+    </section>
+    <section class="panel-footer">
+        <button type="button" class="btn btn-default" ng-click="back()">
+            <span class="glyphicon glyphicon-backward"></span>
+            <span class="button-text" data-translate="general.buttons.BACK"></span>
+        </button>
+        <button type="submit" class="btn btn-default">
+            <span class="glyphicon glyphicon-save color-green"></span>
+            <span class="button-text" data-translate="general.buttons.SAVE"></span>
+        </button>
+    </section>
+    <section class="panel-body">
+        <div class="col-xs-6 btn-group padding-bottom-10">
+            <button type="button" class="btn btn-default" ng-click="checkAll()">
+                <span class="glyphicon glyphicon-check color-blue"></span>
+                <span class="button-text" translate>general.buttons.CHECK_ALL</span>
+            </button>
+            <button type="button" class="btn btn-default" ng-click="uncheckAll()">
+                <span class="glyphicon glyphicon-unchecked color-blue"></span>
+                <span class="button-text" translate>general.buttons.UNCHECK_ALL</span>
+            </button>
+        </div>
+
+        {{selectedPrivilegesCount}}
+        <span style="padding:10px" data-translate="users-privileges.view.PRIVILEGES_SELECTED"></span>
+
+        <div class="col-xs-12" ng-init="buildUserPrivilegesTree()">
+            <div id="userPrivilegesTree"></div>
+        </div>
+    </section>
+</form>
