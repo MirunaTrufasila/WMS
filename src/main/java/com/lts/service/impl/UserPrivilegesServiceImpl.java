@@ -53,6 +53,7 @@ public class UserPrivilegesServiceImpl implements UserPrivilegesService {
         for (Long privilegeId : privilegesIds) {
             userPrivileges.add(new UserPrivilege(userId, privilegeId));
         }
+        userPrivilegeRepository.deleteAllByIdUser(userId);
         userPrivilegeRepository.saveAll(userPrivileges);
     }
 

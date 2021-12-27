@@ -19,7 +19,7 @@ CREATE TABLE `user_activity`
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
-create table `user`
+create table `users`
 (
   `id`         bigint(20) NOT NULL AUTO_INCREMENT,
   `username`   varchar(255) DEFAULT NULL,
@@ -55,7 +55,7 @@ create table `application_error`
   `app`            int default 0                     not null
 );
 
-CREATE TABLE `user_privilege`
+CREATE TABLE `user_privileges`
 (
   `id_user`      bigint(20) NOT NULL,
   `id_privilege` bigint(20) NOT NULL,
@@ -64,7 +64,7 @@ CREATE TABLE `user_privilege`
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
-CREATE TABLE `privilege`
+CREATE TABLE `privileges`
 (
   `id`          bigint(20) NOT NULL AUTO_INCREMENT,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -75,27 +75,28 @@ CREATE TABLE `privilege`
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_unicode_ci;
 
-INSERT INTO `user` (`id`, `username`, `password`, `first_name`, `last_name`, `language`, `email`, `phone`)
+INSERT INTO `users` (`id`, `username`, `password`, `first_name`, `last_name`, `language`, `email`, `phone`)
 VALUES (1, 'admin', '36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068', 'Admin', 'Admin', 'en', NULL,
         NULL);
 
-INSERT INTO `user_privilege` (`id_user`, `id_privilege`)
+INSERT INTO `user_privileges` (`id_user`, `id_privilege`)
 VALUES (1, 1),
        (1, 2),
        (1, 3),
-       (1, 4);
+       (1, 4),
+       (1, 5);
 
-INSERT INTO `privilege` (`id`, `id_parinte`, description, `valid`)
-VALUES (1, 0, 'Vizualizare utilizatori', 1);
+INSERT INTO privileges (`id`, `id_parinte`, description, `valid`)
+VALUES (1, 0, 'Utilizatori', 1);
 
-INSERT INTO `privilege` (`id`, `id_parinte`, description, `valid`)
+INSERT INTO privileges (`id`, `id_parinte`, description, `valid`)
 VALUES (2, 1, 'Vizualizare utilizatori', 1);
 
-INSERT INTO `privilege` (`id`, `id_parinte`, description, `valid`)
+INSERT INTO privileges (`id`, `id_parinte`, description, `valid`)
 VALUES (3, 1, 'Adaugare utilizator', 1);
 
-INSERT INTO `privilege` (`id`, `id_parinte`, description, `valid`)
+INSERT INTO privileges (`id`, `id_parinte`, description, `valid`)
 VALUES (4, 1, 'Editare utilizatori', 1);
 
-INSERT INTO `privilege` (`id`, `id_parinte`, description, `valid`)
+INSERT INTO privileges (`id`, `id_parinte`, description, `valid`)
 VALUES (5, 1, 'Stergere utilizatori', 1);

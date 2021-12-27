@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 @Entity
 @IdClass(IdUserPrivilege.class)
-@Table(name = "user_privilege")
+@Table(name = "user_privileges")
 public class UserPrivilege implements Serializable {
 
     @Id

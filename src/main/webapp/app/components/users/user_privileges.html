@@ -1,29 +1,31 @@
 <form ng-cloak name="userForm" class="panel panel-warning"
       ng-submit="save()">
-    <section class="panel-heading">
-        <div class="font-size-16-px">
-            <i class=""></i>
-            <span data-translate="users-privileges.view.TITLE_EDIT"></span>
-            <span>: {{editUser.nume}} (id {{editUser.id}})</span>
+    <div class="panel-heading-new col-xs-12 margin-bottom-20">
+        <div ng-if="editUser.id" class="col-xs-offset-2">
+            <h4>
+                <span class="strong">{{'users.view.TITLE_EDIT_PRIVILEGES' | translate}} </span>
+                <span ng-if="editUser.firstName || editUser.lastName">: </span>
+                {{editUser.firstName}} {{editUser.lastName}}
+            </h4>
+
         </div>
-    </section>
-    <section class="panel-footer">
-        <button type="button" class="btn btn-default" ng-click="back()">
-            <span class="glyphicon glyphicon-backward"></span>
-            <span class="button-text" data-translate="general.buttons.BACK"></span>
-        </button>
-        <button type="submit" class="btn btn-default">
-            <span class="glyphicon glyphicon-save color-green"></span>
-            <span class="button-text" data-translate="general.buttons.SAVE"></span>
-        </button>
-    </section>
+    </div>
+
+    <button type="button" class="btn btn-general col-xs-offset-1 margin-bottom-20" ng-click="back()">
+        <span class="button-text" data-translate="general.buttons.BACK"></span>
+    </button>
+
+    <button type="submit" class="btn btn-general pull-right margin-bottom-20" style="margin-right: 8.33%">
+        <span class="button-text" data-translate="general.buttons.SAVE"></span>
+    </button>
+
     <section class="panel-body">
         <div class="col-xs-6 btn-group padding-bottom-10">
-            <button type="button" class="btn btn-default" ng-click="checkAll()">
+            <button type="button" class="btn btn-general" ng-click="checkAll()">
                 <span class="glyphicon glyphicon-check color-blue"></span>
                 <span class="button-text" translate>general.buttons.CHECK_ALL</span>
             </button>
-            <button type="button" class="btn btn-default" ng-click="uncheckAll()">
+            <button type="button" class="btn btn-general margin-left-10" ng-click="uncheckAll()">
                 <span class="glyphicon glyphicon-unchecked color-blue"></span>
                 <span class="button-text" translate>general.buttons.UNCHECK_ALL</span>
             </button>

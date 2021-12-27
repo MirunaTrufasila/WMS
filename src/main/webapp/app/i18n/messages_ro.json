@@ -96,6 +96,7 @@
     "view": {
       "TITLE_EDIT": "Editare utilizator",
       "TITLE_NEW": "Utilizator nou",
+      "TITLE_EDIT_PRIVILEGES": "Editare drepturi utilizator",
       "FIELD_USERNAME": "Nume utilizator",
       "FIELD_PASSWORD": "Parola",
       "FIELD_PASSWORD_CONFIRMATION": "Confirmare parolă",
@@ -116,6 +117,14 @@
     },
     "buttons": {
       "ADD": "Adăugare utilizator"
+    }
+  },
+  "users-privileges":{
+    "view": {
+      "PRIVILEGES_SELECTED": "Drepturi selectate"
+    },
+    "messages": {
+      "UPDATE_CONFIRMATION": "Drepturile utilizatorului au fost salvate cu success."
     }
   }
 }

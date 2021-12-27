@@ -113,6 +113,7 @@
     "view": {
       "TITLE_EDIT": "Edit user",
       "TITLE_NEW": "New user",
+      "TITLE_EDIT_PRIVILEGES": "Edit user privilege",
       "FIELD_USERNAME": "Username",
       "FIELD_PASSWORD": "Password",
       "FIELD_PASSWORD_CONFIRMATION": "Password confirmation",
@@ -133,6 +134,14 @@
     },
     "buttons": {
       "ADD": "Add user"
+    }
+  },
+  "users-privileges":{
+    "view": {
+      "PRIVILEGES_SELECTED": "Privileges selected"
+    },
+    "messages": {
+      "UPDATE_CONFIRMATION": "User privileges updated successfully."
     }
   }
 }

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "privilege")
+@Table(name = "privileges")
 @Where(clause = "valid='1'")
 public class Privilege {
 

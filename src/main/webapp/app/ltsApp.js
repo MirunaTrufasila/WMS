@@ -38,9 +38,10 @@ angular.module('lite', [
 
     .constant('PRIVILEGES', {
         USERS: 1,
-        USERS_ADD: 2,
-        USERS_EDIT: 3,
-        USERS_DEL: 4
+        USERS_VIEW: 2,
+        USERS_ADD: 3,
+        USERS_EDIT: 4,
+        USERS_DEL: 5
     })
 
 
@@ -86,11 +87,13 @@ angular.module('lite', [
                 .when('/users', {
                     templateUrl: 'app/components/users/users.html',
                     controller: 'usersController',
+                    permission:PRIVILEGES.USERS_VIEW,
                     label: 'general.breadcrumbs.USERS'
                 })
                 .when('/users/create', {
                     templateUrl: 'app/components/users/user.html',
                     controller: 'userController',
+                    permission:PRIVILEGES.USERS_ADD,
                     resolve: {
                         'resolvedUser': dummyResolve
                     }
@@ -98,6 +101,7 @@ angular.module('lite', [
                 .when('/users/edit/:id', {
                     templateUrl: 'app/components/users/user.html',
                     controller: 'userController',
+                    permission:PRIVILEGES.USERS_EDIT,
                     resolve: {
                         'resolvedUser': function (userService, $route, $location) {
                             showPleaseWait();

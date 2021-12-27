@@ -1,12 +1,15 @@
 <button type="button" class="btn btn-small btn-default"
+        check-permission="{{grid.appScope.PRIVILEGES.USERS_EDIT}}"
         ng-click="grid.appScope.editUser(row.entity)">
     <span class="glyphicon glyphicon-pencil"></span>
 </button>
 <button type="button" class="btn btn-small btn-default"
+        check-permission="{{grid.appScope.PRIVILEGES.USERS_EDIT}}"
         ng-click="grid.appScope.editUserPrivileges(row.entity)">
     <span class="glyphicon glyphicon-lock"></span>
 </button>
 <button type="button" class="btn btn-small btn-default"
+        check-permission="{{grid.appScope.PRIVILEGES.USERS_DEL}}"
         ng-click="grid.appScope.deleteUser(row.entity)">
     <span class="glyphicon glyphicon-trash"></span>
 </button>

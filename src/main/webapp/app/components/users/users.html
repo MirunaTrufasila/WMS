@@ -1,47 +1,56 @@
 <div ng-cloak>
     <div class="panel-heading-new col-xs-12 ">
-        <span class="margin-left-20 strong"  data-translate="users.TITLE"></span>
+        <span class="margin-left-20 strong" data-translate="users.TITLE"></span>
     </div>
-        <div class="panel-heading-general col-xs-12">
-            <input type="text" id="search" ng-model="searchTerm"
-                   ng-keyup="triggerSearch($event)"
-                   placeholder=" {{'general.buttons.SEARCH' | translate}}"
-                   class="vertical-align-center border-solid on-focus margin-left-20 width-40-percent"/>
+    <div class="panel-heading-general col-xs-12">
+        <input type="text" id="search" ng-model="searchTerm"
+               ng-keyup="triggerSearch($event)"
+               placeholder=" {{'general.buttons.SEARCH' | translate}}"
+               class="vertical-align-center border-solid on-focus margin-left-20 width-40-percent"/>
 
-            <button type="button" class="btn btn-general" ng-click="searchUser()">
-                <span class="button-text" translate>general.buttons.SEARCH</span>
+        <button type="button" class="btn btn-general" ng-click="searchUser()">
+            <span class="button-text" translate>general.buttons.SEARCH</span>
+        </button>
+
+        <div class="margin-left-20 same-line">
+            <button type="button" class="btn btn-general"
+                    check-permission="{{PRIVILEGES.USERS_ADD}}"
+                    ng-click="createUser()">
+                <span class="button-text" translate>users.buttons.ADD</span>
             </button>
-
-            <div class="margin-left-20 same-line">
-                <button type="button" class="btn btn-general" ng-click="createUser()">
-                    <span class="button-text" translate>users.buttons.ADD</span>
-                </button>
-            </div>
         </div>
+        <div class="margin-left-20 same-line">
+            <button type="button" class="btn btn-general"
+                    check-permission="{{PRIVILEGES.USERS_ADD}}"
+                    ng-click="smth()">
+                <span class="button-text" translate>users.buttons.ADD</span>
+            </button>
+        </div>
+    </div>
     <section class="panel-body col-xs-12">
-            <div ui-grid="usersGrid"
-                 ui-grid-resize-columns
-                 ui-grid-selection
-                 ui-grid-move-columns
-                 ui-grid-exporter
-                 ui-grid-pagination
-                 style="height:70%">
-            </div>
-            <article class="pagination-container">
-                <ul uib-pagination
-                    total-items="totalUsers"
-                    items-per-page="pageSize"
-                    ng-model="usersCurrentPage"
-                    max-size="5"
-                    class="pagination-sm"
-                    boundary-link-numbers="true"
-                    boundary-links="true"
-                    ng-change="filterUsersGrid(usersCurrentPage)"
-                    previous-text="{{'general.buttons.PREVIOUS' | translate}}"
-                    next-text="{{'general.buttons.NEXT' | translate}}"
-                    first-text="&laquo;"
-                    last-text="&raquo;">
-                </ul>
-            </article>
+        <div ui-grid="usersGrid"
+             ui-grid-resize-columns
+             ui-grid-selection
+             ui-grid-move-columns
+             ui-grid-exporter
+             ui-grid-pagination
+             style="height:70%">
+        </div>
+        <article class="pagination-container">
+            <ul uib-pagination
+                total-items="totalUsers"
+                items-per-page="pageSize"
+                ng-model="usersCurrentPage"
+                max-size="5"
+                class="pagination-sm"
+                boundary-link-numbers="true"
+                boundary-links="true"
+                ng-change="filterUsersGrid(usersCurrentPage)"
+                previous-text="{{'general.buttons.PREVIOUS' | translate}}"
+                next-text="{{'general.buttons.NEXT' | translate}}"
+                first-text="&laquo;"
+                last-text="&raquo;">
+            </ul>
+        </article>
     </section>
 </div>

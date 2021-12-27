@@ -9,4 +9,6 @@ import java.util.List;
 public interface UserPrivilegeRepository extends JpaRepository<UserPrivilege, IdUserPrivilege> {
 
     List<UserPrivilege> findByIdUser(long idUser);
+
+    void deleteAllByIdUser(long idUser);
 }
