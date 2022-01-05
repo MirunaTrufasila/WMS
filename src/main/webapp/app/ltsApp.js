@@ -146,6 +146,39 @@ angular.module('lite', [
                         }
                     }
                 })
+
+                .when('/employees-reduction', {
+                    templateUrl: 'app/components/employeesReduction/employeesReduction.html',
+                    controller: 'employeesReductionController',
+                   // permission:PRIVILEGES.USERS_VIEW,
+                    label: 'general.breadcrumbs.USERS'
+                })
+                .when('/employees-reduction/create', {
+                    templateUrl: 'app/components/employeesReduction/employeeReduction.html',
+                    controller: 'employeeReductionController',
+                    //permission:PRIVILEGES.USERS_ADD,
+                    resolve: {
+                        'resolvedEmployeesReduction': dummyResolve
+                    }
+                })
+                .when('/employees-reduction/edit/:id', {
+                    templateUrl: 'app/components/employeesReduction/employeeReduction.html',
+                    controller: 'employeeReductionController',
+                    //permission:PRIVILEGES.USERS_EDIT,
+                    resolve: {
+                        'resolvedEmployeesReduction': function (employeeReductionService, $route, $location) {
+                            showPleaseWait();
+                            return employeeReductionService.getEmployeeReduction($route.current.params.id)
+                                .then(function onSuccess(response) {
+                                    hidePleaseWait();
+                                    return response.data;
+                                }).catch(function onError(response) {
+                                    hidePleaseWait();
+                                    $location.path('/error').search({error: response, goto: 'employees-reduction'});
+                                });
+                        }
+                    }
+                })
                 // .when('/company-details', {
                 //     templateUrl: 'app/components/company_details/company_details.html',
                 //     label: 'general.breadcrumbs.COMPANY_DETAILS',

@@ -1,0 +1,68 @@
+<div ng-cloak>
+    <div class="panel-heading-new col-xs-12 ">
+        <span class="margin-left-20 strong" data-translate="users.TITLE"></span>
+    </div>
+    <div class="panel-heading-general alignRight col-xs-5">
+        <input type="text" id="search" ng-model="searchTerm"
+               ng-keyup="triggerSearch($event)"
+               placeholder=" {{'general.buttons.SEARCH' | translate}}"
+               class="vertical-align-center border-solid on-focus col-xs-7"/>
+
+        <button type="button" class="btn btn-general" ng-click="searchEmployeeReduction()">
+            <span class="button-text" translate>general.buttons.SEARCH</span>
+        </button>
+    </div>
+    <div class="panel-heading-general">
+        <div class="row form-group required">
+            <label class="col-xs-1">{{'users.view.FIELD_NAME' | translate}}</label>
+            <div class="col-xs-5">
+                <input ng-model="employeeReduction.fileName"
+                       required
+                       placeholder="{{'users.view.FIELD_NAME' | translate}}"
+                       type="text"
+                       class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group required">
+            <label class="col-xs-1">{{'users.view.FIELD_SURNAME' | translate}}</label>
+            <div class=" col-xs-5">
+                <textarea ng-model="employeeReduction.fileContent"
+                          required
+                          rows="5"
+                          placeholder="{{'users.view.FIELD_SURNAME' | translate}}"
+                          type="text"
+                          class="form-control"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-general" ng-click="uploadFile()">
+                <span class="button-text" translate>general.buttons.SEARCH</span>
+            </button>
+    </div>
+    <section class="panel-body col-xs-12">
+        <div ui-grid="employeeReductionGrid"
+             ui-grid-resize-columns
+             ui-grid-selection
+             ui-grid-move-columns
+             ui-grid-exporter
+             ui-grid-pagination
+             style="height:70%">
+        </div>
+        <article class="pagination-container">
+            <ul uib-pagination
+                total-items="totalEmployeeReduction"
+                items-per-page="pageSize"
+                ng-model="employeeReductionCurrentPage"
+                max-size="5"
+                class="pagination-sm"
+                boundary-link-numbers="true"
+                boundary-links="true"
+                ng-change="filterEmployeeReductionGrid(employeeReductionCurrentPage)"
+                previous-text="{{'general.buttons.PREVIOUS' | translate}}"
+                next-text="{{'general.buttons.NEXT' | translate}}"
+                first-text="&laquo;"
+                last-text="&raquo;">
+            </ul>
+        </article>
+    </section>
+</div>

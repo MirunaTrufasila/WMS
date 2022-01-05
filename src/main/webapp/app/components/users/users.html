@@ -8,7 +8,7 @@
                placeholder=" {{'general.buttons.SEARCH' | translate}}"
                class="vertical-align-center border-solid on-focus margin-left-20 width-40-percent"/>
 
-        <button type="button" class="btn btn-general" ng-click="searchUser()">
+        <button type="button" class="btn btn-general" ng-click="searchEmployeeReduction()">
             <span class="button-text" translate>general.buttons.SEARCH</span>
         </button>
 
@@ -16,13 +16,6 @@
             <button type="button" class="btn btn-general"
                     check-permission="{{PRIVILEGES.USERS_ADD}}"
                     ng-click="createUser()">
-                <span class="button-text" translate>users.buttons.ADD</span>
-            </button>
-        </div>
-        <div class="margin-left-20 same-line">
-            <button type="button" class="btn btn-general"
-                    check-permission="{{PRIVILEGES.USERS_ADD}}"
-                    ng-click="smth()">
                 <span class="button-text" translate>users.buttons.ADD</span>
             </button>
         </div>

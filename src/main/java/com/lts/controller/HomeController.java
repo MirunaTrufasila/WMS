@@ -105,6 +105,10 @@ public class HomeController {
 
             "/user-privileges/edit/{id}",
 
+            "/employees-reduction",
+            "/employees-reduction/edit/{id}",
+            "/employees-reduction/create",
+
             "/employees",
             "/employees/edit/{id}",
             "/employees/create",

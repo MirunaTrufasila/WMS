@@ -11,7 +11,11 @@ angular.module('lite')
                             {
                                 url: 'users',
                                 label: 'users.TITLE'
-                            }
+                            },
+                            {
+                                url: 'employees-reduction',
+                                label: 'firma.TITLE'
+                            },
                         ]
                     }
                 ]

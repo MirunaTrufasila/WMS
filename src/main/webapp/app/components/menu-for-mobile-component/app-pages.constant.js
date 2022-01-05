@@ -12,6 +12,10 @@ angular
                             {
                                 url: 'users',
                                 label: 'users.TITLE'
+                            },
+                            {
+                                url: 'employees-reduction',
+                                label: 'users.TITLE'
                             }
                         ]
                     }
