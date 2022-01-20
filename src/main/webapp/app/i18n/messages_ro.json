@@ -126,5 +126,25 @@
     "messages": {
       "UPDATE_CONFIRMATION": "Drepturile utilizatorului au fost salvate cu success."
     }
+  },
+  "employeesReduction": {
+    "TITLE": "Reduceri timp de lucru",
+    "SEARCH": "Cautare nume fisier",
+    "FILE_CONTENT": "Continut fisier",
+    "FILE_NAME": "Nume fisier",
+    "grid": {
+      "NO": "Nr.crt",
+      "NAME": "Nume si prenme angajat",
+      "CNP": "CNP",
+      "NO_AND_DATE_CIM": "Numarul si data CIM",
+      "NO_HOURS_CIM": "Durata timpului de munca prevazuta in CIM",
+      "NO_AND_DATE_DECISION": "Numarul si data deciziei",
+      "NO_DAYS_REDUCTION": "Perioada de reducere a timpului",
+      "NO_HOURS_REDUCTION":"Numarul de ore aferente rducerii",
+      "NO_HOURS_PROVOIDED": "Numarul de ore prestate",
+      "SALARY_CIM": "Salariul brut CIM",
+      "SALARY_CIM_REDUCTION": "Salariul brut aferent orelor de reducere",
+      "REQUIRED_AMOUNT": "Suma solicitata"
+    }
   }
 }

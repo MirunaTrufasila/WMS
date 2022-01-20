@@ -14,7 +14,7 @@ angular.module('lite')
                             },
                             {
                                 url: 'employees-reduction',
-                                label: 'firma.TITLE'
+                                label: 'employeesReduction.TITLE'
                             },
                         ]
                     }

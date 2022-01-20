@@ -1,11 +1,11 @@
 <div ng-cloak>
     <div class="panel-heading-new col-xs-12 ">
-        <span class="margin-left-20 strong" data-translate="users.TITLE"></span>
+        <span class="margin-left-20 strong" data-translate="employeesReduction.TITLE"></span>
     </div>
     <div class="panel-heading-general alignRight col-xs-5">
         <input type="text" id="search" ng-model="searchTerm"
                ng-keyup="triggerSearch($event)"
-               placeholder=" {{'general.buttons.SEARCH' | translate}}"
+               placeholder=" {{'employeesReduction.SEARCH' | translate}}"
                class="vertical-align-center border-solid on-focus col-xs-7"/>
 
         <button type="button" class="btn btn-general" ng-click="searchEmployeeReduction()">
@@ -14,23 +14,23 @@
     </div>
     <div class="panel-heading-general">
         <div class="row form-group required">
-            <label class="col-xs-1">{{'users.view.FIELD_NAME' | translate}}</label>
+            <label class="col-xs-1">{{'employeesReduction.FILE_NAME' | translate}}</label>
             <div class="col-xs-5">
                 <input ng-model="employeeReduction.fileName"
                        required
-                       placeholder="{{'users.view.FIELD_NAME' | translate}}"
+                       placeholder="{{'employeesReduction.FILE_NAME' | translate}}"
                        type="text"
                        class="form-control">
             </div>
         </div>
 
         <div class="row form-group required">
-            <label class="col-xs-1">{{'users.view.FIELD_SURNAME' | translate}}</label>
+            <label class="col-xs-1">{{'employeesReduction.FILE_CONTENT' | translate}}</label>
             <div class=" col-xs-5">
                 <textarea ng-model="employeeReduction.fileContent"
                           required
                           rows="5"
-                          placeholder="{{'users.view.FIELD_SURNAME' | translate}}"
+                          placeholder="{{'employeesReduction.FILE_CONTENT' | translate}}"
                           type="text"
                           class="form-control"></textarea>
             </div>

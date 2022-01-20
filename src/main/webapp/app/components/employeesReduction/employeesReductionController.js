@@ -90,9 +90,66 @@ angular.module('lite').controller('employeesReductionController',
                 },
                 columnDefs: [
                     {
-                        field: 'fileName',
+                        field: 'no',
                         enableFiltering: false,
-                        displayName: $scope.getI18nMessage('employeeReduction.view.FIELD_USERNAME')
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO')
+                    },
+                    {
+                        field: 'name',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NAME')
+                    },
+                    {
+                        field: 'cnp',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.CNP')
+                    },
+                    {
+                        field: 'noAndDateCim',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_AND_DATE_CIM')
+                    },
+
+                    {
+                        field: 'noHoursCim',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_HOURS_CIM')
+                    },
+
+                    {
+                        field: 'noAndDateDecision',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_AND_DATE_DECISION')
+                    },
+                    {
+                        field: 'noDaysReduction',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_DAYS_REDUCTION')
+                    },
+                    {
+                        field: 'noHoursReduction',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_HOURS_REDUCTION')
+                    },
+                    {
+                        field: 'noHoursProvided',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.NO_HOURS_PROVOIDED')
+                    },
+                    {
+                        field: 'salaryCim',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.SALARY_CIM')
+                    },
+                    {
+                        field: 'salaryCimReduction',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.SALARY_CIM_REDUCTION')
+                    },
+                    {
+                        field: 'requiredAmount',
+                        enableFiltering: false,
+                        displayName: $scope.getI18nMessage('employeesReduction.grid.REQUIRED_AMOUNT')
                     },
                     {
                         field: 'id',
