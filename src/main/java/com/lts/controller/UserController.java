@@ -31,13 +31,11 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    @PreAuthorize("hasPermission(null, " + ApplicationPrivilege.USERS_EDIT + ")")
     public User getUser(@PathVariable Long id) {
         return userService.getUser(id);
     }
 
     @GetMapping
-    @PreAuthorize("hasPermission(null, " + ApplicationPrivilege.USERS + ")")
     public @ResponseBody
     Page<User> getUsers(@RequestParam int pageNumber,
                         @RequestParam int pageSize) {
@@ -45,7 +43,6 @@ public class UserController {
     }
 
     @GetMapping("/filter")
-    @PreAuthorize("hasPermission(null, " + ApplicationPrivilege.USERS + ")")
     public @ResponseBody
     Page<User> filterUsers(@RequestParam String filter,
                            @RequestParam Object value,

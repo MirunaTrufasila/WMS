@@ -41,7 +41,10 @@ angular.module('lite', [
         USERS_VIEW: 2,
         USERS_ADD: 3,
         USERS_EDIT: 4,
-        USERS_DEL: 5
+        USERS_DEL: 5,
+        EMPLOYEE_REDUCTION: 6,
+        VIEW_EMPLOYEE_REDUCTION: 7,
+        ADD_EMPLOYEE_REDUCTION: 8
     })
 
 
@@ -150,13 +153,13 @@ angular.module('lite', [
                 .when('/employees-reduction', {
                     templateUrl: 'app/components/employeesReduction/employeesReduction.html',
                     controller: 'employeesReductionController',
-                   // permission:PRIVILEGES.USERS_VIEW,
+                    permission:PRIVILEGES.VIEW_EMPLOYEE_REDUCTION,
                     label: 'general.breadcrumbs.USERS'
                 })
                 .when('/employees-reduction/create', {
                     templateUrl: 'app/components/employeesReduction/employeeReduction.html',
                     controller: 'employeeReductionController',
-                    //permission:PRIVILEGES.USERS_ADD,
+                    permission:PRIVILEGES.ADD_EMPLOYEE_REDUCTION,
                     resolve: {
                         'resolvedEmployeesReduction': dummyResolve
                     }
@@ -164,7 +167,7 @@ angular.module('lite', [
                 .when('/employees-reduction/edit/:id', {
                     templateUrl: 'app/components/employeesReduction/employeeReduction.html',
                     controller: 'employeeReductionController',
-                    //permission:PRIVILEGES.USERS_EDIT,
+                    permission:PRIVILEGES.ADD_EMPLOYEE_REDUCTION,
                     resolve: {
                         'resolvedEmployeesReduction': function (employeeReductionService, $route, $location) {
                             showPleaseWait();
